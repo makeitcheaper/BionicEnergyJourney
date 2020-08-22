@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="277.633833">
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="67.039024">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="271.759576">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="75.821506">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -22,7 +22,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="62.153511">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="51.999365">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -44,7 +44,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="77.380249">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="50.36773">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "NR242QF".............................................passed
@@ -65,7 +65,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="34.103764">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="47.124567">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "SL6 1PE".............................................passed
@@ -86,7 +86,7 @@ Then I navigate to gas lead schedule page...................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="36.957285">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="46.446408">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "NR24 2QF"............................................passed
