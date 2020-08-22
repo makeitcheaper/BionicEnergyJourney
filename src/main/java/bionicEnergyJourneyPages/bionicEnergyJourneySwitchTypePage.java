@@ -11,5 +11,16 @@ public class bionicEnergyJourneySwitchTypePage extends bionicEnergyJourneyBusine
         driver.findElement(By.xpath("//form[@id='electricity-form']/button[@name='button']")).click();
         return new bionicEnergyJourneyIndustryDataAgreementPage(driver);
     }
-}
 
+    public bionicEnergyJourneySwitchTypePage clickGas()
+    {
+        driver.findElement(By.xpath("//form[@id='gas-form']/button[@name='button']")).click();
+        return new bionicEnergyJourneyIndustryDataAgreementPage(driver);
+    }
+
+    public bionicEnergyJourneySwitchTypePage clickGasAndElectricity()
+    {
+        driver.findElement(By.xpath("//form[@id='duel-fuel-form']/button[@name='button']")).click();
+        return new bionicEnergyJourneyIndustryDataAgreementPage(driver);
+    }
+}

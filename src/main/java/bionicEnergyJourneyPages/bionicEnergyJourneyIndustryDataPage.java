@@ -23,4 +23,15 @@ public class bionicEnergyJourneyIndustryDataPage extends bionicEnergyJourneyIndu
         driver.findElement(By.className("industry-data-review__next")).click();
         return new bionicEnergyJourneyIContractDetailsPage(driver);
     }
+
+    public bionicEnergyJourneyIndustryDataPage clickSelectAllMeterOption() throws Exception
+    {
+        driver.findElement(By.xpath("//div[@class='radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs']")).click();
+        return new bionicEnergyJourneyIndustryDataPage(driver);
+    }
+    public bionicEnergyJourneyIndustryDataPage clickGetAQuoteForMultipleMeters() throws Exception
+    {
+        driver.findElement(By.xpath("//button[@class='mic-button']")).click();
+        return new bionicEnergyJourneyContactInfo(driver);
+    }
 }

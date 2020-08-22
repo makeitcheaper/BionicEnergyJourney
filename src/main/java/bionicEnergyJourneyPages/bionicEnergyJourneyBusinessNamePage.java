@@ -8,7 +8,7 @@ public class bionicEnergyJourneyBusinessNamePage extends bionicEnergyJourneySele
 
     public bionicEnergyJourneyBusinessNamePage enterBusinessName(String businessName)
     {
-        driver.findElement(By.id("business_name")).sendKeys(businessName);
+        driver.findElement(By.id("business-name")).sendKeys(businessName);
         return new bionicEnergyJourneyBusinessNamePage(driver);
     }
 

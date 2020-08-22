@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
                 "json:TargetReport/cucumber.json",
                 "junit:TargetReport/cucumber.xml",
                 "rerun:TargetReport/rerun.txt" },
-        tags = {}
+        tags = {"@dual_multimeter,@gas_multimeter,@elec_multimeter,@elec_journey"}
 )
 
 public class RunnerClassTest {

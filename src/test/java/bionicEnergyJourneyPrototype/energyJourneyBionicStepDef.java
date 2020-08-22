@@ -3,9 +3,11 @@ package bionicEnergyJourneyPrototype;
 import bionicEnergyJourneyPages.*;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import static org.junit.Assert.*;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class energyJourneyBionicStepDef {
@@ -41,6 +43,7 @@ public class energyJourneyBionicStepDef {
     private bionicEnergyJourneyIContractDetailsPage bejcd = new bionicEnergyJourneyIContractDetailsPage(driver);
     private bionicEnergyJourneyChatPage bejcp = new bionicEnergyJourneyChatPage(driver);
     private bionicEnergyJourneyContactInfo bejci = new bionicEnergyJourneyContactInfo(driver);
+    private bionicOpeninghours boh = new bionicOpeninghours();
 
     @Given("^I navigate to bionic energy journey landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_energy_journey_landing_page_with(String url) throws Exception {
@@ -96,7 +99,7 @@ public class energyJourneyBionicStepDef {
     public void i_click_on() throws Exception {
         Thread.sleep(650);
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/industry_data"))
         {
             bejid.clickNextStepOldJourney();
@@ -111,7 +114,7 @@ public class energyJourneyBionicStepDef {
     {
         Thread.sleep(1000);
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
             Thread.sleep(21000);
@@ -128,7 +131,7 @@ public class energyJourneyBionicStepDef {
     public void i_click_Call_me_now_if_on_chat_page() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat")) {
             Thread.sleep(8000);
             bejcp.Scheduleforlater();
@@ -138,11 +141,19 @@ public class energyJourneyBionicStepDef {
     @And("^I enter full name \"([^\"]*)\"$")
     public void i_enter_full_name(String name) throws Exception {
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
-            Thread.sleep(7000);
-            bejcp.enterFullName(name);
+            if(boh.bionicOpeninghours().equals("Closed"))
+            {
+                Thread.sleep(6000);
+                bejcp.enterFullNameOutOfHours(name);
+            }
+            else
+            {
+                Thread.sleep(8000);
+                bejcp.enterFullName(name);
+             }
         }
         else
         {
@@ -153,7 +164,7 @@ public class energyJourneyBionicStepDef {
     @And("^I enter email address \"([^\"]*)\"$")
     public void i_enter_email_address(String email) throws Exception {
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
             bejcp.enterEmail(email);
@@ -167,10 +178,17 @@ public class energyJourneyBionicStepDef {
     @And("^I enter phone number \"([^\"]*)\"$")
     public void i_enter_phone_number(String phone) throws Exception {
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
-            bejcp.enterPhone(phone);
+            if(boh.bionicOpeninghours().equals("Closed"))
+            {
+                bejcp.enterPhoneOutOfHours(phone);
+            }
+            else
+            {
+                bejcp.enterPhone(phone);
+            }
         }
         else
         {
@@ -182,7 +200,7 @@ public class energyJourneyBionicStepDef {
     public void clickscheduleCall() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL is : "+currentURL);
+        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
             Thread.sleep(500);
@@ -193,6 +211,51 @@ public class energyJourneyBionicStepDef {
             Thread.sleep(500);
             bejci.enterFinaliseMyQuotes();
         }
+    }
+
+    @Then("^I navigate to electric lead schedule page$")
+    public void i_navigate_to_electric_lead_schedule_page() throws Exception {
+        assertTrue(driver.getCurrentUrl().contains("/electricity/leads/scheduled") ||
+                        driver.getCurrentUrl().contains("/electricity/leads/callnow") );
+    }
+
+    @And("^I click on Select all meters option$")
+    public void i_click_on_Select_all_meters_option() throws Exception {
+        Thread.sleep(3000);
+        bejid.clickSelectAllMeterOption();
+    }
+
+    @And("^I click on get a quote for multiple meters$")
+    public void clickOnGetAQuoteForMultipleMeter() throws Exception {
+        Thread.sleep(500);
+        bejid.clickGetAQuoteForMultipleMeters();
+    }
+
+    @And("^I click on Gas button$")
+    public void clickGasButton() throws Exception {
+        Thread.sleep(1000);
+        bejst.clickGas();
+    }
+
+    @Then("^I navigate to gas lead schedule page$")
+    public void gasLeadScheduleConfimration() throws Exception {
+        Thread.sleep(1000);
+        assertTrue(driver.getCurrentUrl().contains("/gas/leads/scheduled") ||
+                driver.getCurrentUrl().contains("/gas/leads/callnow"));
+    }
+
+    @And("^I click on Gas&Electricity button$")
+    public void verifyGasLeadScheduleConfirmation() throws Exception {
+        Thread.sleep(1000);
+        bejst.clickGasAndElectricity();
+    }
+
+    @Then("^I navigate to dual lead confirmation page$")
+    public void dualLeadScheduleConfimration() throws Exception {
+        Thread.sleep(1000);
+        assertTrue(driver.getCurrentUrl().contains("/dual_fuel/leads/scheduled") ||
+                driver.getCurrentUrl().contains("/dual_fuel/leads/callnow")
+                );
     }
 
 }

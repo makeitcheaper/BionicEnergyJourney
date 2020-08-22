@@ -25,7 +25,13 @@ public class bionicEnergyJourneyChatPage extends bionicEnergyJourneyIndustryData
 
     public bionicEnergyJourneyChatPage enterFullName(String name) throws Exception
     {
-        driver.findElement(By.id("name")).sendKeys(name);
+        driver.findElement(By.xpath("//form[@id='schedule-callback-form']/div/input[@id='fullname']")).sendKeys(name);
+        return new bionicEnergyJourneyChatPage(driver);
+    }
+
+    public bionicEnergyJourneyChatPage enterFullNameOutOfHours(String name) throws Exception
+    {
+        driver.findElement(By.xpath("//form[@id='schedule-callback-form']/div/input[@id='fullname']")).sendKeys(name);
         return new bionicEnergyJourneyChatPage(driver);
     }
 
@@ -37,7 +43,13 @@ public class bionicEnergyJourneyChatPage extends bionicEnergyJourneyIndustryData
 
     public bionicEnergyJourneyChatPage enterPhone(String phone) throws Exception
     {
-        driver.findElement(By.id("telephone_number")).sendKeys(phone);
+        driver.findElement(By.xpath("//form[@id='schedule-callback-form']/div/input[@id='phone']")).sendKeys(phone);
+        return new bionicEnergyJourneyChatPage(driver);
+    }
+
+    public bionicEnergyJourneyChatPage enterPhoneOutOfHours(String phone) throws Exception
+    {
+        driver.findElement(By.xpath("//form[@id='schedule-callback-form']/div/input[@id='phone']")).sendKeys(phone);
         return new bionicEnergyJourneyChatPage(driver);
     }
 
