@@ -146,7 +146,7 @@ public class energyJourneyBionicStepDef {
         {
             if(boh.bionicOpeninghours().equals("Closed"))
             {
-                Thread.sleep(6000);
+                Thread.sleep(3000);
                 bejcp.enterFullNameOutOfHours(name);
             }
             else
@@ -215,6 +215,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to electric lead schedule page$")
     public void i_navigate_to_electric_lead_schedule_page() throws Exception {
+        Thread.sleep(2000);
         assertTrue(driver.getCurrentUrl().contains("/electricity/leads/scheduled") ||
                         driver.getCurrentUrl().contains("/electricity/leads/callnow") );
     }
@@ -239,7 +240,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to gas lead schedule page$")
     public void gasLeadScheduleConfimration() throws Exception {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         assertTrue(driver.getCurrentUrl().contains("/gas/leads/scheduled") ||
                 driver.getCurrentUrl().contains("/gas/leads/callnow"));
     }
@@ -252,7 +253,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to dual lead confirmation page$")
     public void dualLeadScheduleConfimration() throws Exception {
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         assertTrue(driver.getCurrentUrl().contains("/dual_fuel/leads/scheduled") ||
                 driver.getCurrentUrl().contains("/dual_fuel/leads/callnow")
                 );

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="271.759576">
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="75.821506">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="351.56053">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="63.438441">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -22,7 +22,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="51.999365">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="62.283862">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -44,7 +44,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="50.36773">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="36.370711">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "NR242QF".............................................passed
@@ -65,7 +65,28 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="47.124567">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="36.076367">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "NR242QF".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Testing 41"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="34.711242">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "SL6 1PE".............................................passed
@@ -86,7 +107,28 @@ Then I navigate to gas lead schedule page...................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="46.446408">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 4" time="33.526209">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "SL6 1PE".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "7 North Road" on search field..................................passed
+And click on the address contains "7 North Road"............................passed
+And I enter Business Name "Testing 42"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas button...................................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to gas lead schedule page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 5" time="41.344329">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "NR24 2QF"............................................passed
@@ -94,6 +136,27 @@ And I click Start Quote.....................................................pass
 And I enter "Church House" on search field..................................passed
 And click on the address contains "Church House"............................passed
 And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to dual lead confirmation page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 6" time="43.809369">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "NR24 2QF"............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Testing 43"......................................passed
 And I click Next from business name page....................................passed
 And I click on Gas&Electricity button.......................................passed
 And I click Yes from industry data agreement page...........................passed
