@@ -22,8 +22,9 @@ public class bionicEnergyJourneyLandingPage extends webDriver {
         return new bionicEnergyJourneyLandingPage(driver);
     }
 
-    public bionicEnergyJourneyLandingPage clickStartQuote()
+    public bionicEnergyJourneyLandingPage clickStartQuote() throws Exception
     {
+        Thread.sleep(500);
         driver.findElement(By.xpath("//form[@class='form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex']/button[@class='btn hover-ripple postcode-search-button postcode-form-top__button']")).click();
         return new bionicEnergyJourneySelectAddress(driver);
     }
