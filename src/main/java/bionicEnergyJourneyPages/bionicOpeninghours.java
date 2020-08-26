@@ -12,9 +12,9 @@ public class bionicOpeninghours {
         day = d.getDay();
         hours = d.getHours();
         minutes = d.getMinutes();
-        /* System.out.println("Date is "+day);
+        System.out.println("Date is "+day);
         System.out.println("Time is "+hours);
-        System.out.println("minutes are "+minutes); */
+        System.out.println("minutes are "+minutes);
         //1=Monday and 4=Thursday
         if (day >= 1 && day<= 4){
             if(hours >= 9 && hours <20)
