@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="347.85485">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="69.868326">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="37.896658">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="45.225114">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
+When I enter postcode "NR242QF".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="16.628418">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;postcode-input-top&quot;}&#10;  (Session info: chrome=84.0.4147.135)&#10;  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\RAVI~1.AHU\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54766}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}&#10;Session ID: e5d9049d10bb6841c761145d15304e5b&#10;*** Element info: {Using=id, value=postcode-input-top}&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#13;&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:188)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at bionicEnergyJourneyPages.bionicEnergyJourneyLandingPage.enterPostcode(bionicEnergyJourneyLandingPage.java:21)&#13;&#10;&#9;at bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_postcode(energyJourneyBionicStepDef.java:56)&#13;&#10;&#9;at ✽.I enter postcode &quot;NR242QF&quot;(src/test/resources/energyJourney-bionic.feature:35)&#13;&#10;">
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "NR242QF".............................................failed
+And I click Start Quote.....................................................skipped
+And I enter "Church House" on search field..................................skipped
+And click on the address contains "Church House"............................skipped
+And I enter Business Name "Testing 41"......................................skipped
+And I click Next from business name page....................................skipped
+And I click on Electricity button...........................................skipped
+And I click Yes from industry data agreement page...........................skipped
+And I click on Select all meters option.....................................skipped
+And I click on get a quote for multiple meters..............................skipped
+And I enter full name "Ravi Ahuja"..........................................skipped
+And I enter email address "test@test.test"..................................skipped
+And I enter phone number "07555555555"......................................skipped
+And I click Schedule call button............................................skipped
+Then I navigate to electric lead schedule page..............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"postcode-input-top"}
+  (Session info: chrome=84.0.4147.135)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MIC-LAP225', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\RAVI~1.AHU\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54766}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}
+Session ID: e5d9049d10bb6841c761145d15304e5b
+*** Element info: {Using=id, value=postcode-input-top}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at bionicEnergyJourneyPages.bionicEnergyJourneyLandingPage.enterPostcode(bionicEnergyJourneyLandingPage.java:21)
+	at bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_postcode(energyJourneyBionicStepDef.java:56)
+	at ✽.I enter postcode "NR242QF"(src/test/resources/energyJourney-bionic.feature:35)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="38.44404">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
+When I enter postcode "SL6 1PE".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "7 North Road" on search field..................................passed
+And click on the address contains "7 North Road"............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas button...................................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to gas lead schedule page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 4" time="47.586099">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "SL6 1PE".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "7 North Road" on search field..................................passed
+And click on the address contains "7 North Road"............................passed
+And I enter Business Name "Testing 42"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas button...................................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to gas lead schedule page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 5" time="49.930723">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
+When I enter postcode "NR24 2QF"............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to dual lead confirmation page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 6" time="42.275472">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "NR24 2QF"............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Testing 43"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to dual lead confirmation page..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

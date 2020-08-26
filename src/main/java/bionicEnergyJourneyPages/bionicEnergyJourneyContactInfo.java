@@ -27,7 +27,7 @@ public class bionicEnergyJourneyContactInfo extends bionicEnergyJourneyIContract
     public bionicEnergyJourneyContactInfo enterFinaliseMyQuotes() throws Exception
     {
         driver.findElement(By.xpath("//button[contains(text(), 'Finalise my quotes')]")).click();
-        return new bionicEnergyJourneyContactInfo(driver);
+        return new bionicEnergyJourneyConfirmationPage(driver);
     }
 
 }

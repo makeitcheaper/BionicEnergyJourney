@@ -44,6 +44,7 @@ public class energyJourneyBionicStepDef {
     private bionicEnergyJourneyChatPage bejcp = new bionicEnergyJourneyChatPage(driver);
     private bionicEnergyJourneyContactInfo bejci = new bionicEnergyJourneyContactInfo(driver);
     private bionicOpeninghours boh = new bionicOpeninghours();
+    private bionicEnergyJourneyConfirmationPage bejconfirmation = new bionicEnergyJourneyConfirmationPage(driver);
 
     @Given("^I navigate to bionic energy journey landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_energy_journey_landing_page_with(String url) throws Exception {
@@ -216,10 +217,7 @@ public class energyJourneyBionicStepDef {
     @Then("^I navigate to electric lead schedule page$")
     public void i_navigate_to_electric_lead_schedule_page() throws Exception {
         Thread.sleep(2000);
-        String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL : "+currentURL);
-        assertTrue(currentURL.contains("/electricity/leads/scheduled") ||
-                currentURL.contains("/electricity/leads/callnow") );
+        bejconfirmation.electricityConfimationPage();
     }
 
     @And("^I click on Select all meters option$")
@@ -243,10 +241,7 @@ public class energyJourneyBionicStepDef {
     @Then("^I navigate to gas lead schedule page$")
     public void gasLeadScheduleConfimration() throws Exception {
         Thread.sleep(2000);
-        String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL : "+currentURL);
-        assertTrue(currentURL.contains("/gas/leads/scheduled") ||
-                currentURL.contains("/gas/leads/callnow"));
+        bejconfirmation.gasConfimationPage();
     }
 
     @And("^I click on Gas&Electricity button$")
@@ -258,10 +253,7 @@ public class energyJourneyBionicStepDef {
     @Then("^I navigate to dual lead confirmation page$")
     public void dualLeadScheduleConfimration() throws Exception {
         Thread.sleep(2000);
-        String currentURL = driver.getCurrentUrl();
-        System.out.println("Current URL : "+currentURL);
-        assertTrue(currentURL.contains("/dual_fuel/leads/scheduled") ||
-                        currentURL.contains("/dual_fuel/leads/callnow"));
+        bejconfirmation.dualConfimationPage();
     }
 
 }
