@@ -186,33 +186,3 @@ formatter.step({
   "name": "I enter Business Name \"Jeevat LTD\"",
   "keyword": "And "
 });
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click Next from business name page",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Next()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on Electricity button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click Yes from industry data agreement page",
-  "keyword": "And "
-});
