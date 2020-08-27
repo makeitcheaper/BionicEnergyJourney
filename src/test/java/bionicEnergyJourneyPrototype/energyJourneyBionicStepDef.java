@@ -216,7 +216,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to electric lead schedule page$")
     public void i_navigate_to_electric_lead_schedule_page() throws Exception {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         bejconfirmation.electricityConfimationPage();
     }
 
@@ -240,7 +240,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to gas lead schedule page$")
     public void gasLeadScheduleConfimration() throws Exception {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         bejconfirmation.gasConfimationPage();
     }
 
@@ -252,7 +252,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to dual lead confirmation page$")
     public void dualLeadScheduleConfimration() throws Exception {
-        Thread.sleep(2000);
+        Thread.sleep(4000);
         bejconfirmation.dualConfimationPage();
     }
 
