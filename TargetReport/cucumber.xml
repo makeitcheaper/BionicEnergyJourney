@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="8" time="318.812671">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="52.721159">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_full_name(energyJourneyBionicStepDef.java:148)&#13;&#10;&#9;at ✽.I enter full name &quot;Ravi Ahuja&quot;(src/test/resources/energyJourney-bionic.feature:20)&#13;&#10;">
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I enter full name "Ravi Ahuja"..........................................failed
+And I enter email address "test@test.test"..................................skipped
+And I enter phone number "07555555555"......................................skipped
+And I click Schedule call button............................................skipped
+Then I navigate to electric lead schedule page..............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_full_name(energyJourneyBionicStepDef.java:148)
+	at ✽.I enter full name "Ravi Ahuja"(src/test/resources/energyJourney-bionic.feature:20)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="30.377272">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="35.604214">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
+When I enter postcode "NR242QF".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="37.166216">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "NR242QF".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Testing 41"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="38.591699">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
+When I enter postcode "SL6 1PE".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "7 North Road" on search field..................................passed
+And click on the address contains "7 North Road"............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas button...................................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to gas lead schedule page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 4" time="37.729645">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "SL6 1PE".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "7 North Road" on search field..................................passed
+And click on the address contains "7 North Road"............................passed
+And I enter Business Name "Testing 42"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas button...................................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to gas lead schedule page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 5" time="35.338556">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
+When I enter postcode "NR24 2QF"............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to dual lead confirmation page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 6" time="51.28391">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/".passed
+When I enter postcode "NR24 2QF"............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Church House" on search field..................................passed
+And click on the address contains "Church House"............................passed
+And I enter Business Name "Testing 43"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Select all meters option.....................................passed
+And I click on get a quote for multiple meters..............................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call button............................................passed
+Then I navigate to dual lead confirmation page..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

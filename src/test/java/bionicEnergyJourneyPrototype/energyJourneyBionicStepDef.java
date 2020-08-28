@@ -145,6 +145,7 @@ public class energyJourneyBionicStepDef {
         //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
+            System.out.println("Oprning Time :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
             {
                 Thread.sleep(3000);
@@ -182,6 +183,7 @@ public class energyJourneyBionicStepDef {
         //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
+            System.out.println("Oprning Time :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
             {
                 bejcp.enterPhoneOutOfHours(phone);

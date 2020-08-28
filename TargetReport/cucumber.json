@@ -1,0 +1,2074 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 27,
+        "name": "Verify bionic electric journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13153688100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100376100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter postcode \"KT64DU\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KT64DU",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1747519000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149345000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter \"Fredericks\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fredericks",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 785719800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on the address contains \"Fredericks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fredericks",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094275300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Business Name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583561200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1609244100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Electricity button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1849750400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1342450800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Nex Step button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22122295000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click I am not sure option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8124442700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click Schedule for later (if on chat page)",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_full_name(energyJourneyBionicStepDef.java:148)\r\n\tat ✽.I enter full name \"Ravi Ahuja\"(src/test/resources/energyJourney-bionic.feature:20)\r\n",
+              "duration": 12748900,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I navigate to electric lead schedule page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elec_journey"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Verify bionic electric journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12048485800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123870100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter postcode \"HA85HF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HA85HF",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1399253100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71390000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter \"49\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "49",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 780161400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on the address contains \"49\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "49",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1108714800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter Business Name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635263600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1610025000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Electricity button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2220861700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 812539900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Nex Step button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1908985600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click I am not sure option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5451400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click Schedule for later (if on chat page)",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626449600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182656300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147371600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2668535000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4014293800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I navigate to electric lead schedule page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elec_journey"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Verify bionic electric multimeter journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-multimeter-journey;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13610476500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 126099100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter postcode \"NR242QF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NR242QF",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1589271200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134110000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter \"Church House\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1716550500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on the address contains \"Church House\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1082636100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter Business Name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 762151700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1870296800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on Electricity button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2648423100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3656075200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on Select all meters option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592170100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on get a quote for multiple meters",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 794512200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191624800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150716900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2638194600,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4024350500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I navigate to electric lead schedule page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elec_multimeter"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Verify bionic electric multimeter journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-multimeter-journey;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14139992100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I navigate to bionic energy journey landing page with \"https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 479509400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter postcode \"NR242QF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NR242QF",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3206015500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200605600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter \"Church House\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1344028300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "click on the address contains \"Church House\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140053000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I enter Business Name \"Testing 41\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing 41",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1362481600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2092362700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on Electricity button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2890845400,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3387749600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on Select all meters option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 587377100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on get a quote for multiple meters",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 924646500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192973100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207404800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625226400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4368933200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I navigate to electric lead schedule page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@elec_multimeter"
+          }
+        ]
+      },
+      {
+        "line": 76,
+        "name": "Verify bionic electric multimeter journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-multimeter-journey;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14721300800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168338300,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I enter postcode \"SL6 1PE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SL6 1PE",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2079889200,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104190700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I enter \"7 North Road\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7 North Road",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1307757400,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "click on the address contains \"7 North Road\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7 North Road",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1151364900,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I enter Business Name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 805114400,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2121605600,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click on Gas button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickGasButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2340594800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3725379200,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click on Select all meters option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644708300,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on get a quote for multiple meters",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387823000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310302000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191117300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3491667300,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4022236200,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I navigate to gas lead schedule page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.gasLeadScheduleConfimration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gas_multimeter"
+          }
+        ]
+      },
+      {
+        "line": 77,
+        "name": "Verify bionic electric multimeter journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-multimeter-journey;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15229903500,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I navigate to bionic energy journey landing page with \"https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119644700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I enter postcode \"SL6 1PE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SL6 1PE",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2725330700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132201700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I enter \"7 North Road\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7 North Road",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131215000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "click on the address contains \"7 North Road\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7 North Road",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1110156500,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I enter Business Name \"Testing 42\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing 42",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1419877700,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2432845200,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I click on Gas button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickGasButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2590889600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3952593400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I click on Select all meters option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648537500,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I click on get a quote for multiple meters",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1032001300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244042800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250477900,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 687628500,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4010270300,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I navigate to gas lead schedule page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.gasLeadScheduleConfimration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@gas_multimeter"
+          }
+        ]
+      },
+      {
+        "line": 100,
+        "name": "Verify bionic electric multimeter journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-multimeter-journey;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12362182800,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104836500,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I enter postcode \"NR24 2QF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NR24 2QF",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1799628900,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217786000,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I enter \"Church House\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1527573100,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "click on the address contains \"Church House\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1126824000,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I enter Business Name \"Jeevat LTD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jeevat LTD",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1326262000,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1857507800,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I click on Gas\u0026Electricity button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2683648500,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3562904100,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I click on Select all meters option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644265300,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I click on get a quote for multiple meters",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 920131900,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222428600,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216894500,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2737124900,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4014599500,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I navigate to dual lead confirmation page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dual_multimeter"
+          }
+        ]
+      },
+      {
+        "line": 101,
+        "name": "Verify bionic electric multimeter journey",
+        "description": "",
+        "id": "verify-ukp-site-scenarios;verify-bionic-electric-multimeter-journey;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18174886300,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I navigate to bionic energy journey landing page with \"https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/",
+                  "offset": 55
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 644229300,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I enter postcode \"NR24 2QF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NR24 2QF",
+                  "offset": 18
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6229953700,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "I click Start Quote",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192502100,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "I enter \"Church House\" on search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 9
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3038449900,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "click on the address contains \"Church House\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Church House",
+                  "offset": 31
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1245400900,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I enter Business Name \"Testing 43\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing 43",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2795438200,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I click Next from business name page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_Next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3727950200,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "I click on Gas\u0026Electricity button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3865111000,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "I click Yes from industry data agreement page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3315422400,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I click on Select all meters option",
+            "match": {
+              "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 627985400,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I click on get a quote for multiple meters",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1350574000,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "I enter full name \"Ravi Ahuja\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ravi Ahuja",
+                  "offset": 19
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317886100,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "I enter email address \"test@test.test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@test.test",
+                  "offset": 23
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311152900,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I enter phone number \"07555555555\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07555555555",
+                  "offset": 22
+                }
+              ],
+              "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1037948700,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I click Schedule call button",
+            "match": {
+              "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4396090000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "I navigate to dual lead confirmation page",
+            "match": {
+              "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dual_multimeter"
+          }
+        ]
+      }
+    ],
+    "name": "Verify UKP site scenarios",
+    "description": "  As a user\n  I navigate to UKP QA site\n  So that regression test pass successfully",
+    "id": "verify-ukp-site-scenarios",
+    "keyword": "Feature",
+    "uri": "src/test/resources/energyJourney-bionic.feature",
+    "tags": []
+  }
+]
