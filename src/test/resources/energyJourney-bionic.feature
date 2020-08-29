@@ -50,7 +50,7 @@ Scenario Outline: Verify bionic electric journey
     Examples:
       | url                                                                                             | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com  | NR242QF  | Church House   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR242QF  | Church House   | Testing 41    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR242QF  | Church House   | Testing 41    | Ravi Ahuja | test@test.test | 07555555555 |
 
 
   @gas_multimeter
@@ -74,7 +74,7 @@ Scenario Outline: Verify bionic electric journey
     Examples:
       | url                                                                                             | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com  | SL6 1PE  | 7 North Road   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | SL6 1PE  | 7 North Road   | Testing 42    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | SL6 1PE  | 7 North Road   | Testing 42    | Ravi Ahuja | test@test.test | 07555555555 |
 
 
   @dual_multimeter
@@ -98,4 +98,4 @@ Scenario Outline: Verify bionic electric journey
     Examples:
       | url                                                                                             | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com  | NR24 2QF | Church House   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR24 2QF | Church House   | Testing 43    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR24 2QF | Church House   | Testing 43    | Ravi Ahuja | test@test.test | 07555555555 |
