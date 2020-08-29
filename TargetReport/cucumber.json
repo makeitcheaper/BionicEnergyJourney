@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13153688100,
+              "duration": 12759489300,
               "status": "passed"
             },
             "line": 8,
@@ -30,8 +30,9 @@
           },
           {
             "result": {
-              "duration": 100376100,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form[@class\u003d\u0027form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex\u0027]/input[@id\u003d\u0027postcode-input-top\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.135)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52115}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}\nSession ID: f762ba93b5aec32d56ac26ab142c1b69\n*** Element info: {Using\u003dxpath, value\u003d//form[@class\u003d\u0027form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex\u0027]/input[@id\u003d\u0027postcode-input-top\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyLandingPage.enterPostcode(bionicEnergyJourneyLandingPage.java:21)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_postcode(energyJourneyBionicStepDef.java:56)\r\n\tat ✽.I enter postcode \"KT64DU\"(src/test/resources/energyJourney-bionic.feature:9)\r\n",
+              "duration": 5033442000,
+              "status": "failed"
             },
             "line": 9,
             "name": "I enter postcode \"KT64DU\"",
@@ -48,8 +49,7 @@
           },
           {
             "result": {
-              "duration": 1747519000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "I click Start Quote",
@@ -60,8 +60,7 @@
           },
           {
             "result": {
-              "duration": 149345000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "I enter \"Fredericks\" on search field",
@@ -78,8 +77,7 @@
           },
           {
             "result": {
-              "duration": 785719800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "click on the address contains \"Fredericks\"",
@@ -96,8 +94,7 @@
           },
           {
             "result": {
-              "duration": 1094275300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "I enter Business Name \"Jeevat LTD\"",
@@ -114,8 +111,7 @@
           },
           {
             "result": {
-              "duration": 583561200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "I click Next from business name page",
@@ -126,8 +122,7 @@
           },
           {
             "result": {
-              "duration": 1609244100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "I click on Electricity button",
@@ -138,8 +133,7 @@
           },
           {
             "result": {
-              "duration": 1849750400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "I click Yes from industry data agreement page",
@@ -150,8 +144,7 @@
           },
           {
             "result": {
-              "duration": 1342450800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "I click on Nex Step button",
@@ -162,8 +155,7 @@
           },
           {
             "result": {
-              "duration": 22122295000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "I click I am not sure option",
@@ -174,8 +166,7 @@
           },
           {
             "result": {
-              "duration": 8124442700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "I click Schedule for later (if on chat page)",
@@ -186,9 +177,7 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_full_name(energyJourneyBionicStepDef.java:148)\r\n\tat ✽.I enter full name \"Ravi Ahuja\"(src/test/resources/energyJourney-bionic.feature:20)\r\n",
-              "duration": 12748900,
-              "status": "failed"
+              "status": "skipped"
             },
             "line": 20,
             "name": "I enter full name \"Ravi Ahuja\"",
@@ -276,7 +265,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12048485800,
+              "duration": 19499512700,
               "status": "passed"
             },
             "line": 8,
@@ -294,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 123870100,
+              "duration": 104199100,
               "status": "passed"
             },
             "line": 9,
@@ -312,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 1399253100,
+              "duration": 1926221900,
               "status": "passed"
             },
             "line": 10,
@@ -324,7 +313,7 @@
           },
           {
             "result": {
-              "duration": 71390000,
+              "duration": 66436200,
               "status": "passed"
             },
             "line": 11,
@@ -342,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 780161400,
+              "duration": 1540776800,
               "status": "passed"
             },
             "line": 12,
@@ -360,7 +349,7 @@
           },
           {
             "result": {
-              "duration": 1108714800,
+              "duration": 1098364100,
               "status": "passed"
             },
             "line": 13,
@@ -378,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 635263600,
+              "duration": 692374800,
               "status": "passed"
             },
             "line": 14,
@@ -390,7 +379,7 @@
           },
           {
             "result": {
-              "duration": 1610025000,
+              "duration": 2174805000,
               "status": "passed"
             },
             "line": 15,
@@ -402,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 2220861700,
+              "duration": 2020672000,
               "status": "passed"
             },
             "line": 16,
@@ -414,7 +403,7 @@
           },
           {
             "result": {
-              "duration": 812539900,
+              "duration": 1401780400,
               "status": "passed"
             },
             "line": 17,
@@ -426,7 +415,7 @@
           },
           {
             "result": {
-              "duration": 1908985600,
+              "duration": 22104382700,
               "status": "passed"
             },
             "line": 18,
@@ -438,7 +427,7 @@
           },
           {
             "result": {
-              "duration": 5451400,
+              "duration": 8046483200,
               "status": "passed"
             },
             "line": 19,
@@ -450,7 +439,7 @@
           },
           {
             "result": {
-              "duration": 626449600,
+              "duration": 3121489600,
               "status": "passed"
             },
             "line": 20,
@@ -468,7 +457,7 @@
           },
           {
             "result": {
-              "duration": 182656300,
+              "duration": 125315400,
               "status": "passed"
             },
             "line": 21,
@@ -486,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 147371600,
+              "duration": 137095200,
               "status": "passed"
             },
             "line": 22,
@@ -504,7 +493,7 @@
           },
           {
             "result": {
-              "duration": 2668535000,
+              "duration": 3034428900,
               "status": "passed"
             },
             "line": 23,
@@ -516,7 +505,7 @@
           },
           {
             "result": {
-              "duration": 4014293800,
+              "duration": 4011880100,
               "status": "passed"
             },
             "line": 24,
@@ -543,7 +532,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13610476500,
+              "duration": 14181589900,
               "status": "passed"
             },
             "line": 34,
@@ -561,7 +550,7 @@
           },
           {
             "result": {
-              "duration": 126099100,
+              "duration": 135247100,
               "status": "passed"
             },
             "line": 35,
@@ -579,7 +568,7 @@
           },
           {
             "result": {
-              "duration": 1589271200,
+              "duration": 4002350400,
               "status": "passed"
             },
             "line": 36,
@@ -591,7 +580,7 @@
           },
           {
             "result": {
-              "duration": 134110000,
+              "duration": 548380400,
               "status": "passed"
             },
             "line": 37,
@@ -609,7 +598,7 @@
           },
           {
             "result": {
-              "duration": 1716550500,
+              "duration": 3867459800,
               "status": "passed"
             },
             "line": 38,
@@ -627,7 +616,7 @@
           },
           {
             "result": {
-              "duration": 1082636100,
+              "duration": 1134215600,
               "status": "passed"
             },
             "line": 39,
@@ -645,7 +634,7 @@
           },
           {
             "result": {
-              "duration": 762151700,
+              "duration": 903543800,
               "status": "passed"
             },
             "line": 40,
@@ -657,7 +646,7 @@
           },
           {
             "result": {
-              "duration": 1870296800,
+              "duration": 1849063800,
               "status": "passed"
             },
             "line": 41,
@@ -669,7 +658,7 @@
           },
           {
             "result": {
-              "duration": 2648423100,
+              "duration": 3542893300,
               "status": "passed"
             },
             "line": 42,
@@ -681,7 +670,7 @@
           },
           {
             "result": {
-              "duration": 3656075200,
+              "duration": 3637500700,
               "status": "passed"
             },
             "line": 43,
@@ -693,7 +682,7 @@
           },
           {
             "result": {
-              "duration": 592170100,
+              "duration": 597766900,
               "status": "passed"
             },
             "line": 44,
@@ -705,7 +694,7 @@
           },
           {
             "result": {
-              "duration": 794512200,
+              "duration": 874907700,
               "status": "passed"
             },
             "line": 45,
@@ -723,7 +712,7 @@
           },
           {
             "result": {
-              "duration": 191624800,
+              "duration": 235004000,
               "status": "passed"
             },
             "line": 46,
@@ -741,7 +730,7 @@
           },
           {
             "result": {
-              "duration": 150716900,
+              "duration": 275816900,
               "status": "passed"
             },
             "line": 47,
@@ -759,7 +748,7 @@
           },
           {
             "result": {
-              "duration": 2638194600,
+              "duration": 3497956900,
               "status": "passed"
             },
             "line": 48,
@@ -771,7 +760,7 @@
           },
           {
             "result": {
-              "duration": 4024350500,
+              "duration": 4009091900,
               "status": "passed"
             },
             "line": 49,
@@ -798,7 +787,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14139992100,
+              "duration": 10776726900,
               "status": "passed"
             },
             "line": 34,
@@ -816,8 +805,9 @@
           },
           {
             "result": {
-              "duration": 479509400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form[@class\u003d\u0027form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex\u0027]/input[@id\u003d\u0027postcode-input-top\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.135)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52440}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}\nSession ID: 02be0083c79c57ef2067adf9b19a815a\n*** Element info: {Using\u003dxpath, value\u003d//form[@class\u003d\u0027form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex\u0027]/input[@id\u003d\u0027postcode-input-top\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyLandingPage.enterPostcode(bionicEnergyJourneyLandingPage.java:21)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_postcode(energyJourneyBionicStepDef.java:56)\r\n\tat ✽.I enter postcode \"NR242QF\"(src/test/resources/energyJourney-bionic.feature:35)\r\n",
+              "duration": 5007790400,
+              "status": "failed"
             },
             "line": 35,
             "name": "I enter postcode \"NR242QF\"",
@@ -834,8 +824,7 @@
           },
           {
             "result": {
-              "duration": 3206015500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 36,
             "name": "I click Start Quote",
@@ -846,8 +835,7 @@
           },
           {
             "result": {
-              "duration": 200605600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 37,
             "name": "I enter \"Church House\" on search field",
@@ -864,8 +852,7 @@
           },
           {
             "result": {
-              "duration": 1344028300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 38,
             "name": "click on the address contains \"Church House\"",
@@ -882,8 +869,7 @@
           },
           {
             "result": {
-              "duration": 1140053000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 39,
             "name": "I enter Business Name \"Testing 41\"",
@@ -900,8 +886,7 @@
           },
           {
             "result": {
-              "duration": 1362481600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 40,
             "name": "I click Next from business name page",
@@ -912,8 +897,7 @@
           },
           {
             "result": {
-              "duration": 2092362700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 41,
             "name": "I click on Electricity button",
@@ -924,8 +908,7 @@
           },
           {
             "result": {
-              "duration": 2890845400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 42,
             "name": "I click Yes from industry data agreement page",
@@ -936,8 +919,7 @@
           },
           {
             "result": {
-              "duration": 3387749600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 43,
             "name": "I click on Select all meters option",
@@ -948,8 +930,7 @@
           },
           {
             "result": {
-              "duration": 587377100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 44,
             "name": "I click on get a quote for multiple meters",
@@ -960,8 +941,7 @@
           },
           {
             "result": {
-              "duration": 924646500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 45,
             "name": "I enter full name \"Ravi Ahuja\"",
@@ -978,8 +958,7 @@
           },
           {
             "result": {
-              "duration": 192973100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 46,
             "name": "I enter email address \"test@test.test\"",
@@ -996,8 +975,7 @@
           },
           {
             "result": {
-              "duration": 207404800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 47,
             "name": "I enter phone number \"07555555555\"",
@@ -1014,8 +992,7 @@
           },
           {
             "result": {
-              "duration": 625226400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 48,
             "name": "I click Schedule call button",
@@ -1026,8 +1003,7 @@
           },
           {
             "result": {
-              "duration": 4368933200,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 49,
             "name": "I navigate to electric lead schedule page",
@@ -1053,7 +1029,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14721300800,
+              "duration": 18243845900,
               "status": "passed"
             },
             "line": 58,
@@ -1071,7 +1047,7 @@
           },
           {
             "result": {
-              "duration": 168338300,
+              "duration": 116608400,
               "status": "passed"
             },
             "line": 59,
@@ -1089,7 +1065,7 @@
           },
           {
             "result": {
-              "duration": 2079889200,
+              "duration": 3313889800,
               "status": "passed"
             },
             "line": 60,
@@ -1101,7 +1077,7 @@
           },
           {
             "result": {
-              "duration": 104190700,
+              "duration": 127126700,
               "status": "passed"
             },
             "line": 61,
@@ -1119,7 +1095,7 @@
           },
           {
             "result": {
-              "duration": 1307757400,
+              "duration": 1886917600,
               "status": "passed"
             },
             "line": 62,
@@ -1137,7 +1113,7 @@
           },
           {
             "result": {
-              "duration": 1151364900,
+              "duration": 1091003300,
               "status": "passed"
             },
             "line": 63,
@@ -1155,7 +1131,7 @@
           },
           {
             "result": {
-              "duration": 805114400,
+              "duration": 2362349800,
               "status": "passed"
             },
             "line": 64,
@@ -1167,7 +1143,7 @@
           },
           {
             "result": {
-              "duration": 2121605600,
+              "duration": 1983547900,
               "status": "passed"
             },
             "line": 65,
@@ -1179,7 +1155,7 @@
           },
           {
             "result": {
-              "duration": 2340594800,
+              "duration": 2601745400,
               "status": "passed"
             },
             "line": 66,
@@ -1191,7 +1167,7 @@
           },
           {
             "result": {
-              "duration": 3725379200,
+              "duration": 3830395300,
               "status": "passed"
             },
             "line": 67,
@@ -1203,7 +1179,7 @@
           },
           {
             "result": {
-              "duration": 644708300,
+              "duration": 575036000,
               "status": "passed"
             },
             "line": 68,
@@ -1215,7 +1191,7 @@
           },
           {
             "result": {
-              "duration": 1387823000,
+              "duration": 931398100,
               "status": "passed"
             },
             "line": 69,
@@ -1233,7 +1209,7 @@
           },
           {
             "result": {
-              "duration": 310302000,
+              "duration": 232698400,
               "status": "passed"
             },
             "line": 70,
@@ -1251,7 +1227,7 @@
           },
           {
             "result": {
-              "duration": 191117300,
+              "duration": 197330800,
               "status": "passed"
             },
             "line": 71,
@@ -1269,7 +1245,7 @@
           },
           {
             "result": {
-              "duration": 3491667300,
+              "duration": 2124575900,
               "status": "passed"
             },
             "line": 72,
@@ -1281,7 +1257,7 @@
           },
           {
             "result": {
-              "duration": 4022236200,
+              "duration": 4011651200,
               "status": "passed"
             },
             "line": 73,
@@ -1308,7 +1284,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15229903500,
+              "duration": 17927204600,
               "status": "passed"
             },
             "line": 58,
@@ -1326,7 +1302,7 @@
           },
           {
             "result": {
-              "duration": 119644700,
+              "duration": 150129300,
               "status": "passed"
             },
             "line": 59,
@@ -1344,7 +1320,7 @@
           },
           {
             "result": {
-              "duration": 2725330700,
+              "duration": 2885550600,
               "status": "passed"
             },
             "line": 60,
@@ -1356,7 +1332,7 @@
           },
           {
             "result": {
-              "duration": 132201700,
+              "duration": 252689800,
               "status": "passed"
             },
             "line": 61,
@@ -1374,7 +1350,7 @@
           },
           {
             "result": {
-              "duration": 1131215000,
+              "duration": 2179243000,
               "status": "passed"
             },
             "line": 62,
@@ -1392,7 +1368,7 @@
           },
           {
             "result": {
-              "duration": 1110156500,
+              "duration": 1139837500,
               "status": "passed"
             },
             "line": 63,
@@ -1410,7 +1386,7 @@
           },
           {
             "result": {
-              "duration": 1419877700,
+              "duration": 2476089000,
               "status": "passed"
             },
             "line": 64,
@@ -1422,7 +1398,7 @@
           },
           {
             "result": {
-              "duration": 2432845200,
+              "duration": 2490649500,
               "status": "passed"
             },
             "line": 65,
@@ -1434,7 +1410,7 @@
           },
           {
             "result": {
-              "duration": 2590889600,
+              "duration": 2894742900,
               "status": "passed"
             },
             "line": 66,
@@ -1446,8 +1422,9 @@
           },
           {
             "result": {
-              "duration": 3952593400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.135)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52698}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}\nSession ID: 601e3633e861975aeb8dff8d2c589e92\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyIndustryDataPage.clickSelectAllMeterOption(bionicEnergyJourneyIndustryDataPage.java:29)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_click_on_Select_all_meters_option(energyJourneyBionicStepDef.java:228)\r\n\tat ✽.I click on Select all meters option(src/test/resources/energyJourney-bionic.feature:67)\r\n",
+              "duration": 8054025600,
+              "status": "failed"
             },
             "line": 67,
             "name": "I click on Select all meters option",
@@ -1458,8 +1435,7 @@
           },
           {
             "result": {
-              "duration": 648537500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 68,
             "name": "I click on get a quote for multiple meters",
@@ -1470,8 +1446,7 @@
           },
           {
             "result": {
-              "duration": 1032001300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 69,
             "name": "I enter full name \"Ravi Ahuja\"",
@@ -1488,8 +1463,7 @@
           },
           {
             "result": {
-              "duration": 244042800,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 70,
             "name": "I enter email address \"test@test.test\"",
@@ -1506,8 +1480,7 @@
           },
           {
             "result": {
-              "duration": 250477900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 71,
             "name": "I enter phone number \"07555555555\"",
@@ -1524,8 +1497,7 @@
           },
           {
             "result": {
-              "duration": 687628500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 72,
             "name": "I click Schedule call button",
@@ -1536,8 +1508,7 @@
           },
           {
             "result": {
-              "duration": 4010270300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 73,
             "name": "I navigate to gas lead schedule page",
@@ -1563,7 +1534,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12362182800,
+              "duration": 19492294200,
               "status": "passed"
             },
             "line": 82,
@@ -1581,7 +1552,7 @@
           },
           {
             "result": {
-              "duration": 104836500,
+              "duration": 153251200,
               "status": "passed"
             },
             "line": 83,
@@ -1599,7 +1570,7 @@
           },
           {
             "result": {
-              "duration": 1799628900,
+              "duration": 3811642300,
               "status": "passed"
             },
             "line": 84,
@@ -1611,7 +1582,7 @@
           },
           {
             "result": {
-              "duration": 217786000,
+              "duration": 394608600,
               "status": "passed"
             },
             "line": 85,
@@ -1629,7 +1600,7 @@
           },
           {
             "result": {
-              "duration": 1527573100,
+              "duration": 5315236400,
               "status": "passed"
             },
             "line": 86,
@@ -1647,7 +1618,7 @@
           },
           {
             "result": {
-              "duration": 1126824000,
+              "duration": 1120843100,
               "status": "passed"
             },
             "line": 87,
@@ -1665,7 +1636,7 @@
           },
           {
             "result": {
-              "duration": 1326262000,
+              "duration": 1941623400,
               "status": "passed"
             },
             "line": 88,
@@ -1677,7 +1648,7 @@
           },
           {
             "result": {
-              "duration": 1857507800,
+              "duration": 2658664600,
               "status": "passed"
             },
             "line": 89,
@@ -1689,7 +1660,7 @@
           },
           {
             "result": {
-              "duration": 2683648500,
+              "duration": 5904959000,
               "status": "passed"
             },
             "line": 90,
@@ -1701,7 +1672,7 @@
           },
           {
             "result": {
-              "duration": 3562904100,
+              "duration": 3535519200,
               "status": "passed"
             },
             "line": 91,
@@ -1713,7 +1684,7 @@
           },
           {
             "result": {
-              "duration": 644265300,
+              "duration": 596140200,
               "status": "passed"
             },
             "line": 92,
@@ -1725,7 +1696,7 @@
           },
           {
             "result": {
-              "duration": 920131900,
+              "duration": 911336800,
               "status": "passed"
             },
             "line": 93,
@@ -1743,7 +1714,7 @@
           },
           {
             "result": {
-              "duration": 222428600,
+              "duration": 254655700,
               "status": "passed"
             },
             "line": 94,
@@ -1761,7 +1732,7 @@
           },
           {
             "result": {
-              "duration": 216894500,
+              "duration": 277258300,
               "status": "passed"
             },
             "line": 95,
@@ -1779,7 +1750,7 @@
           },
           {
             "result": {
-              "duration": 2737124900,
+              "duration": 2688481700,
               "status": "passed"
             },
             "line": 96,
@@ -1791,7 +1762,7 @@
           },
           {
             "result": {
-              "duration": 4014599500,
+              "duration": 4008851900,
               "status": "passed"
             },
             "line": 97,
@@ -1818,7 +1789,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18174886300,
+              "duration": 16925791000,
               "status": "passed"
             },
             "line": 82,
@@ -1836,7 +1807,7 @@
           },
           {
             "result": {
-              "duration": 644229300,
+              "duration": 102507000,
               "status": "passed"
             },
             "line": 83,
@@ -1854,7 +1825,7 @@
           },
           {
             "result": {
-              "duration": 6229953700,
+              "duration": 2541527200,
               "status": "passed"
             },
             "line": 84,
@@ -1866,7 +1837,7 @@
           },
           {
             "result": {
-              "duration": 192502100,
+              "duration": 136152300,
               "status": "passed"
             },
             "line": 85,
@@ -1884,7 +1855,7 @@
           },
           {
             "result": {
-              "duration": 3038449900,
+              "duration": 1269179700,
               "status": "passed"
             },
             "line": 86,
@@ -1902,7 +1873,7 @@
           },
           {
             "result": {
-              "duration": 1245400900,
+              "duration": 1077188800,
               "status": "passed"
             },
             "line": 87,
@@ -1920,7 +1891,7 @@
           },
           {
             "result": {
-              "duration": 2795438200,
+              "duration": 847042100,
               "status": "passed"
             },
             "line": 88,
@@ -1932,7 +1903,7 @@
           },
           {
             "result": {
-              "duration": 3727950200,
+              "duration": 2035414700,
               "status": "passed"
             },
             "line": 89,
@@ -1944,7 +1915,7 @@
           },
           {
             "result": {
-              "duration": 3865111000,
+              "duration": 2184588500,
               "status": "passed"
             },
             "line": 90,
@@ -1956,8 +1927,9 @@
           },
           {
             "result": {
-              "duration": 3315422400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.135)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53279}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.135, webStorageEnabled: true}\nSession ID: ebe65b49e601d3e484ae9e61e944603d\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyIndustryDataPage.clickSelectAllMeterOption(bionicEnergyJourneyIndustryDataPage.java:29)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_click_on_Select_all_meters_option(energyJourneyBionicStepDef.java:228)\r\n\tat ✽.I click on Select all meters option(src/test/resources/energyJourney-bionic.feature:91)\r\n",
+              "duration": 8021510900,
+              "status": "failed"
             },
             "line": 91,
             "name": "I click on Select all meters option",
@@ -1968,8 +1940,7 @@
           },
           {
             "result": {
-              "duration": 627985400,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 92,
             "name": "I click on get a quote for multiple meters",
@@ -1980,8 +1951,7 @@
           },
           {
             "result": {
-              "duration": 1350574000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 93,
             "name": "I enter full name \"Ravi Ahuja\"",
@@ -1998,8 +1968,7 @@
           },
           {
             "result": {
-              "duration": 317886100,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 94,
             "name": "I enter email address \"test@test.test\"",
@@ -2016,8 +1985,7 @@
           },
           {
             "result": {
-              "duration": 311152900,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 95,
             "name": "I enter phone number \"07555555555\"",
@@ -2034,8 +2002,7 @@
           },
           {
             "result": {
-              "duration": 1037948700,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 96,
             "name": "I click Schedule call button",
@@ -2046,8 +2013,7 @@
           },
           {
             "result": {
-              "duration": 4396090000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 97,
             "name": "I navigate to dual lead confirmation page",

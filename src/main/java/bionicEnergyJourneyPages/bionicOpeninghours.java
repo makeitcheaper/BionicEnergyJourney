@@ -1,23 +1,38 @@
 package bionicEnergyJourneyPages;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
+import java.util.TimeZone;
 
 public class bionicOpeninghours {
     String openingHour;
     public String bionicOpeninghours() {
-        Date d = new Date();
-        int day;
-        int hours;
-        int minutes;
-        day = d.getDay();
-        hours = d.getHours();
-        minutes = d.getMinutes();
-        System.out.println("Date is "+day);
-        System.out.println("Time is "+hours);
-        System.out.println("minutes are "+minutes);
+        TimeZone timeZone = TimeZone.getTimeZone("UTC");
+        Calendar calendar = Calendar.getInstance(timeZone);
+
+        SimpleDateFormat hr = new SimpleDateFormat("hh", Locale.US);
+        hr.setTimeZone(timeZone);
+
+        SimpleDateFormat min = new SimpleDateFormat("mm", Locale.US);
+        min.setTimeZone(timeZone);
+
+        SimpleDateFormat weekday = new SimpleDateFormat("E", Locale.US);
+        weekday.setTimeZone(timeZone);
+
+        String day = weekday.format(calendar.getTime());
+        int hours = Integer.parseInt(hr.format(calendar.getTime()));
+        int minutes = Integer.parseInt(min.format(calendar.getTime()));
+
+        System.out.println("UTC HH:     " + hours);
+        System.out.println("UTC MM:     " + minutes);
+        System.out.println("UTC DD:     " + day);
+
+
         //1=Monday and 4=Thursday
-        if (day >= 1 && day<= 4){
-            if(hours >= 9 && hours <20)
+        if (day.equals("Mon") || day.equals("Tue") || day.equals("Wed") || day.equals("Thu")){
+            if(hours >= 8 && hours <19) //UTC Time
             {
                 this.openingHour = "Open";
             }
@@ -27,9 +42,9 @@ public class bionicOpeninghours {
             }
         }
         //5=Friday
-        else if (day==5){
-            if(hours >=9 && hours <=17) {
-                if(hours == 17){
+        else if (day.equals("Fri")){
+            if(hours >=8 && hours <=16) {
+                if(hours == 16){
                     if(minutes <= 30)
                     {
                         this.openingHour = "Open";
@@ -46,8 +61,8 @@ public class bionicOpeninghours {
             }
         }
         //6-Saturday
-        else if(day==6){
-            if(hours >=10 && hours <16){
+        else if(day.equals("Sat")){
+            if(hours >=9 && hours <15){
                 this.openingHour = "Open";
             }
             else {
