@@ -4,6 +4,13 @@ Feature: Verify UKP site scenarios
   So that regression test pass successfully
 
   @elec_journey
+  Scenario Outline: Wake the application up
+    Given I navigate to bionic energy journey landing page with "<url>"
+    Examples:
+    | url                                                                                                 |
+    | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  |
+
+  @elec_journey
 Scenario Outline: Verify bionic electric journey
   Given I navigate to bionic energy journey landing page with "<url>"
   When I enter postcode "<postcode>"
@@ -17,10 +24,11 @@ Scenario Outline: Verify bionic electric journey
   And I click on Nex Step button
   And I click I am not sure option
   And I click Schedule for later (if on chat page)
+  And I select Time from dropdown
   And I enter full name "<full-name>"
   And I enter email address "<email>"
   And I enter phone number "<phone>"
-  And I click Schedule call button
+  And I click Schedule call/Finalise Quote button
   Then I navigate to electric lead schedule page
   Examples:
   | url                                                                                                 | postcode | search-address | business-name | full-name  | email          | phone       |
@@ -45,12 +53,12 @@ Scenario Outline: Verify bionic electric journey
     And I enter full name "<full-name>"
     And I enter email address "<email>"
     And I enter phone number "<phone>"
-    And I click Schedule call button
+    And I click Schedule call/Finalise Quote button
     Then I navigate to electric lead schedule page
     Examples:
       | url                                                                                             | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com  | NR242QF  | Church House   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR242QF  | Church House   | Testing 41    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR242QF  | Church House   | Testing 41    | Ravi Ahuja | test@test.test | 07555555555 |
 
 
   @gas_multimeter
@@ -69,12 +77,12 @@ Scenario Outline: Verify bionic electric journey
     And I enter full name "<full-name>"
     And I enter email address "<email>"
     And I enter phone number "<phone>"
-    And I click Schedule call button
+    And I click Schedule call/Finalise Quote button
     Then I navigate to gas lead schedule page
     Examples:
       | url                                                                                             | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com  | SL6 1PE  | 7 North Road   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | SL6 1PE  | 7 North Road   | Testing 42    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | SL6 1PE  | 7 North Road   | Testing 42    | Ravi Ahuja | test@test.test | 07555555555 |
 
 
   @dual_multimeter
@@ -93,9 +101,9 @@ Scenario Outline: Verify bionic electric journey
     And I enter full name "<full-name>"
     And I enter email address "<email>"
     And I enter phone number "<phone>"
-    And I click Schedule call button
+    And I click Schedule call/Finalise Quote button
     Then I navigate to dual lead confirmation page
     Examples:
       | url                                                                                             | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com  | NR24 2QF | Church House   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR24 2QF | Church House   | Testing 43    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                           | NR24 2QF | Church House   | Testing 43    | Ravi Ahuja | test@test.test | 07555555555 |

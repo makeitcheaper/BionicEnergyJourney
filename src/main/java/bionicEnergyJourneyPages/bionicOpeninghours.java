@@ -12,7 +12,7 @@ public class bionicOpeninghours {
         TimeZone timeZone = TimeZone.getTimeZone("UTC");
         Calendar calendar = Calendar.getInstance(timeZone);
 
-        SimpleDateFormat hr = new SimpleDateFormat("hh", Locale.US);
+        SimpleDateFormat hr = new SimpleDateFormat("HH", Locale.US);
         hr.setTimeZone(timeZone);
 
         SimpleDateFormat min = new SimpleDateFormat("mm", Locale.US);

@@ -5,10 +5,12 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.*;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.Select;
 
 public class energyJourneyBionicStepDef {
 
@@ -133,10 +135,33 @@ public class energyJourneyBionicStepDef {
     {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat")) {
-            Thread.sleep(8000);
+        System.out.println("Opening Hours :"+boh.bionicOpeninghours());
+        Thread.sleep(8000);
+        if(currentURL.contains("/electricity/chat") && boh.bionicOpeninghours().equals("Open")) {
             bejcp.Scheduleforlater();
         }
+    }
+
+    @And("^I select Time from dropdown$")
+    public void selectTimefromDropdown() throws Exception
+    {
+        String currentURL = driver.getCurrentUrl();
+        if(currentURL.contains("/electricity/chat"))
+        {
+            Thread.sleep(3000);
+            Select dropdown = new Select(driver.findElement(By.id("time")));
+            int timeDropdownSize = dropdown.getOptions().size();
+            System.out.println("Time dropdown"+timeDropdownSize);
+            if(timeDropdownSize>1)
+            {
+                dropdown.selectByIndex(2);
+            }
+            else
+            {
+                dropdown.selectByIndex(1);
+            }
+        }
+
     }
 
     @And("^I enter full name \"([^\"]*)\"$")
@@ -145,7 +170,7 @@ public class energyJourneyBionicStepDef {
         //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat"))
         {
-            System.out.println("Oprning Time :"+boh.bionicOpeninghours());
+            System.out.println("Opening Hours :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
             {
                 Thread.sleep(3000);
@@ -199,7 +224,7 @@ public class energyJourneyBionicStepDef {
         }
     }
 
-    @And("^I click Schedule call button$")
+    @And("^I click Schedule call/Finalise Quote button$")
     public void clickscheduleCall() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
@@ -208,17 +233,19 @@ public class energyJourneyBionicStepDef {
         {
             Thread.sleep(500);
             bejcp.clickScheduleCallButton();
+            Thread.sleep(2000);
         }
         else
         {
             Thread.sleep(500);
             bejci.enterFinaliseMyQuotes();
+            Thread.sleep(2000);
         }
     }
 
     @Then("^I navigate to electric lead schedule page$")
     public void i_navigate_to_electric_lead_schedule_page() throws Exception {
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         bejconfirmation.electricityConfimationPage();
     }
 
