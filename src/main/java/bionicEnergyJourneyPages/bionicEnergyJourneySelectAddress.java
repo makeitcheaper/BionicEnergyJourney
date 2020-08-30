@@ -18,4 +18,10 @@ public class bionicEnergyJourneySelectAddress extends bionicEnergyJourneyLanding
         return new bionicEnergyJourneyBusinessNamePage(driver);
     }
 
+    public bionicEnergyJourneySelectAddress ClickLinkEnterManually()
+    {
+        driver.findElement(By.xpath("//a[@href='/manual_address']")).click();
+        return new bionicEnergyJourneyManualAddress(driver);
+    }
+
 }

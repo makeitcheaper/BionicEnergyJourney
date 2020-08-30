@@ -8,8 +8,6 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import static org.junit.Assert.*;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class energyJourneyBionicStepDef {
@@ -47,6 +45,8 @@ public class energyJourneyBionicStepDef {
     private bionicEnergyJourneyContactInfo bejci = new bionicEnergyJourneyContactInfo(driver);
     private bionicOpeninghours boh = new bionicOpeninghours();
     private bionicEnergyJourneyConfirmationPage bejconfirmation = new bionicEnergyJourneyConfirmationPage(driver);
+    private bionicEnergyJourneyManualAddress bejma = new bionicEnergyJourneyManualAddress(driver);
+    private bionicEnergyJourneyManualInput bejmi = new bionicEnergyJourneyManualInput(driver);
 
     @Given("^I navigate to bionic energy journey landing page with \"([^\"]*)\"$")
     public void i_navigate_to_bionic_energy_journey_landing_page_with(String url) throws Exception {
@@ -81,7 +81,7 @@ public class energyJourneyBionicStepDef {
 
     @And("^I click Next from business name page$")
     public void i_click_Next() throws Exception {
-        //Thread.sleep(1000);
+        Thread.sleep(1000);
         bejbn.clickNext();
     }
 
@@ -118,7 +118,7 @@ public class energyJourneyBionicStepDef {
         Thread.sleep(1000);
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
             Thread.sleep(21000);
             bejcp.selectIamNotSurefromChatPage();
@@ -137,7 +137,9 @@ public class energyJourneyBionicStepDef {
         //System.out.println("Current URL is : "+currentURL);
         System.out.println("Opening Hours :"+boh.bionicOpeninghours());
         Thread.sleep(8000);
-        if(currentURL.contains("/electricity/chat") && boh.bionicOpeninghours().equals("Open")) {
+        if((currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+                && boh.bionicOpeninghours().equals("Open"))
+        {
             bejcp.Scheduleforlater();
         }
     }
@@ -146,7 +148,7 @@ public class energyJourneyBionicStepDef {
     public void selectTimefromDropdown() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
-        if(currentURL.contains("/electricity/chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
             Thread.sleep(3000);
             Select dropdown = new Select(driver.findElement(By.id("time")));
@@ -168,7 +170,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_full_name(String name) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
             System.out.println("Opening Hours :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
@@ -192,7 +194,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_email_address(String email) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
             bejcp.enterEmail(email);
         }
@@ -206,7 +208,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_phone_number(String phone) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
             System.out.println("Oprning Time :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
@@ -229,7 +231,7 @@ public class energyJourneyBionicStepDef {
     {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
             Thread.sleep(500);
             bejcp.clickScheduleCallButton();
@@ -285,4 +287,85 @@ public class energyJourneyBionicStepDef {
         bejconfirmation.dualConfimationPage();
     }
 
+    @And("^I click Enter Manually link$")
+    public void i_click_Enter_Manually_link() throws Exception {
+        bejsa.ClickLinkEnterManually();
+    }
+
+    @And("^I enter Business Name \"([^\"]*)\" on manual address page$")
+    public void i_enter_Business_Name_on_manual_address_page(String bizname) throws Exception {
+        bejma.enterBusinessName(bizname);
+    }
+
+    @And("^I enter Street Address one \"([^\"]*)\" on manual address page$")
+    public void i_enter_Street_Address_one_on_manual_address_page(String StreetOne) throws Exception {
+        bejma.enterStreetAddress1(StreetOne);
+
+    }
+
+    @And("^I enter Street Address two \"([^\"]*)\" on manual address page$")
+    public void i_enter_Street_Address_two_on_manual_address_page(String StreetTwo) throws Exception {
+        bejma.enterStreetAddress2(StreetTwo);
+    }
+
+
+    @And("^I enter Town \"([^\"]*)\" on manual address page$")
+    public void i_enter_Town_on_manual_address_page(String Town) throws Exception {
+        bejma.enterTown(Town);
+    }
+
+    @And("^I enter County \"([^\"]*)\" on manual address page$")
+    public void i_enter_County_on_manual_address_page(String county) throws Exception {
+        bejma.enterCounty(county);
+    }
+
+    @And("^I click Next on manual address page$")
+    public void i_click_Next_on_manual_address_page() throws Exception {
+        bejma.clickNext();
+    }
+
+    @And("^I click on Electricity button on manual address page$")
+    public void manualAddressPageClickElectricity() throws Exception {
+        bejma.clickElectricity();
+    }
+
+    @And("^I click yes option for do you know your MPAN$")
+    public void yesMPANOption() throws Exception {
+        bejmi.SelectMPANYes();
+    }
+
+    @When("^I enter MPAN numbere \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
+    public void i_enter_MPAN_numbere(String mpan1, String mpan2, String mpan3, String mpan4, String mpan5, String mpan6) throws Exception {
+        bejmi.enterMPANNumber(mpan1,mpan2,mpan3,mpan4,mpan5,mpan6);
+    }
+
+    @And("^I click Next after entering MPAN$")
+    public void clickNextAfterEnteringMPAN() throws Exception {
+        bejmi.clickNextAfterMPAN();
+    }
+
+    @And("^I click yes option for electricity supplier$")
+    public void clickYesOptionForElectricitySupplier() throws Exception {
+        bejmi.clickYesOptionElectricitySupplier();
+    }
+
+    @And("^I select supplier \"([^\"]*)\"$")
+    public void i_select_supplier(String elesupplier) throws Exception {
+        bejmi.selectBGSupplier(elesupplier);
+    }
+
+    @And("^I select yes option for electricity usage$")
+    public void clickYesOptionForElectricityUsage() throws Exception {
+        bejmi.clickYesOptionElectricityUsage();
+    }
+
+    @When("^I enter kWh usage \"([^\"]*)\"$")
+    public void i_enter_kWh_usage(String usage) throws Exception {
+        bejmi.enterkwhPerYearUsage(usage);
+    }
+
+    @When("^I click Next after entering Usage$")
+    public void i_click_Next_after_entering_Usage() throws Exception {
+        bejmi.clickNextAfterEnteringUsage();
+    }
 }

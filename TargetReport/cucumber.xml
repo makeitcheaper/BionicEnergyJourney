@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="247.304408">
-    <testcase classname="Verify UKP site scenarios" name="Wake the application up" time="12.788876">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="309.698153">
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up" time="13.002303">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="67.485353">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="41.304462">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -29,7 +29,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="40.568865">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="55.069911">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -52,7 +52,39 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="44.467981">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 3" time="75.490058">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I click Enter Manually link.............................................passed
+And I enter Business Name "Jeevat LTD" on manual address page...............passed
+And I enter Street Address one "Test Street" on manual address page.........passed
+And I enter Street Address two "Test Street 2" on manual address page.......passed
+And I enter Town "Hackney" on manual address page...........................passed
+And I enter County "Greater London" on manual address page..................passed
+And I click Next on manual address page.....................................passed
+And I click on Electricity button on manual address page....................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey" time="40.215356">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "NR242QF".............................................passed
@@ -73,7 +105,7 @@ Then I navigate to electric lead schedule page..............................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="37.540043">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 2" time="46.736146">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "SL6 1PE".............................................passed
@@ -94,7 +126,7 @@ Then I navigate to gas lead schedule page...................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="44.45329">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric multimeter journey 3" time="37.879917">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-pr-1109.herokuapp.com".passed
 When I enter postcode "NR24 2QF"............................................passed
