@@ -11,4 +11,10 @@ public class bionicEnergyJourneyIndustryDataAgreementPage extends bionicEnergyJo
         driver.findElement(By.xpath("//input[@value='Yes']")).click();
         return new bionicEnergyJourneyIndustryDataPage(driver);
     }
+
+    public bionicEnergyJourneyIndustryDataAgreementPage clickOnNoIndustryAgreement()
+    {
+        driver.findElement(By.xpath("//input[@value='No']")).click();
+        return new bionicEnergyJourneyIndustryDataPage(driver);
+    }
 }

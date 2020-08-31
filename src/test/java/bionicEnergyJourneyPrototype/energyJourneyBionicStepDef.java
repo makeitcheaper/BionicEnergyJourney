@@ -98,6 +98,13 @@ public class energyJourneyBionicStepDef {
         bejida.clickOnYes();
     }
 
+    @And("^I click NO from industry data agreement page$")
+    public void clickNoIndustryAgreementAgreement() throws Exception
+    {
+        Thread.sleep(1000);
+        bejida.clickOnNoIndustryAgreement();
+    }
+
     @And("^I click on Nex Step button$")
     public void i_click_on() throws Exception {
         Thread.sleep(650);
@@ -247,7 +254,7 @@ public class energyJourneyBionicStepDef {
 
     @Then("^I navigate to electric lead schedule page$")
     public void i_navigate_to_electric_lead_schedule_page() throws Exception {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         bejconfirmation.electricityConfimationPage();
     }
 
