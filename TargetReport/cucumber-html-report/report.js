@@ -10,7 +10,7 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@elec_journey_Industry_Consent_NO"
+      "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
     }
   ]
 });
@@ -47,7 +47,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "I click NO from industry data agreement page",
+  "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
@@ -141,12 +141,12 @@ formatter.examples({
     {
       "cells": [
         "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
-        "KT64DU",
+        "HA85BD",
         "Jeevat LTD",
         "Ravi Ahuja",
         "test@test.test",
         "07555555555",
-        "Fredericks",
+        "49a Axholme Avenue",
         "04",
         "807",
         "205",
@@ -165,7 +165,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@elec_journey_Industry_Consent_NO"
+      "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
     }
   ]
 });
@@ -180,7 +180,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter postcode \"KT64DU\"",
+  "name": "I enter postcode \"HA85BD\"",
   "keyword": "When "
 });
 formatter.match({
@@ -200,7 +200,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter \"Fredericks\" on search field",
+  "name": "I enter \"49a Axholme Avenue\" on search field",
   "keyword": "And "
 });
 formatter.match({
@@ -210,7 +210,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "click on the address contains \"Fredericks\"",
+  "name": "click on the address contains \"49a Axholme Avenue\"",
   "keyword": "And "
 });
 formatter.match({
@@ -250,11 +250,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I click NO from industry data agreement page",
+  "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.match({
-  "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
   "status": "passed"

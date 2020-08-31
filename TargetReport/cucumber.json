@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 70,
+        "line": 102,
         "name": "Verify bionic electric journey",
         "description": "",
         "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;2",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 13662057000,
+              "duration": 13648213200,
               "status": "passed"
             },
-            "line": 42,
+            "line": 75,
             "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
             "match": {
               "arguments": [
@@ -30,15 +30,15 @@
           },
           {
             "result": {
-              "duration": 107744500,
+              "duration": 107559800,
               "status": "passed"
             },
-            "line": 43,
-            "name": "I enter postcode \"KT64DU\"",
+            "line": 76,
+            "name": "I enter postcode \"HA85BD\"",
             "match": {
               "arguments": [
                 {
-                  "val": "KT64DU",
+                  "val": "HA85BD",
                   "offset": 18
                 }
               ],
@@ -48,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 2576359900,
+              "duration": 2405755500,
               "status": "passed"
             },
-            "line": 44,
+            "line": 77,
             "name": "I click Start Quote",
             "match": {
               "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
@@ -60,15 +60,15 @@
           },
           {
             "result": {
-              "duration": 203992300,
+              "duration": 184227700,
               "status": "passed"
             },
-            "line": 45,
-            "name": "I enter \"Fredericks\" on search field",
+            "line": 78,
+            "name": "I enter \"49a Axholme Avenue\" on search field",
             "match": {
               "arguments": [
                 {
-                  "val": "Fredericks",
+                  "val": "49a Axholme Avenue",
                   "offset": 9
                 }
               ],
@@ -78,15 +78,15 @@
           },
           {
             "result": {
-              "duration": 2914214600,
+              "duration": 2141811900,
               "status": "passed"
             },
-            "line": 46,
-            "name": "click on the address contains \"Fredericks\"",
+            "line": 79,
+            "name": "click on the address contains \"49a Axholme Avenue\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Fredericks",
+                  "val": "49a Axholme Avenue",
                   "offset": 31
                 }
               ],
@@ -96,10 +96,10 @@
           },
           {
             "result": {
-              "duration": 1187831300,
+              "duration": 1115837600,
               "status": "passed"
             },
-            "line": 47,
+            "line": 80,
             "name": "I enter Business Name \"Jeevat LTD\"",
             "match": {
               "arguments": [
@@ -114,10 +114,10 @@
           },
           {
             "result": {
-              "duration": 1875322500,
+              "duration": 1851845700,
               "status": "passed"
             },
-            "line": 48,
+            "line": 81,
             "name": "I click Next from business name page",
             "match": {
               "location": "energyJourneyBionicStepDef.i_click_Next()"
@@ -126,10 +126,10 @@
           },
           {
             "result": {
-              "duration": 1852044200,
+              "duration": 1802525400,
               "status": "passed"
             },
-            "line": 49,
+            "line": 82,
             "name": "I click on Electricity button",
             "match": {
               "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
@@ -138,22 +138,22 @@
           },
           {
             "result": {
-              "duration": 2860082800,
+              "duration": 2419059200,
               "status": "passed"
             },
-            "line": 50,
-            "name": "I click NO from industry data agreement page",
+            "line": 83,
+            "name": "I click Yes from industry data agreement page",
             "match": {
-              "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
+              "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 342614200,
+              "duration": 352370500,
               "status": "passed"
             },
-            "line": 52,
+            "line": 84,
             "name": "I click yes option for do you know your MPAN",
             "match": {
               "location": "energyJourneyBionicStepDef.yesMPANOption()"
@@ -162,10 +162,10 @@
           },
           {
             "result": {
-              "duration": 796749200,
+              "duration": 755622000,
               "status": "passed"
             },
-            "line": 53,
+            "line": 85,
             "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
             "match": {
               "arguments": [
@@ -200,10 +200,10 @@
           },
           {
             "result": {
-              "duration": 138590300,
+              "duration": 151905200,
               "status": "passed"
             },
-            "line": 54,
+            "line": 86,
             "name": "I click Next after entering MPAN",
             "match": {
               "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
@@ -212,10 +212,10 @@
           },
           {
             "result": {
-              "duration": 703901300,
+              "duration": 661004500,
               "status": "passed"
             },
-            "line": 55,
+            "line": 87,
             "name": "I click yes option for electricity supplier",
             "match": {
               "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
@@ -224,10 +224,10 @@
           },
           {
             "result": {
-              "duration": 495343500,
+              "duration": 183165100,
               "status": "passed"
             },
-            "line": 56,
+            "line": 88,
             "name": "I select supplier \"British Gas\"",
             "match": {
               "arguments": [
@@ -242,10 +242,10 @@
           },
           {
             "result": {
-              "duration": 705608200,
+              "duration": 708344800,
               "status": "passed"
             },
-            "line": 57,
+            "line": 89,
             "name": "I select yes option for electricity usage",
             "match": {
               "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
@@ -254,10 +254,10 @@
           },
           {
             "result": {
-              "duration": 116410600,
+              "duration": 98423000,
               "status": "passed"
             },
-            "line": 58,
+            "line": 90,
             "name": "I enter kWh usage \"250\"",
             "match": {
               "arguments": [
@@ -272,10 +272,10 @@
           },
           {
             "result": {
-              "duration": 973277100,
+              "duration": 978106700,
               "status": "passed"
             },
-            "line": 59,
+            "line": 91,
             "name": "I click Next after entering Usage",
             "match": {
               "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
@@ -284,10 +284,10 @@
           },
           {
             "result": {
-              "duration": 22229862700,
+              "duration": 22147274100,
               "status": "passed"
             },
-            "line": 60,
+            "line": 92,
             "name": "I click I am not sure option",
             "match": {
               "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
@@ -296,10 +296,10 @@
           },
           {
             "result": {
-              "duration": 8096209300,
+              "duration": 8094919400,
               "status": "passed"
             },
-            "line": 61,
+            "line": 93,
             "name": "I click Schedule for later (if on chat page)",
             "match": {
               "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
@@ -308,10 +308,10 @@
           },
           {
             "result": {
-              "duration": 3275912500,
+              "duration": 3303397400,
               "status": "passed"
             },
-            "line": 62,
+            "line": 94,
             "name": "I select Time from dropdown",
             "match": {
               "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
@@ -320,10 +320,10 @@
           },
           {
             "result": {
-              "duration": 8164036900,
+              "duration": 8162491400,
               "status": "passed"
             },
-            "line": 63,
+            "line": 95,
             "name": "I enter full name \"Ravi Ahuja\"",
             "match": {
               "arguments": [
@@ -338,10 +338,10 @@
           },
           {
             "result": {
-              "duration": 173906400,
+              "duration": 184438500,
               "status": "passed"
             },
-            "line": 64,
+            "line": 96,
             "name": "I enter email address \"test@test.test\"",
             "match": {
               "arguments": [
@@ -356,10 +356,10 @@
           },
           {
             "result": {
-              "duration": 190751800,
+              "duration": 135486400,
               "status": "passed"
             },
-            "line": 65,
+            "line": 97,
             "name": "I enter phone number \"07555555555\"",
             "match": {
               "arguments": [
@@ -374,10 +374,10 @@
           },
           {
             "result": {
-              "duration": 4830933100,
+              "duration": 4796819600,
               "status": "passed"
             },
-            "line": 66,
+            "line": 98,
             "name": "I click Schedule call/Finalise Quote button",
             "match": {
               "location": "energyJourneyBionicStepDef.clickscheduleCall()"
@@ -386,10 +386,10 @@
           },
           {
             "result": {
-              "duration": 2047365100,
+              "duration": 2034562600,
               "status": "passed"
             },
-            "line": 67,
+            "line": 99,
             "name": "I navigate to electric lead schedule page",
             "match": {
               "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
@@ -399,7 +399,7 @@
         ],
         "tags": [
           {
-            "name": "@elec_journey_Industry_Consent_NO"
+            "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
           }
         ]
       }

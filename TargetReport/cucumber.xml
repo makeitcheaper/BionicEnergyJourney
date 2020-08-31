@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="80.597588">
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="80.597588">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.508884">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="78.508884">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
-When I enter postcode "KT64DU"..............................................passed
+When I enter postcode "HA85BD"..............................................passed
 And I click Start Quote.....................................................passed
-And I enter "Fredericks" on search field....................................passed
-And click on the address contains "Fredericks"..............................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
 And I enter Business Name "Jeevat LTD"......................................passed
 And I click Next from business name page....................................passed
 And I click on Electricity button...........................................passed
-And I click NO from industry data agreement page............................passed
+And I click Yes from industry data agreement page...........................passed
 And I click yes option for do you know your MPAN............................passed
 And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
 And I click Next after entering MPAN........................................passed
