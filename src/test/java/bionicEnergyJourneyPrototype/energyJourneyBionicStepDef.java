@@ -157,7 +157,7 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
-            Thread.sleep(3000);
+            Thread.sleep(8000);
             Select dropdown = new Select(driver.findElement(By.id("time")));
             int timeDropdownSize = dropdown.getOptions().size();
             System.out.println("Time dropdown"+timeDropdownSize);
