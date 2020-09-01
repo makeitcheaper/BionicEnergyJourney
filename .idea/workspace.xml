@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3332bd9-0936-4825-86ce-7806a7fafb7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -65,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="159" column="26" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
+            <state relative-caret-position="70">
+              <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -377,15 +375,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.08.31 at 00h 12m 58s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.08.31 at 00h 18m 02s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.08.31 at 00h 27m 58s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerClassTest - 2020.08.31 at 17h 18m 20s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
@@ -407,12 +396,21 @@
     <history-entry file="RunnerClassTest - 2020.09.01 at 14h 13m 07s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.01 at 14h 20m 51s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.01 at 14h 43m 21s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.01 at 15h 05m 54s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.31093118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.31093118" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -421,7 +419,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2895204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3587922" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -618,14 +616,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="159" column="26" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
+        <state relative-caret-position="70">
+          <caret line="162" column="51" selection-start-line="162" selection-start-column="51" selection-end-line="162" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

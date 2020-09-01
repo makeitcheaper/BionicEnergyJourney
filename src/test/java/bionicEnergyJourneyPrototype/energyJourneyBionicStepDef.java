@@ -8,7 +8,9 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class energyJourneyBionicStepDef {
 
@@ -157,8 +159,9 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
+            WebDriverWait wait = new WebDriverWait(driver, 20);
             Thread.sleep(8000);
-            Select dropdown = new Select(driver.findElement(By.id("time")));
+            Select dropdown = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='time']"))));
             int timeDropdownSize = dropdown.getOptions().size();
             System.out.println("Time dropdown"+timeDropdownSize);
             if(timeDropdownSize>1)
