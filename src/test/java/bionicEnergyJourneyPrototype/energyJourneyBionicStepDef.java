@@ -159,9 +159,10 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
-            WebDriverWait wait = new WebDriverWait(driver, 25);
-            //Thread.sleep(8000);
-            Select dropdown = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='time']"))));
+            //WebDriverWait wait = new WebDriverWait(driver, 25);
+            Thread.sleep(8000);
+            //Select dropdown = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='time']"))));
+            Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='time']")));
             int timeDropdownSize = dropdown.getOptions().size();
             System.out.println("Time dropdown"+timeDropdownSize);
             if(timeDropdownSize>1)

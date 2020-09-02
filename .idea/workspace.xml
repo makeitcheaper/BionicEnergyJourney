@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3332bd9-0936-4825-86ce-7806a7fafb7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyBusinessNamePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyChatPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyContactInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyIContractDetailsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyIndustryDataAgreementPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyIndustryDataPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyManualAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneySelectAddress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneySwitchTypePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicOpeninghours.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/webDriver.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3332">
-              <caret line="196" column="53" lean-forward="true" selection-start-line="196" selection-start-column="53" selection-end-line="196" selection-end-column="53" />
+              <caret line="196" column="53" selection-start-line="196" selection-start-column="53" selection-end-line="196" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -49,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/workflows/github_actions.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -70,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1028">
-              <caret line="165" column="44" lean-forward="true" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
+            <state relative-caret-position="2788">
+              <caret line="164" column="95" selection-start-line="164" selection-start-column="95" selection-end-line="164" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="782">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
+            <state relative-caret-position="680">
               <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
@@ -115,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="442">
               <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -164,10 +173,10 @@
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyIndustryDataAgreementPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" />
         <option value="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" />
         <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/.github/workflows/github_actions.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" />
       </list>
     </option>
   </component>
@@ -190,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,14 +288,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -368,9 +378,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.09.01 at 15h 05m 54s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerClassTest - 2020.09.01 at 16h 26m 04s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
@@ -398,11 +405,14 @@
     <history-entry file="RunnerClassTest - 2020.09.02 at 18h 31m 55s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.02 at 19h 18m 03s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.31093118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.3165992" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -411,15 +421,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31083483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.53108346" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26287743" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15275311" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" visible="true" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,13 +561,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="3332">
+          <caret line="196" column="53" selection-start-line="196" selection-start-column="53" selection-end-line="196" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TargetReport/cucumber.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/github_actions.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -571,37 +598,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TargetReport/cucumber.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/github_actions.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3332">
-          <caret line="196" column="53" lean-forward="true" selection-start-line="196" selection-start-column="53" selection-end-line="196" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="782">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -615,10 +615,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="680">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1028">
-          <caret line="165" column="44" lean-forward="true" selection-start-line="165" selection-start-column="44" selection-end-line="165" selection-end-column="44" />
+        <state relative-caret-position="2788">
+          <caret line="164" column="95" selection-start-line="164" selection-start-column="95" selection-end-line="164" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
