@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1751">
-              <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="251">
+              <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
             </state>
           </provider>
         </entry>
@@ -378,9 +378,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.09.02 at 22h 12m 12s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerClassTest - 2020.09.02 at 22h 13m 29s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
@@ -408,6 +405,9 @@
     <history-entry file="RunnerClassTest - 2020.09.02 at 22h 34m 23s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.02 at 22h 47m 17s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -421,12 +421,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38898757" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38898757" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30373" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30373" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
@@ -644,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="251">
+          <caret line="208" lean-forward="true" selection-start-line="208" selection-end-line="208" />
         </state>
       </provider>
     </entry>
