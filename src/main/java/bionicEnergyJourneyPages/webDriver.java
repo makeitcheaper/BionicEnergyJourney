@@ -9,6 +9,6 @@ public class webDriver {
     public webDriver(WebDriver driver)
     {
         this.driver = driver;
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 }
