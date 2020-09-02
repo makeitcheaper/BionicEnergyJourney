@@ -6,6 +6,7 @@ Feature: Verify UKP site scenarios
   @elec_journey
   Scenario Outline: Wake the application up
     Given I navigate to bionic energy journey landing page with "<url>"
+    Then I close the browser
     Examples:
     | url                                                                                                 |
     | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  |
@@ -31,6 +32,7 @@ Feature: Verify UKP site scenarios
     And I enter phone number "<phone>"
     And I click Schedule call/Finalise Quote button
     Then I navigate to electric lead schedule page
+    And I close the browser
     Examples:
       | url                                                                                                 | postcode | search-address | business-name | full-name  | email          | phone       |
       | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |

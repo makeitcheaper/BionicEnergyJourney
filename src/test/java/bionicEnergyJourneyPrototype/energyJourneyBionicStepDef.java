@@ -377,4 +377,10 @@ public class energyJourneyBionicStepDef {
     public void i_click_Next_after_entering_Usage() throws Exception {
         bejmi.clickNextAfterEnteringUsage();
     }
+
+
+    @Then("^I close the browser$")
+    public void closebrowser() throws Exception {
+        driver.quit();
+    }
 }
