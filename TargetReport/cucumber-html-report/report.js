@@ -80,7 +80,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 11058541000,
+  "duration": 13255546700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 22137505800,
+  "duration": 11730292100,
   "status": "passed"
 });
 formatter.match({
@@ -386,14 +386,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 86851300,
+  "duration": 103776400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2426403200,
+  "duration": 2029665400,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +406,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 129952500,
+  "duration": 198183800,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 2404375500,
+  "duration": 2432987200,
   "status": "passed"
 });
 formatter.match({
@@ -432,44 +432,30 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1087221600,
+  "duration": 1141183500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1953363000,
+  "duration": 2396553900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1617219800,
+  "duration": 1850471000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2312354800,
+  "duration": 2107002500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
-});
-formatter.result({
-  "duration": 758160200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
-});
-formatter.result({
-  "duration": 1908989400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
