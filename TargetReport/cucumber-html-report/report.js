@@ -80,7 +80,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 13882435400,
+  "duration": 11058541000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 11860172800,
+  "duration": 22137505800,
   "status": "passed"
 });
 formatter.match({
@@ -386,14 +386,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 117600000,
+  "duration": 86851300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 1928036400,
+  "duration": 2426403200,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +406,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 143543900,
+  "duration": 129952500,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 2247956900,
+  "duration": 2404375500,
   "status": "passed"
 });
 formatter.match({
@@ -432,245 +432,44 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1112823700,
+  "duration": 1087221600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1966394600,
+  "duration": 1953363000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1951666200,
+  "duration": 1617219800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 1880187800,
+  "duration": 2312354800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 1914999000,
+  "duration": 758160200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22292087000,
+  "duration": 1908989400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
-});
-formatter.result({
-  "duration": 8011933600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
-});
-formatter.result({
-  "duration": 9211377700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ravi Ahuja",
-      "offset": 19
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
-});
-formatter.result({
-  "duration": 3119095100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test@test.test",
-      "offset": 23
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
-});
-formatter.result({
-  "duration": 132716800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "07555555555",
-      "offset": 22
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
-});
-formatter.result({
-  "duration": 109964300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
-});
-formatter.result({
-  "duration": 17994387300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
-});
-formatter.result({
-  "duration": 2011949500,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 37,
-  "name": "Verify bionic electric journey",
-  "description": "",
-  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;3",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 14,
-      "name": "@elec_journey"
-    }
-  ]
-});
-formatter.step({
-  "line": 16,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 17,
-  "name": "I enter postcode \"HA85HF\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 18,
-  "name": "I click Start Quote",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 19,
-  "name": "I enter \"49\" on search field",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 20,
-  "name": "click on the address contains \"49\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "I enter Business Name \"Jeevat LTD\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 22,
-  "name": "I click Next from business name page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 23,
-  "name": "I click on Electricity button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 24,
-  "name": "I click Yes from industry data agreement page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 25,
-  "name": "I click on Nex Step button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 26,
-  "name": "I click I am not sure option",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 27,
-  "name": "I click Schedule for later (if on chat page)",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 28,
-  "name": "I select Time from dropdown",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 29,
-  "name": "I enter full name \"Ravi Ahuja\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 30,
-  "name": "I enter email address \"test@test.test\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 31,
-  "name": "I enter phone number \"07555555555\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 32,
-  "name": "I click Schedule call/Finalise Quote button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 33,
-  "name": "I navigate to electric lead schedule page",
-  "keyword": "Then "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
-      "offset": 55
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });

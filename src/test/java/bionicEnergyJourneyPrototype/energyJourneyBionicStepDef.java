@@ -14,7 +14,9 @@ public class energyJourneyBionicStepDef {
 
     //For windown with head browser
     static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe"); }
+    //System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe");
     private WebDriver driver = new ChromeDriver();
+
 
     //For Linux + Headless browser
     /*
@@ -157,9 +159,7 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
-            //WebDriverWait wait = new WebDriverWait(driver, 25);
             Thread.sleep(8000);
-            //Select dropdown = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='time']"))));
             Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='time']")));
             int timeDropdownSize = dropdown.getOptions().size();
             System.out.println("Time dropdown"+timeDropdownSize);
