@@ -13,9 +13,7 @@ import cucumber.api.junit.Cucumber;
                 "json:TargetReport/cucumber.json",
                 "junit:TargetReport/cucumber.xml",
                 "rerun:TargetReport/rerun.txt" },
-        tags = {"@dual_multimeter,@gas_multimeter,@elec_multimeter,@elec_journey," +
-                "@elec_journey_manual_address,@elec_journey_Industry_Consent_NO," +
-                "@elec_journey_YES_Industry_Consent_NO_Details_Found"}
+        tags = {"@dual_multimeter,@gas_multimeter,@elec_multimeter,@elec_journey,@elec_journey_manual_address,@elec_journey_Industry_Consent_NO,@elec_journey_YES_Industry_Consent_NO_Details_Found"}
                 //{"@elec_journey_YES_Industry_Consent_NO_Details_Found, @elec_journey"}
 )
 

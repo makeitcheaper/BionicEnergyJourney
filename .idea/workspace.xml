@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3332bd9-0936-4825-86ce-7806a7fafb7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="272">
+              <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
+            <state relative-caret-position="153">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -149,7 +150,6 @@
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyContactInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicOpeninghours.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyChatPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneySelectAddress.java" />
@@ -160,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" />
         <option value="$PROJECT_DIR$/.github/workflows/github_actions.yml" />
         <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" />
       </list>
     </option>
@@ -362,12 +363,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.09.02 at 09h 12m 22s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.02 at 11h 50m 12s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerClassTest - 2020.09.02 at 14h 38m 21s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
@@ -392,10 +387,15 @@
     <history-entry file="RunnerClassTest - 2020.09.02 at 19h 49m 00s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.02 at 19h 56m 00s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.02 at 19h 58m 05s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.3165992" />
       <window_info id="Image Layers" order="1" />
@@ -406,12 +406,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37477797" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3179396" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26998225" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3428064" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
@@ -590,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -614,10 +607,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="86" lean-forward="true" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
