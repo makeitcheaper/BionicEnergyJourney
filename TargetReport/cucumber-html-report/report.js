@@ -80,7 +80,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 13255546700,
+  "duration": 14940800500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -371,91 +371,4 @@ formatter.match({
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
-});
-formatter.result({
-  "duration": 11730292100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "KT64DU",
-      "offset": 18
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
-});
-formatter.result({
-  "duration": 103776400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
-});
-formatter.result({
-  "duration": 2029665400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Fredericks",
-      "offset": 9
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
-});
-formatter.result({
-  "duration": 198183800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Fredericks",
-      "offset": 31
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
-});
-formatter.result({
-  "duration": 2432987200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Jeevat LTD",
-      "offset": 23
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
-});
-formatter.result({
-  "duration": 1141183500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Next()"
-});
-formatter.result({
-  "duration": 2396553900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
-});
-formatter.result({
-  "duration": 1850471000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
-});
-formatter.result({
-  "duration": 2107002500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_on()"
 });
