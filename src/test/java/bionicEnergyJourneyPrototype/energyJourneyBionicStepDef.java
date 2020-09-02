@@ -339,6 +339,7 @@ public class energyJourneyBionicStepDef {
 
     @And("^I click yes option for do you know your MPAN$")
     public void yesMPANOption() throws Exception {
+        Thread.sleep(1000);
         bejmi.SelectMPANYes();
     }
 

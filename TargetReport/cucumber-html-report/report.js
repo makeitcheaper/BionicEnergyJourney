@@ -80,7 +80,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 12888146000,
+  "duration": 13535995800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -373,7 +373,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 11503007600,
+  "duration": 11465112700,
   "status": "passed"
 });
 formatter.match({
@@ -386,14 +386,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 109950400,
+  "duration": 110474600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2373058200,
+  "duration": 2120371700,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +406,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 148275700,
+  "duration": 156897400,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 1807102900,
+  "duration": 2420561600,
   "status": "passed"
 });
 formatter.match({
@@ -432,56 +432,56 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1109815000,
+  "duration": 1098520800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1573732600,
+  "duration": 2173517900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1547927100,
+  "duration": 1592238400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 1836564200,
+  "duration": 2481213500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 1594702200,
+  "duration": 892050300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22182253100,
+  "duration": 1990377300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8008011500,
+  "duration": 8010216400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8282145500,
+  "duration": 11481400,
   "status": "passed"
 });
 formatter.match({
@@ -494,7 +494,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 3108020100,
+  "duration": 213042800,
   "status": "passed"
 });
 formatter.match({
@@ -507,7 +507,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 109390700,
+  "duration": 252010600,
   "status": "passed"
 });
 formatter.match({
@@ -520,21 +520,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 99559600,
+  "duration": 190816100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 14303160400,
+  "duration": 4265770300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2012136200,
+  "duration": 2016127700,
   "status": "passed"
 });
 formatter.scenario({
@@ -675,7 +675,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 13283897600,
+  "duration": 11835721000,
   "status": "passed"
 });
 formatter.match({
@@ -688,14 +688,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 119097900,
+  "duration": 98673400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2367645700,
+  "duration": 3431860800,
   "status": "passed"
 });
 formatter.match({
@@ -708,7 +708,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 58021100,
+  "duration": 62047200,
   "status": "passed"
 });
 formatter.match({
@@ -721,7 +721,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 1814220300,
+  "duration": 7077449100,
   "status": "passed"
 });
 formatter.match({
@@ -734,56 +734,56 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1093633900,
+  "duration": 1126783500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 2194216900,
+  "duration": 2268913700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1734511300,
+  "duration": 7413192600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2400916900,
+  "duration": 7087536700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 775634100,
+  "duration": 783316300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 1882764900,
+  "duration": 1892025000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8007561000,
+  "duration": 8006915200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 7759100,
+  "duration": 11932600,
   "status": "passed"
 });
 formatter.match({
@@ -796,7 +796,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 134590500,
+  "duration": 165684700,
   "status": "passed"
 });
 formatter.match({
@@ -809,7 +809,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 153171100,
+  "duration": 183269900,
   "status": "passed"
 });
 formatter.match({
@@ -822,21 +822,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 135408900,
+  "duration": 143172300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 5749534400,
+  "duration": 4185037100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2007241300,
+  "duration": 2014703600,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1222,7 +1222,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 11850245100,
+  "duration": 12026249400,
   "status": "passed"
 });
 formatter.match({
@@ -1235,14 +1235,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 99421800,
+  "duration": 146090900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2258612900,
+  "duration": 2032102500,
   "status": "passed"
 });
 formatter.match({
@@ -1255,7 +1255,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 137364800,
+  "duration": 497534700,
   "status": "passed"
 });
 formatter.match({
@@ -1268,7 +1268,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 2246971300,
+  "duration": 2135982900,
   "status": "passed"
 });
 formatter.match({
@@ -1281,35 +1281,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1086404900,
+  "duration": 1125562300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 5538240600,
+  "duration": 8781014100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 4444804200,
+  "duration": 2109548400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
 });
 formatter.result({
-  "duration": 8028484700,
+  "duration": 2062589800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 267783500,
+  "duration": 1114033900,
   "status": "passed"
 });
 formatter.match({
@@ -1342,23 +1342,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 492023200,
+  "duration": 501916000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 81145300,
+  "duration": 113277300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 38064500,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027question-supplier\u0027]/div/div/div/div[@class\u003d\u0027radio-btn yes-btn\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212-release\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64811}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: dfc5154497915b5f3c7ec36ab4f5bf6f\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027question-supplier\u0027]/div/div/div/div[@class\u003d\u0027radio-btn yes-btn\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyManualInput.clickYesOptionElectricitySupplier(bionicEnergyJourneyManualInput.java:34)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier(energyJourneyBionicStepDef.java:357)\r\n\tat ✽.And I click yes option for electricity supplier(energyJourney-bionic.feature:55)\r\n",
-  "status": "failed"
+  "duration": 605460100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1370,13 +1369,15 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 170948100,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 571799500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1388,31 +1389,36 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 78088200,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3074790800,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 22283026000,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8010356500,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8582753800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1424,7 +1430,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3127998700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1436,7 +1443,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 121958900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1448,19 +1456,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 113222900,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4216045100,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2014229400,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 74,
@@ -1839,7 +1850,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 12517207400,
+  "duration": 21925344100,
   "status": "passed"
 });
 formatter.match({
@@ -1852,14 +1863,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 72424000,
+  "duration": 104522400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2242300500,
+  "duration": 1680958000,
   "status": "passed"
 });
 formatter.match({
@@ -1872,7 +1883,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 143742700,
+  "duration": 241064000,
   "status": "passed"
 });
 formatter.match({
@@ -1885,7 +1896,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 1629775400,
+  "duration": 1737145300,
   "status": "passed"
 });
 formatter.match({
@@ -1898,35 +1909,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1093903700,
+  "duration": 1093186400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 2142251200,
+  "duration": 1867221400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1764928200,
+  "duration": 1636000400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2171152500,
+  "duration": 2218091600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 128023400,
+  "duration": 1108919800,
   "status": "passed"
 });
 formatter.match({
@@ -1959,23 +1970,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 448061400,
+  "duration": 489985000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 83727000,
+  "duration": 98192400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 16411700,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027question-supplier\u0027]/div/div/div/div[@class\u003d\u0027radio-btn yes-btn\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212-release\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64942}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: bf94c7b870cbaedb42aa919ec18ce5b7\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027question-supplier\u0027]/div/div/div/div[@class\u003d\u0027radio-btn yes-btn\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyManualInput.clickYesOptionElectricitySupplier(bionicEnergyJourneyManualInput.java:34)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier(energyJourneyBionicStepDef.java:357)\r\n\tat ✽.And I click yes option for electricity supplier(energyJourney-bionic.feature:87)\r\n",
-  "status": "failed"
+  "duration": 592658700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -1987,13 +1997,15 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 196596000,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 577035700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2005,31 +2017,36 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 71084300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2690362800,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 22223960300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8014625800,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8385848200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2041,7 +2058,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3110817200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2053,7 +2071,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 135308400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2065,19 +2084,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 118005400,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4388279100,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2011296000,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 106,
@@ -2490,7 +2512,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 16838254000,
+  "duration": 12016220800,
   "status": "passed"
 });
 formatter.match({
@@ -2503,21 +2525,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 94988000,
+  "duration": 113931100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 1907408100,
+  "duration": 2271254800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Enter_Manually_link()"
 });
 formatter.result({
-  "duration": 1667853600,
+  "duration": 733785300,
   "status": "passed"
 });
 formatter.match({
@@ -2530,7 +2552,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 108236300,
+  "duration": 135575400,
   "status": "passed"
 });
 formatter.match({
@@ -2543,7 +2565,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Street_Address_one_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 94534100,
+  "duration": 96406600,
   "status": "passed"
 });
 formatter.match({
@@ -2556,7 +2578,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Street_Address_two_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 102400700,
+  "duration": 108197500,
   "status": "passed"
 });
 formatter.match({
@@ -2569,7 +2591,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Town_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 89288500,
+  "duration": 86616500,
   "status": "passed"
 });
 formatter.match({
@@ -2582,28 +2604,28 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_County_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 133792300,
+  "duration": 112127800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_on_manual_address_page()"
 });
 formatter.result({
-  "duration": 719564800,
+  "duration": 815871500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.manualAddressPageClickElectricity()"
 });
 formatter.result({
-  "duration": 2082090300,
+  "duration": 1510582700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 116504000,
+  "duration": 1124016000,
   "status": "passed"
 });
 formatter.match({
@@ -2636,23 +2658,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 502328500,
+  "duration": 829510100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 95494400,
+  "duration": 106372000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 24062100,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027question-supplier\u0027]/div/div/div/div[@class\u003d\u0027radio-btn yes-btn\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212-release\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65065}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: a343e98c5ae4019245d011258bdfa1aa\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027question-supplier\u0027]/div/div/div/div[@class\u003d\u0027radio-btn yes-btn\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyManualInput.clickYesOptionElectricitySupplier(bionicEnergyJourneyManualInput.java:34)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier(energyJourneyBionicStepDef.java:357)\r\n\tat ✽.And I click yes option for electricity supplier(energyJourney-bionic.feature:121)\r\n",
-  "status": "failed"
+  "duration": 591031700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2664,13 +2685,15 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 156258300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 579663900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2682,31 +2705,36 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79582900,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1896790300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 22180919900,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8008689100,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 8825429700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2718,7 +2746,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3117451400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2730,7 +2759,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 130311500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -2742,19 +2772,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 129181100,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 9548047200,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2012504300,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "line": 140,
@@ -3013,7 +3046,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 12005884400,
+  "duration": 12077510200,
   "status": "passed"
 });
 formatter.match({
@@ -3026,14 +3059,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 138949700,
+  "duration": 111738500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 3462129000,
+  "duration": 2075868500,
   "status": "passed"
 });
 formatter.match({
@@ -3046,7 +3079,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 136699200,
+  "duration": 132020200,
   "status": "passed"
 });
 formatter.match({
@@ -3059,7 +3092,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 8794279100,
+  "duration": 2154724900,
   "status": "passed"
 });
 formatter.match({
@@ -3072,39 +3105,43 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1016055600,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"business-name\"}\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212-release\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65157}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: 0ec23ee82842508f7ed49eeef968e4cb\n*** Element info: {Using\u003did, value\u003dbusiness-name}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyBusinessNamePage.enterBusinessName(bionicEnergyJourneyBusinessNamePage.java:11)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_enter_Business_Name(energyJourneyBionicStepDef.java:79)\r\n\tat ✽.And I enter Business Name \"Jeevat LTD\"(energyJourney-bionic.feature:146)\r\n",
-  "status": "failed"
+  "duration": 1125764800,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1781376300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1722283900,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3131636900,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3598779400,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 598873300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3116,7 +3153,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 824987900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3128,7 +3166,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 248903700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3140,19 +3179,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 220545000,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4182615500,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2012032200,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -3417,7 +3459,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 12731035500,
+  "duration": 12042835700,
   "status": "passed"
 });
 formatter.match({
@@ -3430,14 +3472,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 138038600,
+  "duration": 125007300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 7354620100,
+  "duration": 1885476500,
   "status": "passed"
 });
 formatter.match({
@@ -3450,7 +3492,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 127936600,
+  "duration": 163767200,
   "status": "passed"
 });
 formatter.match({
@@ -3463,7 +3505,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 6040122500,
+  "duration": 1381590500,
   "status": "passed"
 });
 formatter.match({
@@ -3476,43 +3518,43 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1159055400,
+  "duration": 1100121900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1955130100,
+  "duration": 2084803400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickGasButton()"
 });
 formatter.result({
-  "duration": 1939933800,
+  "duration": 1768532800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2496354500,
+  "duration": 2306902900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
 });
 formatter.result({
-  "duration": 3038317600,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212-release\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65255}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: 33b72476d2031681031c2b4d03713a0f\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyIndustryDataPage.clickSelectAllMeterOption(bionicEnergyJourneyIndustryDataPage.java:29)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_click_on_Select_all_meters_option(energyJourneyBionicStepDef.java:265)\r\n\tat ✽.And I click on Select all meters option(energyJourney-bionic.feature:174)\r\n",
-  "status": "failed"
+  "duration": 3649016100,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 576412800,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3524,7 +3566,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1582160100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3536,7 +3579,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 196371100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3548,19 +3592,22 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 237224300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 10578109700,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.gasLeadScheduleConfimration()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4026763600,
+  "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
@@ -3825,7 +3872,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 20987814000,
+  "duration": 12105407900,
   "status": "passed"
 });
 formatter.match({
@@ -3838,14 +3885,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 132097600,
+  "duration": 132679100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2314693600,
+  "duration": 2130238000,
   "status": "passed"
 });
 formatter.match({
@@ -3858,7 +3905,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 148873400,
+  "duration": 249590600,
   "status": "passed"
 });
 formatter.match({
@@ -3871,7 +3918,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 1959656800,
+  "duration": 1775693200,
   "status": "passed"
 });
 formatter.match({
@@ -3884,43 +3931,43 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1083108600,
+  "duration": 1110905300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 3182849000,
+  "duration": 2047347700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
 });
 formatter.result({
-  "duration": 3385230600,
+  "duration": 10177509200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 8880033100,
+  "duration": 3349994800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Select_all_meters_option()"
 });
 formatter.result({
-  "duration": 3020238400,
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.83)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MIC-LAP225\u0027, ip: \u0027192.168.0.17\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_212-release\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\RAVI~1.AHU\\AppData...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65397}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 85.0.4183.83, webStorageEnabled: true}\nSession ID: ad6724cb9aec03e78dc6a836593760a1\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027radio-checkbox meter-list__select-all d-none d-md-flex radio-checkbox--default radio-checkbox--xs\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat bionicEnergyJourneyPages.bionicEnergyJourneyIndustryDataPage.clickSelectAllMeterOption(bionicEnergyJourneyIndustryDataPage.java:29)\r\n\tat bionicEnergyJourneyPrototype.energyJourneyBionicStepDef.i_click_on_Select_all_meters_option(energyJourneyBionicStepDef.java:265)\r\n\tat ✽.And I click on Select all meters option(energyJourney-bionic.feature:198)\r\n",
-  "status": "failed"
+  "duration": 3478135900,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickOnGetAQuoteForMultipleMeter()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 569484000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3932,7 +3979,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 873411700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3944,7 +3992,8 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 208896000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -3956,18 +4005,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 180036300,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4145109400,
+  "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4011582500,
+  "status": "passed"
 });
 });
