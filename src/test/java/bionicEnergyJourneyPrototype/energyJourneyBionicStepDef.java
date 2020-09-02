@@ -159,8 +159,8 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
         {
-            WebDriverWait wait = new WebDriverWait(driver, 20);
-            Thread.sleep(8000);
+            WebDriverWait wait = new WebDriverWait(driver, 25);
+            //Thread.sleep(8000);
             Select dropdown = new Select(wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='time']"))));
             int timeDropdownSize = dropdown.getOptions().size();
             System.out.println("Time dropdown"+timeDropdownSize);
@@ -173,7 +173,6 @@ public class energyJourneyBionicStepDef {
                 dropdown.selectByIndex(1);
             }
         }
-
     }
 
     @And("^I enter full name \"([^\"]*)\"$")

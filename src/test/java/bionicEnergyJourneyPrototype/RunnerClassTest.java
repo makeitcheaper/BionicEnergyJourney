@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
         tags = {"@dual_multimeter,@gas_multimeter,@elec_multimeter,@elec_journey," +
                 "@elec_journey_manual_address,@elec_journey_Industry_Consent_NO," +
                 "@elec_journey_YES_Industry_Consent_NO_Details_Found"}
-                //{"@elec_journey_YES_Industry_Consent_NO_Details_Found"}
+                //{"@elec_journey_YES_Industry_Consent_NO_Details_Found, @elec_journey"}
 )
 
 public class RunnerClassTest {
