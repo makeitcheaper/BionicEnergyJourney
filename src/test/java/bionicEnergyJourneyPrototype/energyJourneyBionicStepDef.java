@@ -8,12 +8,14 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class energyJourneyBionicStepDef {
 
     //For windown with head browser
-    static { System.setProperty("webdriver.chrome.driver" , "src\\main\\resources\\winchromedriver\\chromedriver.exe"); }
+
+    static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/winchromedriver/chromedriver.exe"); }
     //System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe");
     private WebDriver driver = new ChromeDriver();
 
