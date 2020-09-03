@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features ="src/test/resources",
-        //glue="src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef",
+        glue="bionicEnergyJourneyPrototype",
         plugin={"pretty",
                 "html:TargetReport/cucumber-html-report",
                 "json:TargetReport/cucumber.json",
