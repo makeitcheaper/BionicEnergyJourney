@@ -22,8 +22,8 @@ jobs:
         success_text: '@${{ github.actor }} just started the workflow for repository `${{ github.repository }}`'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
-        #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_RAVI }} # Required
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
+        #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_RAVI }} # Required
 
     - uses: actions/checkout@v2
     - name: Set up JDK 1.8 for x64
@@ -54,5 +54,5 @@ jobs:
         cancelled_text: 'Step Cancelled ⚠️' # Optional
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required
-        #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
-        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_RAVI }} # Required
+        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }} # Required
+        #SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL_RAVI }} # Required

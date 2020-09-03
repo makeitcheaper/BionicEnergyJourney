@@ -90,14 +90,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 8397110700,
+  "duration": 8748634500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 724547600,
+  "duration": 1196895100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -400,7 +400,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7596063800,
+  "duration": 6662853000,
   "status": "passed"
 });
 formatter.match({
@@ -413,14 +413,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 133086400,
+  "duration": 167838300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 1682321500,
+  "duration": 605604600,
   "status": "passed"
 });
 formatter.match({
@@ -433,7 +433,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 161384400,
+  "duration": 1091964200,
   "status": "passed"
 });
 formatter.match({
@@ -446,7 +446,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 81082300,
+  "duration": 566347300,
   "status": "passed"
 });
 formatter.match({
@@ -459,37 +459,104 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1096112300,
+  "duration": 1087638300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1692529300,
+  "duration": 1510362500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1708522800,
+  "duration": 1428962500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2904499100,
+  "duration": 1681548800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 784785700,
+  "duration": 1609577200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22173895400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8186714000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 8227870000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 8111380100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 87506700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 89237600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3563914400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
