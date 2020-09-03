@@ -90,14 +90,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 13120616900,
+  "duration": 13795097400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 1146555800,
+  "duration": 750228500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -398,4 +398,37 @@ formatter.match({
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 12352920300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 109731400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1434116400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
