@@ -15,7 +15,7 @@ public class energyJourneyBionicStepDef {
     //For windown with head browser
     static { System.setProperty("webdriver.chrome.driver" , "src/main/resources/winchromedriver/chromedriver.exe"); }
     //System.setProperty("webdriver.chrome.driver" , "src/main/resources/driver/chromedriver.exe");
-    public WebDriver driver = new ChromeDriver();
+    private WebDriver driver = new ChromeDriver();
 
 
     //For Linux + Headless browser
