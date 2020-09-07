@@ -4,6 +4,8 @@
     <list default="true" id="9835c0f5-0a77-44d6-8fc5-96bff240020b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" afterDir="false" />
@@ -104,7 +106,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="180">
               <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -329,9 +331,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.09.06 at 21h 00m 08s.xml">
-      <configuration name="RunnerClassTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RunnerClassTest - 2020.09.06 at 21h 08m 06s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
@@ -359,10 +358,12 @@
     <history-entry file="RunnerClassTest - 2020.09.06 at 22h 56m 49s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RunnerClassTest - 2020.09.07 at 11h 56m 45s.xml">
+      <configuration name="RunnerClassTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.345749" />
       <window_info id="Image Layers" order="1" />
@@ -373,12 +374,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42451155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42451155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
@@ -517,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="180">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
