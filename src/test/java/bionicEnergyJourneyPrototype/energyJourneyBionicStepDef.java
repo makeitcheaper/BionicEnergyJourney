@@ -114,7 +114,7 @@ public class energyJourneyBionicStepDef {
         Thread.sleep(650);
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/industry_data"))
+        if(currentURL.contains("/electricity/industry_data") || currentURL.contains("/dual_fuel/industry_data") || currentURL.contains("/electricity/mm/industry_data") || currentURL.contains("/dual_fuel/mm/industry_data"))
         {
             bejid.clickNextStepOldJourney();
         }
@@ -129,7 +129,7 @@ public class energyJourneyBionicStepDef {
         Thread.sleep(1000);
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             Thread.sleep(21000);
             bejcp.selectIamNotSurefromChatPage();
@@ -148,7 +148,7 @@ public class energyJourneyBionicStepDef {
         //System.out.println("Current URL is : "+currentURL);
         System.out.println("Opening Hours :"+boh.bionicOpeninghours());
         Thread.sleep(8000);
-        if((currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
                 && boh.bionicOpeninghours().equals("Open"))
         {
             bejcp.Scheduleforlater();
@@ -159,7 +159,7 @@ public class energyJourneyBionicStepDef {
     public void selectTimefromDropdown() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             Thread.sleep(8000);
             Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='time']")));
@@ -180,7 +180,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_full_name(String name) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             System.out.println("Opening Hours :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
@@ -204,7 +204,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_email_address(String email) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             bejcp.enterEmail(email);
         }
@@ -218,7 +218,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_phone_number(String phone) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             System.out.println("Oprning Time :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
@@ -241,7 +241,7 @@ public class energyJourneyBionicStepDef {
     {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/electricity/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             Thread.sleep(500);
             bejcp.clickScheduleCallButton();
@@ -287,7 +287,7 @@ public class energyJourneyBionicStepDef {
 
     @And("^I click on Gas&Electricity button$")
     public void verifyGasLeadScheduleConfirmation() throws Exception {
-        Thread.sleep(1000);
+        Thread.sleep(1500);
         bejst.clickGasAndElectricity();
     }
 
