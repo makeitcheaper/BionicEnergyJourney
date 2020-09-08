@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
                 "rerun:TargetReport/rerun.txt" },
         tags = {"@elec_journey,@elec_journey_manual_address,@elec_journey_Industry_Consent_NO,@elec_journey_YES_Industry_Consent_NO_Details_Found,@dual_journey_Industry_Consent_NO,@dualfuel_journey,@dualfuel_journey_YES_Industry_Consent_NO_Details_Found,@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"}
                 //+ {"@dual_multimeter,@gas_multimeter,@elec_multimeter"}
-                //{"@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"}
+                //{"@dualfuel_journey"}
 )
 
 public class RunnerClassTest {

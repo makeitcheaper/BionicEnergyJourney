@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="770.419277">
-    <testcase classname="Verify UKP site scenarios" name="Wake the application up" time="8.832271">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="33" time="1673.804465">
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up" time="8.900737">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 Then I close the browser....................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="87.472983">
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up 2" time="8.385785">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com".passed
+Then I close the browser....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up 3" time="8.559494">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com".passed
+Then I close the browser....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="33.219538">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "Fredericks" on search field....................................passed
@@ -31,9 +45,9 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="73.190693">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="64.363165">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85HF"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "49" on search field............................................passed
@@ -55,9 +69,105 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO" time="76.214517">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 3" time="33.034662">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 4" time="61.936524">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 5" time="34.188042">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 6" time="61.774269">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO" time="58.841329">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "KT64DU"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "Fredericks" on search field....................................passed
@@ -86,9 +196,71 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found" time="74.362593">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO 2" time="58.805108">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click NO from industry data agreement page............................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO 3" time="58.363209">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click NO from industry data agreement page............................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found" time="58.357086">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85BD"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "49a Axholme Avenue" on search field............................passed
@@ -117,9 +289,71 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address" time="69.205423">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 2" time="59.340332">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 3" time="59.426737">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address" time="54.298813">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "KT64DU"..............................................passed
 And I click Start Quote.....................................................passed
 And I click Enter Manually link.............................................passed
@@ -150,9 +384,75 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO" time="76.738143">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address 2" time="54.626642">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I click Enter Manually link.............................................passed
+And I enter Business Name "Jeevat LTD" on manual address page...............passed
+And I enter Street Address one "Test Street" on manual address page.........passed
+And I enter Street Address two "Test Street 2" on manual address page.......passed
+And I enter Town "Hackney" on manual address page...........................passed
+And I enter County "Greater London" on manual address page..................passed
+And I click Next on manual address page.....................................passed
+And I click on Electricity button on manual address page....................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address 3" time="53.930817">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I click Enter Manually link.............................................passed
+And I enter Business Name "Jeevat LTD" on manual address page...............passed
+And I enter Street Address one "Test Street" on manual address page.........passed
+And I enter Street Address two "Test Street 2" on manual address page.......passed
+And I enter Town "Hackney" on manual address page...........................passed
+And I enter County "Greater London" on manual address page..................passed
+And I click Next on manual address page.....................................passed
+And I click on Electricity button on manual address page....................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO" time="60.828847">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "KT64DU"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "Fredericks" on search field....................................passed
@@ -181,9 +481,71 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey" time="75.897121">
+    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO 2" time="61.31984">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click NO from industry data agreement page............................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO 3" time="61.369887">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click NO from industry data agreement page............................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey" time="35.454658">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "Fredericks" on search field....................................passed
@@ -205,9 +567,9 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 2" time="73.990202">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 2" time="63.987747">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85HF"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "49" on search field............................................passed
@@ -229,9 +591,105 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found" time="77.604635">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 3" time="35.720029">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 4" time="66.06652">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 5" time="35.425174">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd".passed
+When I enter postcode "KT64DU"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "Fredericks" on search field....................................passed
+And click on the address contains "Fredericks"..............................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 6" time="63.785334">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "HA85HF"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49" on search field............................................passed
+And click on the address contains "49"......................................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click on Nex Step button..............................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found" time="61.033998">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85BD"..............................................passed
 And I click Start Quote.....................................................passed
 And I enter "49a Axholme Avenue" on search field............................passed
@@ -260,9 +718,123 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found" time="76.910696">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found 2" time="61.313647">
         <system-out>
-            <![CDATA[Given I navigate to bionic energy journey landing page with "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com".passed
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found 3" time="61.226973">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found" time="58.69224">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
+When I enter postcode "HA8 5BD".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "57 Axholme Avenue" on search field.............................passed
+And click on the address contains "57 Axholme Avenue".......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found 2" time="58.75699">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "HA8 5BD".............................................passed
+And I click Start Quote.....................................................passed
+And I enter "57 Axholme Avenue" on search field.............................passed
+And click on the address contains "57 Axholme Avenue".......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Gas&Electricity button.......................................passed
+And I click Yes from industry data agreement page...........................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to dual lead confirmation page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found 3" time="58.470292">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "HA8 5BD".............................................passed
 And I click Start Quote.....................................................passed
 And I enter "57 Axholme Avenue" on search field.............................passed

@@ -20,7 +20,7 @@ public class bionicEnergyJourneySelectAddress extends bionicEnergyJourneyLanding
 
     public bionicEnergyJourneySelectAddress ClickLinkEnterManually()
     {
-        driver.findElement(By.xpath("//a[@href='/manual_address']")).click();
+        driver.findElement(By.xpath("//a[@class='nav-item nav-link addresses__tab']")).click();
         return new bionicEnergyJourneyManualAddress(driver);
     }
 

@@ -11,6 +11,6 @@ public class webDriver {
 
         this.driver = driver;
         //System.setProperty("webdriver.chrome.driver" , "src/main/resources/winchromedriver/chromedriver.exe");
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 }

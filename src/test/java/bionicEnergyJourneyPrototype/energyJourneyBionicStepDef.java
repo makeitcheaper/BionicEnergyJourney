@@ -111,24 +111,25 @@ public class energyJourneyBionicStepDef {
 
     @And("^I click on Nex Step button$")
     public void i_click_on() throws Exception {
-        Thread.sleep(650);
+        Thread.sleep(1000);
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/industry_data") || currentURL.contains("/dual_fuel/industry_data") || currentURL.contains("/electricity/mm/industry_data") || currentURL.contains("/dual_fuel/mm/industry_data"))
+        try
         {
+            //Click Next button in CDC Journey
+            bejid.clickNextStepCDCJourney();
+        } catch (Exception e)
+        {
+            //Click Next button in chat Journey
             bejid.clickNextStepOldJourney();
         }
-        else
-        {
-            bejid.clickNextStepCDCJourney();
-        }
     }
+
     @And("^I click I am not sure option$")
     public void click_i_am_not_sure() throws Exception
     {
         Thread.sleep(1000);
         String currentURL = driver.getCurrentUrl();
-        //System.out.println("Current URL is : "+currentURL);
         if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
         {
             Thread.sleep(21000);
@@ -159,7 +160,8 @@ public class energyJourneyBionicStepDef {
     public void selectTimefromDropdown() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+                && boh.bionicOpeninghours().equals("Open"))
         {
             Thread.sleep(8000);
             Select dropdown = new Select(driver.findElement(By.xpath("//select[@id='time']")));
@@ -171,7 +173,10 @@ public class energyJourneyBionicStepDef {
             }
             else
             {
-                dropdown.selectByIndex(1);
+                //dropdown.selectByIndex(0);
+                Select selecttime = new Select(driver.findElement(By.xpath("//select[@id='date']")));
+                selecttime.selectByIndex(1);
+
             }
         }
     }
@@ -185,7 +190,7 @@ public class energyJourneyBionicStepDef {
             System.out.println("Opening Hours :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
             {
-                Thread.sleep(3000);
+                Thread.sleep(3500);
                 bejcp.enterFullNameOutOfHours(name);
             }
             else

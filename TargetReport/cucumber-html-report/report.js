@@ -44,17 +44,43 @@ formatter.examples({
       "id": "verify-ukp-site-scenarios;wake-the-application-up;;1"
     },
     {
-      "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com"
+      "comments": [
+        {
+          "line": 12,
+          "value": "#    | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  |"
+        }
       ],
-      "line": 12,
+      "cells": [
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison"
+      ],
+      "line": 13,
       "id": "verify-ukp-site-scenarios;wake-the-application-up;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com"
+      ],
+      "line": 14,
+      "id": "verify-ukp-site-scenarios;wake-the-application-up;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com"
+      ],
+      "line": 15,
+      "id": "verify-ukp-site-scenarios;wake-the-application-up;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 12,
+  "comments": [
+    {
+      "line": 12,
+      "value": "#    | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  |"
+    }
+  ],
+  "line": 13,
   "name": "Wake the application up",
   "description": "",
   "id": "verify-ukp-site-scenarios;wake-the-application-up;;2",
@@ -69,7 +95,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 8,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
@@ -83,25 +109,119 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 8029579400,
+  "duration": 8140646100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 802691300,
+  "duration": 760091001,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Wake the application up",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;wake-the-application-up;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@elec_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "I close the browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7653351601,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 732432900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "Wake the application up",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;wake-the-application-up;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@elec_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "I close the browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7844621500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 714872700,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 16,
+  "line": 19,
   "name": "Verify bionic electric journey",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey",
@@ -109,108 +229,108 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 15,
+      "line": 18,
       "name": "@elec_journey"
     }
   ]
 });
 formatter.step({
-  "line": 17,
+  "line": 20,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 21,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 22,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
+  "line": 23,
   "name": "I enter \"\u003csearch-address\u003e\" on search field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 21,
+  "line": 24,
   "name": "click on the address contains \"\u003csearch-address\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
+  "line": 25,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 26,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 27,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 28,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 29,
   "name": "I click on Nex Step button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 27,
+  "line": 30,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 28,
+  "line": 31,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 32,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 33,
   "name": "I enter full name \"\u003cfull-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 34,
   "name": "I enter email address \"\u003cemail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 35,
   "name": "I enter phone number \"\u003cphone\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 36,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 37,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 38,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 36,
+  "line": 39,
   "name": "",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;",
@@ -225,12 +345,22 @@ formatter.examples({
         "email",
         "phone"
       ],
-      "line": 37,
+      "line": 40,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;1"
     },
     {
+      "comments": [
+        {
+          "line": 41,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+        },
+        {
+          "line": 42,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r\u003dsuccess_cd",
         "KT64DU",
         "Fredericks",
         "Jeevat LTD",
@@ -238,12 +368,12 @@ formatter.examples({
         "test@test.test",
         "07555555555"
       ],
-      "line": 38,
+      "line": 43,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;2"
     },
     {
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
         "HA85HF",
         "49",
         "Jeevat LTD",
@@ -251,14 +381,76 @@ formatter.examples({
         "test@test.test",
         "07555555555"
       ],
-      "line": 39,
+      "line": 44,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/?r\u003dsuccess_cd",
+        "KT64DU",
+        "Fredericks",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 45,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;4"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "HA85HF",
+        "49",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 46,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;5"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/?r\u003dsuccess_cd",
+        "KT64DU",
+        "Fredericks",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 47,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;6"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "HA85HF",
+        "49",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 48,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;7"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 38,
+  "comments": [
+    {
+      "line": 41,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+    },
+    {
+      "line": 42,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+    }
+  ],
+  "line": 43,
   "name": "Verify bionic electric journey",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;2",
@@ -266,21 +458,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 15,
+      "line": 18,
       "name": "@elec_journey"
     }
   ]
 });
 formatter.step({
-  "line": 17,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 20,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r\u003dsuccess_cd\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 21,
   "name": "I enter postcode \"KT64DU\"",
   "matchedColumns": [
     1
@@ -288,12 +480,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 22,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
+  "line": 23,
   "name": "I enter \"Fredericks\" on search field",
   "matchedColumns": [
     2
@@ -301,7 +493,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 21,
+  "line": 24,
   "name": "click on the address contains \"Fredericks\"",
   "matchedColumns": [
     2
@@ -309,7 +501,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
+  "line": 25,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     3
@@ -317,42 +509,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 26,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 27,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 28,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 29,
   "name": "I click on Nex Step button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 27,
+  "line": 30,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 28,
+  "line": 31,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 32,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 33,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     4
@@ -360,7 +552,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 34,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     5
@@ -368,7 +560,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 35,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     6
@@ -376,31 +568,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 36,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 37,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 38,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r\u003dsuccess_cd",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 21859159600,
+  "duration": 6938366101,
   "status": "passed"
 });
 formatter.match({
@@ -413,14 +605,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 243818800,
+  "duration": 514054500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 2102138300,
+  "duration": 1280716400,
   "status": "passed"
 });
 formatter.match({
@@ -433,7 +625,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 203732200,
+  "duration": 255045900,
   "status": "passed"
 });
 formatter.match({
@@ -446,7 +638,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 239525400,
+  "duration": 480748900,
   "status": "passed"
 });
 formatter.match({
@@ -459,56 +651,56 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1318101300,
+  "duration": 1081262099,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 2196943500,
+  "duration": 1391929900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1849313300,
+  "duration": 1430215801,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 1885537000,
+  "duration": 2082006801,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 1487936400,
+  "duration": 1078907601,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22104846300,
+  "duration": 1877461500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8131084900,
+  "duration": 8013786700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8537802100,
+  "duration": 6345700,
   "status": "passed"
 });
 formatter.match({
@@ -521,7 +713,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8107533900,
+  "duration": 122122599,
   "status": "passed"
 });
 formatter.match({
@@ -534,7 +726,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 104793400,
+  "duration": 125793601,
   "status": "passed"
 });
 formatter.match({
@@ -547,32 +739,32 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 96545300,
+  "duration": 111800201,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 4313704000,
+  "duration": 3700804900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2032738100,
+  "duration": 2013189100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 657729400,
+  "duration": 714979200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 39,
+  "line": 44,
   "name": "Verify bionic electric journey",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;3",
@@ -580,21 +772,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 15,
+      "line": 18,
       "name": "@elec_journey"
     }
   ]
 });
 formatter.step({
-  "line": 17,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 20,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 18,
+  "line": 21,
   "name": "I enter postcode \"HA85HF\"",
   "matchedColumns": [
     1
@@ -602,12 +794,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 19,
+  "line": 22,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 20,
+  "line": 23,
   "name": "I enter \"49\" on search field",
   "matchedColumns": [
     2
@@ -615,7 +807,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 21,
+  "line": 24,
   "name": "click on the address contains \"49\"",
   "matchedColumns": [
     2
@@ -623,7 +815,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 22,
+  "line": 25,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     3
@@ -631,42 +823,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 23,
+  "line": 26,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 24,
+  "line": 27,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 25,
+  "line": 28,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 26,
+  "line": 29,
   "name": "I click on Nex Step button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 27,
+  "line": 30,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 28,
+  "line": 31,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 29,
+  "line": 32,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 30,
+  "line": 33,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     4
@@ -674,7 +866,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 31,
+  "line": 34,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     5
@@ -682,7 +874,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 32,
+  "line": 35,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     6
@@ -690,31 +882,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 33,
+  "line": 36,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 34,
+  "line": 37,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
+  "line": 38,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7507777200,
+  "duration": 7048241900,
   "status": "passed"
 });
 formatter.match({
@@ -727,14 +919,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 138469700,
+  "duration": 133582799,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 613268300,
+  "duration": 1037972800,
   "status": "passed"
 });
 formatter.match({
@@ -747,7 +939,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 940772400,
+  "duration": 212968599,
   "status": "passed"
 });
 formatter.match({
@@ -760,7 +952,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 736474700,
+  "duration": 492000100,
   "status": "passed"
 });
 formatter.match({
@@ -773,56 +965,56 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1092675700,
+  "duration": 1075839800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1945384900,
+  "duration": 1426960400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1698069300,
+  "duration": 1435968999,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 1968219800,
+  "duration": 4618126200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 1936539400,
+  "duration": 6492462700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22143159500,
+  "duration": 22077156400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8110171600,
+  "duration": 8008095000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8385005000,
+  "duration": 5756501,
   "status": "passed"
 });
 formatter.match({
@@ -835,7 +1027,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8110401600,
+  "duration": 3591111000,
   "status": "passed"
 });
 formatter.match({
@@ -848,7 +1040,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 102610700,
+  "duration": 91795700,
   "status": "passed"
 });
 formatter.match({
@@ -861,38 +1053,1294 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 102227100,
+  "duration": 91191500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 4902354700,
+  "duration": 3769580700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2007107800,
+  "duration": 2009579999,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 750004100,
+  "duration": 744774200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 45,
+  "name": "Verify bionic electric journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@elec_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 20,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/?r\u003dsuccess_cd\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 21,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 38,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/?r\u003dsuccess_cd",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7157403600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 148292300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1260678301,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 128986300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 530657301,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1075311800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1372752100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1414616500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 2039277700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 1108712501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 1880991201,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8006883500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 6641600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 121101800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 114769801,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 116386001,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3822412000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2019783100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 709004499,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 46,
+  "name": "Verify bionic electric journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@elec_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 20,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 21,
+  "name": "I enter postcode \"HA85HF\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "I enter \"49\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "click on the address contains \"49\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 38,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7007500800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85HF",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 119854400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1149570600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 71278000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 495843301,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1090654600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1820608299,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1422882501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1567174900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 6566603600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22103111100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8012314800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 6483500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3592830499,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 94723700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 93169400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3942825401,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2009453899,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 769641101,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 47,
+  "name": "Verify bionic electric journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@elec_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 20,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/?r\u003dsuccess_cd\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 21,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 38,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/?r\u003dsuccess_cd",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7322197600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 90462599,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1199227400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 169612200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 445089500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1080387000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1341145699,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1688548400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 3042938901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 1076804300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 1874527400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8009833100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 7126900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 120492801,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 121042000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 113951200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3739779900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2016956399,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 727919100,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 48,
+  "name": "Verify bionic electric journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 18,
+      "name": "@elec_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 20,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 21,
+  "name": "I enter postcode \"HA85HF\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 23,
+  "name": "I enter \"49\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 24,
+  "name": "click on the address contains \"49\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 25,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 26,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 27,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 28,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 30,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 31,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 32,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 33,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 34,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 35,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 36,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 37,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 38,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7259035100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85HF",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 127638200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1050636500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 116312600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 538105901,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1091994701,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1347696099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1418499499,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1588093900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 6581874700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22074760901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8012043101,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 5845500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3597521801,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 98747500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 91108900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 4024514501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2009258901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 740580600,
   "status": "passed"
 });
 formatter.scenarioOutline({
   "comments": [
     {
-      "line": 40,
+      "line": 49,
       "value": "#     | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                               | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
     }
   ],
-  "line": 44,
+  "line": 53,
   "name": "Verify bionic electric journey with Industry Consent NO",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no",
@@ -900,143 +2348,143 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 43,
+      "line": 52,
       "name": "@elec_journey_Industry_Consent_NO"
     }
   ]
 });
 formatter.step({
-  "line": 45,
+  "line": 54,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 46,
+  "line": 55,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 47,
+  "line": 56,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 48,
+  "line": 57,
   "name": "I enter \"\u003csearch-address\u003e\" on search field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 49,
+  "line": 58,
   "name": "click on the address contains \"\u003csearch-address\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 50,
+  "line": 59,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 51,
+  "line": 60,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 52,
+  "line": 61,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 53,
+  "line": 62,
   "name": "I click NO from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 54,
+  "line": 63,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 55,
+  "line": 64,
   "name": "I enter MPAN numbere \"\u003cmpan1\u003e\" \"\u003cmpan2\u003e\" \"\u003cmpan3\u003e\" \"\u003cmpan4\u003e\" \"\u003cmpan5\u003e\" \"\u003cmpan6\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 56,
+  "line": 65,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 57,
+  "line": 66,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 58,
+  "line": 67,
   "name": "I select supplier \"\u003celectricity-supplier\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 59,
+  "line": 68,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 60,
+  "line": 69,
   "name": "I enter kWh usage \"\u003cusage\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 61,
+  "line": 70,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 62,
+  "line": 71,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 63,
+  "line": 72,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 64,
+  "line": 73,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 65,
+  "line": 74,
   "name": "I enter full name \"\u003cfull-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 66,
+  "line": 75,
   "name": "I enter email address \"\u003cemail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 67,
+  "line": 76,
   "name": "I enter phone number \"\u003cphone\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 68,
+  "line": 77,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 69,
+  "line": 78,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 70,
+  "line": 79,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 71,
+  "line": 80,
   "name": "",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;",
@@ -1059,12 +2507,18 @@ formatter.examples({
         "electricity-supplier",
         "usage"
       ],
-      "line": 72,
+      "line": 81,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;1"
     },
     {
+      "comments": [
+        {
+          "line": 82,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
         "KT64DU",
         "Jeevat LTD",
         "Ravi Ahuja",
@@ -1080,14 +2534,62 @@ formatter.examples({
         "British Gas",
         "250"
       ],
-      "line": 73,
+      "line": 83,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "KT64DU",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "Fredericks",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 84,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "KT64DU",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "Fredericks",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 85,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 73,
+  "comments": [
+    {
+      "line": 82,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+    }
+  ],
+  "line": 83,
   "name": "Verify bionic electric journey with Industry Consent NO",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;2",
@@ -1095,21 +2597,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 43,
+      "line": 52,
       "name": "@elec_journey_Industry_Consent_NO"
     }
   ]
 });
 formatter.step({
-  "line": 45,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 54,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 46,
+  "line": 55,
   "name": "I enter postcode \"KT64DU\"",
   "matchedColumns": [
     1
@@ -1117,12 +2619,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 47,
+  "line": 56,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 48,
+  "line": 57,
   "name": "I enter \"Fredericks\" on search field",
   "matchedColumns": [
     6
@@ -1130,7 +2632,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 49,
+  "line": 58,
   "name": "click on the address contains \"Fredericks\"",
   "matchedColumns": [
     6
@@ -1138,7 +2640,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 50,
+  "line": 59,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     2
@@ -1146,27 +2648,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 51,
+  "line": 60,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 52,
+  "line": 61,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 53,
+  "line": 62,
   "name": "I click NO from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 54,
+  "line": 63,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 55,
+  "line": 64,
   "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
   "matchedColumns": [
     7,
@@ -1179,17 +2681,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 56,
+  "line": 65,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 57,
+  "line": 66,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 58,
+  "line": 67,
   "name": "I select supplier \"British Gas\"",
   "matchedColumns": [
     13
@@ -1197,12 +2699,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 59,
+  "line": 68,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 60,
+  "line": 69,
   "name": "I enter kWh usage \"250\"",
   "matchedColumns": [
     14
@@ -1210,27 +2712,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 61,
+  "line": 70,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 62,
+  "line": 71,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 63,
+  "line": 72,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 64,
+  "line": 73,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 65,
+  "line": 74,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     3
@@ -1238,7 +2740,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 66,
+  "line": 75,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     4
@@ -1246,7 +2748,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 67,
+  "line": 76,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     5
@@ -1254,31 +2756,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 68,
+  "line": 77,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 69,
+  "line": 78,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 70,
+  "line": 79,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 9057708600,
+  "duration": 6948581601,
   "status": "passed"
 });
 formatter.match({
@@ -1291,14 +2793,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 93076200,
+  "duration": 229465600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 579140000,
+  "duration": 1318133600,
   "status": "passed"
 });
 formatter.match({
@@ -1311,7 +2813,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 1205780300,
+  "duration": 116612200,
   "status": "passed"
 });
 formatter.match({
@@ -1324,7 +2826,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 759855900,
+  "duration": 502024600,
   "status": "passed"
 });
 formatter.match({
@@ -1337,35 +2839,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1091991600,
+  "duration": 1096093100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1846918300,
+  "duration": 1383602900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1873797600,
+  "duration": 1424765201,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
 });
 formatter.result({
-  "duration": 2013884700,
+  "duration": 1681646201,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 1105968000,
+  "duration": 1073065501,
   "status": "passed"
 });
 formatter.match({
@@ -1398,21 +2900,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 399569700,
+  "duration": 387531199,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 88488500,
+  "duration": 67427000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 579403500,
+  "duration": 607058900,
   "status": "passed"
 });
 formatter.match({
@@ -1425,14 +2927,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "duration": 135805400,
+  "duration": 126706201,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "duration": 573635900,
+  "duration": 607200899,
   "status": "passed"
 });
 formatter.match({
@@ -1445,35 +2947,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "duration": 84579300,
+  "duration": 91802099,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "duration": 789602700,
+  "duration": 469755700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22114219400,
+  "duration": 22074271900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8112119500,
+  "duration": 8011455600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8379293800,
+  "duration": 5816701,
   "status": "passed"
 });
 formatter.match({
@@ -1486,7 +2988,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8106311000,
+  "duration": 3618918701,
   "status": "passed"
 });
 formatter.match({
@@ -1499,7 +3001,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 92753700,
+  "duration": 89006700,
   "status": "passed"
 });
 formatter.match({
@@ -1512,32 +3014,932 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 91356800,
+  "duration": 85966600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 4268965000,
+  "duration": 4096151600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2009590900,
+  "duration": 2009687800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 760700800,
+  "duration": 718580799,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 84,
+  "name": "Verify bionic electric journey with Industry Consent NO",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 52,
+      "name": "@elec_journey_Industry_Consent_NO"
+    }
+  ]
+});
+formatter.step({
+  "line": 54,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 55,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 56,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "I click NO from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 71,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 72,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 73,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 74,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 75,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 76,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 79,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7226036001,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 101034800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 579104599,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 754527799,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 494305500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1075275699,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1365582300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1478164400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
+});
+formatter.result({
+  "duration": 1706165800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1081274500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 410166701,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 72395800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 563971100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 141593301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 562353799,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 95356201,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 495473500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22110065301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8010734001,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 9177000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3604657500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 85414600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 85554501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3967415100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2016254101,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 713053600,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 85,
+  "name": "Verify bionic electric journey with Industry Consent NO",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-with-industry-consent-no;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 52,
+      "name": "@elec_journey_Industry_Consent_NO"
+    }
+  ]
+});
+formatter.step({
+  "line": 54,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 55,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 56,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 57,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 59,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 60,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 61,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 62,
+  "name": "I click NO from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 63,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 64,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 65,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 66,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 67,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 68,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 69,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 70,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 71,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 72,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 73,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 74,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 75,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 76,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 77,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 78,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 79,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7226375701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 75115700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1162772800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 164080000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 450404299,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1098553900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1337234400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1382818199,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
+});
+formatter.result({
+  "duration": 1631982600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1073675700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 370172900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 55901200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 608182900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 114491000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 617453201,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 73431700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 448703400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22105064700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8010090900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 7065700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3600754900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 88399300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 83473600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3817974401,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2018631200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 740404800,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 77,
+  "line": 89,
   "name": "Verify bionic electric journey YES Industry Consent - NO Details Found",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found",
@@ -1545,143 +3947,143 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 76,
+      "line": 88,
       "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
     }
   ]
 });
 formatter.step({
-  "line": 78,
+  "line": 90,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 79,
+  "line": 91,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 80,
+  "line": 92,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 81,
+  "line": 93,
   "name": "I enter \"\u003csearch-address\u003e\" on search field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 82,
+  "line": 94,
   "name": "click on the address contains \"\u003csearch-address\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 83,
+  "line": 95,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 84,
+  "line": 96,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 85,
+  "line": 97,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 86,
+  "line": 98,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 87,
+  "line": 99,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 88,
+  "line": 100,
   "name": "I enter MPAN numbere \"\u003cmpan1\u003e\" \"\u003cmpan2\u003e\" \"\u003cmpan3\u003e\" \"\u003cmpan4\u003e\" \"\u003cmpan5\u003e\" \"\u003cmpan6\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 89,
+  "line": 101,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 90,
+  "line": 102,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 91,
+  "line": 103,
   "name": "I select supplier \"\u003celectricity-supplier\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 92,
+  "line": 104,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 93,
+  "line": 105,
   "name": "I enter kWh usage \"\u003cusage\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 94,
+  "line": 106,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 95,
+  "line": 107,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 96,
+  "line": 108,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 97,
+  "line": 109,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 98,
+  "line": 110,
   "name": "I enter full name \"\u003cfull-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 99,
+  "line": 111,
   "name": "I enter email address \"\u003cemail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 100,
+  "line": 112,
   "name": "I enter phone number \"\u003cphone\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 101,
+  "line": 113,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 102,
+  "line": 114,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 103,
+  "line": 115,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 104,
+  "line": 116,
   "name": "",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;",
@@ -1704,12 +4106,18 @@ formatter.examples({
         "electricity-supplier",
         "usage"
       ],
-      "line": 105,
+      "line": 117,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;1"
     },
     {
+      "comments": [
+        {
+          "line": 118,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
         "HA85BD",
         "Jeevat LTD",
         "Ravi Ahuja",
@@ -1725,14 +4133,62 @@ formatter.examples({
         "British Gas",
         "250"
       ],
-      "line": 106,
+      "line": 119,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "HA85BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "49a Axholme Avenue",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 120,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "HA85BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "49a Axholme Avenue",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 121,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 106,
+  "comments": [
+    {
+      "line": 118,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+    }
+  ],
+  "line": 119,
   "name": "Verify bionic electric journey YES Industry Consent - NO Details Found",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;2",
@@ -1740,21 +4196,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 76,
+      "line": 88,
       "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
     }
   ]
 });
 formatter.step({
-  "line": 78,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 90,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 79,
+  "line": 91,
   "name": "I enter postcode \"HA85BD\"",
   "matchedColumns": [
     1
@@ -1762,12 +4218,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 80,
+  "line": 92,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 81,
+  "line": 93,
   "name": "I enter \"49a Axholme Avenue\" on search field",
   "matchedColumns": [
     6
@@ -1775,7 +4231,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 82,
+  "line": 94,
   "name": "click on the address contains \"49a Axholme Avenue\"",
   "matchedColumns": [
     6
@@ -1783,7 +4239,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 83,
+  "line": 95,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     2
@@ -1791,27 +4247,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 84,
+  "line": 96,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 85,
+  "line": 97,
   "name": "I click on Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 86,
+  "line": 98,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 87,
+  "line": 99,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 88,
+  "line": 100,
   "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
   "matchedColumns": [
     7,
@@ -1824,17 +4280,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 89,
+  "line": 101,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 90,
+  "line": 102,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 91,
+  "line": 103,
   "name": "I select supplier \"British Gas\"",
   "matchedColumns": [
     13
@@ -1842,12 +4298,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 92,
+  "line": 104,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 93,
+  "line": 105,
   "name": "I enter kWh usage \"250\"",
   "matchedColumns": [
     14
@@ -1855,27 +4311,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 94,
+  "line": 106,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 95,
+  "line": 107,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 96,
+  "line": 108,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 97,
+  "line": 109,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 98,
+  "line": 110,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     3
@@ -1883,7 +4339,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 99,
+  "line": 111,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     4
@@ -1891,7 +4347,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 100,
+  "line": 112,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     5
@@ -1899,31 +4355,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 101,
+  "line": 113,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 102,
+  "line": 114,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 103,
+  "line": 115,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7329296100,
+  "duration": 6953468900,
   "status": "passed"
 });
 formatter.match({
@@ -1936,14 +4392,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 125380200,
+  "duration": 130265701,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 681832700,
+  "duration": 1105395600,
   "status": "passed"
 });
 formatter.match({
@@ -1956,7 +4412,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 921697400,
+  "duration": 227066500,
   "status": "passed"
 });
 formatter.match({
@@ -1969,7 +4425,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 101036300,
+  "duration": 434133499,
   "status": "passed"
 });
 formatter.match({
@@ -1982,35 +4438,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1399341800,
+  "duration": 1095257099,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1732007700,
+  "duration": 1399712499,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
 });
 formatter.result({
-  "duration": 1648639300,
+  "duration": 1395731000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 1925685200,
+  "duration": 1699139800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 1095591900,
+  "duration": 1095202200,
   "status": "passed"
 });
 formatter.match({
@@ -2043,21 +4499,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 424249400,
+  "duration": 374861499,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 88778100,
+  "duration": 56146000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 576340700,
+  "duration": 571288501,
   "status": "passed"
 });
 formatter.match({
@@ -2070,14 +4526,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "duration": 133827000,
+  "duration": 118099801,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "duration": 576275500,
+  "duration": 621127299,
   "status": "passed"
 });
 formatter.match({
@@ -2090,35 +4546,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "duration": 89274000,
+  "duration": 79355900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "duration": 848166900,
+  "duration": 472116599,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22114449900,
+  "duration": 22089838601,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8115429400,
+  "duration": 8007459200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8365624300,
+  "duration": 5366100,
   "status": "passed"
 });
 formatter.match({
@@ -2131,7 +4587,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8099874800,
+  "duration": 3590066000,
   "status": "passed"
 });
 formatter.match({
@@ -2144,7 +4600,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 111739800,
+  "duration": 95294599,
   "status": "passed"
 });
 formatter.match({
@@ -2157,32 +4613,932 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 110961100,
+  "duration": 90867600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 4966575800,
+  "duration": 3893338600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2010096300,
+  "duration": 2008697600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 770421000,
+  "duration": 747789400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 120,
+  "name": "Verify bionic electric journey YES Industry Consent - NO Details Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 88,
+      "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
+    }
+  ]
+});
+formatter.step({
+  "line": 90,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 91,
+  "name": "I enter postcode \"HA85BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 92,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "I enter \"49a Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "click on the address contains \"49a Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 103,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 108,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 109,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 110,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 111,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 112,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 113,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 114,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 115,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7102999400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 122713000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1277724899,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 131701099,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 536926901,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1072700900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1391697301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1427526200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 2218211300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1080061500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 398630100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 75172700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 557183101,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 126816000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 559375200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 79431601,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 493032300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22114958500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8005995201,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 12927300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3586120600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 84730100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 83268099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 4066018200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2008663799,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 725746500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 121,
+  "name": "Verify bionic electric journey YES Industry Consent - NO Details Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-yes-industry-consent---no-details-found;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 88,
+      "name": "@elec_journey_YES_Industry_Consent_NO_Details_Found"
+    }
+  ]
+});
+formatter.step({
+  "line": 90,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 91,
+  "name": "I enter postcode \"HA85BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 92,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 93,
+  "name": "I enter \"49a Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 94,
+  "name": "click on the address contains \"49a Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 96,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 97,
+  "name": "I click on Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 98,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 99,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 100,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 101,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 102,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 103,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 104,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 105,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 106,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 107,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 108,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 109,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 110,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 111,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 112,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 113,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 114,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 115,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7163511100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 171068900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1773403700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 173030399,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 474039900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1077876200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1360630699,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on_Electricity_button()"
+});
+formatter.result({
+  "duration": 1393568300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1755745000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1073741899,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 387270900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 61336500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 602332301,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 116443000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 596651000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 81267300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 451116700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22079093000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8010109800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 4872401,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3603421601,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 92545000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 80525400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 4101571999,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2019979900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 721584300,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 110,
+  "line": 125,
   "name": "Verify bionic electric journey manual address",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address",
@@ -2190,153 +5546,153 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 109,
+      "line": 124,
       "name": "@elec_journey_manual_address"
     }
   ]
 });
 formatter.step({
-  "line": 111,
+  "line": 126,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 112,
+  "line": 127,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 113,
+  "line": 128,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 114,
+  "line": 129,
   "name": "I click Enter Manually link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 115,
+  "line": 130,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\" on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 116,
+  "line": 131,
   "name": "I enter Street Address one \"\u003cStreet-Address-1\u003e\" on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 117,
+  "line": 132,
   "name": "I enter Street Address two \"\u003cStreet-Address-2\u003e\" on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 118,
+  "line": 133,
   "name": "I enter Town \"\u003cTown\u003e\" on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 119,
+  "line": 134,
   "name": "I enter County \"\u003cCounty\u003e\" on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 120,
+  "line": 135,
   "name": "I click Next on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 121,
+  "line": 136,
   "name": "I click on Electricity button on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 122,
+  "line": 137,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 123,
+  "line": 138,
   "name": "I enter MPAN numbere \"\u003cmpan1\u003e\" \"\u003cmpan2\u003e\" \"\u003cmpan3\u003e\" \"\u003cmpan4\u003e\" \"\u003cmpan5\u003e\" \"\u003cmpan6\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 124,
+  "line": 139,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 125,
+  "line": 140,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 141,
   "name": "I select supplier \"\u003celectricity-supplier\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 142,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 128,
+  "line": 143,
   "name": "I enter kWh usage \"\u003cusage\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 129,
+  "line": 144,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 130,
+  "line": 145,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 131,
+  "line": 146,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 147,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 148,
   "name": "I enter full name \"\u003cfull-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 149,
   "name": "I enter email address \"\u003cemail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 135,
+  "line": 150,
   "name": "I enter phone number \"\u003cphone\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 136,
+  "line": 151,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 137,
+  "line": 152,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 138,
+  "line": 153,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 139,
+  "line": 154,
   "name": "",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;",
@@ -2363,12 +5719,18 @@ formatter.examples({
         "electricity-supplier",
         "usage"
       ],
-      "line": 140,
+      "line": 155,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;1"
     },
     {
+      "comments": [
+        {
+          "line": 156,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
         "KT64DU",
         "Fredericks",
         "Jeevat LTD",
@@ -2388,14 +5750,70 @@ formatter.examples({
         "British Gas",
         "250"
       ],
-      "line": 141,
+      "line": 157,
       "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "KT64DU",
+        "Fredericks",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "Test Street",
+        "Test Street 2",
+        "Hackney",
+        "Greater London",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 158,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "KT64DU",
+        "Fredericks",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "Test Street",
+        "Test Street 2",
+        "Hackney",
+        "Greater London",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 159,
+      "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 141,
+  "comments": [
+    {
+      "line": 156,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+    }
+  ],
+  "line": 157,
   "name": "Verify bionic electric journey manual address",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;2",
@@ -2403,21 +5821,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 109,
+      "line": 124,
       "name": "@elec_journey_manual_address"
     }
   ]
 });
 formatter.step({
-  "line": 111,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 126,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 112,
+  "line": 127,
   "name": "I enter postcode \"KT64DU\"",
   "matchedColumns": [
     1
@@ -2425,17 +5843,17 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 113,
+  "line": 128,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 114,
+  "line": 129,
   "name": "I click Enter Manually link",
   "keyword": "And "
 });
 formatter.step({
-  "line": 115,
+  "line": 130,
   "name": "I enter Business Name \"Jeevat LTD\" on manual address page",
   "matchedColumns": [
     3
@@ -2443,7 +5861,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 116,
+  "line": 131,
   "name": "I enter Street Address one \"Test Street\" on manual address page",
   "matchedColumns": [
     7
@@ -2451,7 +5869,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 117,
+  "line": 132,
   "name": "I enter Street Address two \"Test Street 2\" on manual address page",
   "matchedColumns": [
     8
@@ -2459,7 +5877,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 118,
+  "line": 133,
   "name": "I enter Town \"Hackney\" on manual address page",
   "matchedColumns": [
     9
@@ -2467,7 +5885,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 119,
+  "line": 134,
   "name": "I enter County \"Greater London\" on manual address page",
   "matchedColumns": [
     10
@@ -2475,22 +5893,22 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 120,
+  "line": 135,
   "name": "I click Next on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 121,
+  "line": 136,
   "name": "I click on Electricity button on manual address page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 122,
+  "line": 137,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 123,
+  "line": 138,
   "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
   "matchedColumns": [
     16,
@@ -2503,17 +5921,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 124,
+  "line": 139,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 125,
+  "line": 140,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 126,
+  "line": 141,
   "name": "I select supplier \"British Gas\"",
   "matchedColumns": [
     17
@@ -2521,12 +5939,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 127,
+  "line": 142,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 128,
+  "line": 143,
   "name": "I enter kWh usage \"250\"",
   "matchedColumns": [
     18
@@ -2534,27 +5952,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 129,
+  "line": 144,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 130,
+  "line": 145,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 131,
+  "line": 146,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 132,
+  "line": 147,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 133,
+  "line": 148,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     4
@@ -2562,7 +5980,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 134,
+  "line": 149,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     5
@@ -2570,7 +5988,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 135,
+  "line": 150,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     6
@@ -2578,31 +5996,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 136,
+  "line": 151,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 137,
+  "line": 152,
   "name": "I navigate to electric lead schedule page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 138,
+  "line": 153,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7661933600,
+  "duration": 7204009401,
   "status": "passed"
 });
 formatter.match({
@@ -2615,21 +6033,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 128680100,
+  "duration": 99851000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 619207100,
+  "duration": 1366785300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Enter_Manually_link()"
 });
 formatter.result({
-  "duration": 1491328000,
+  "duration": 714022301,
   "status": "passed"
 });
 formatter.match({
@@ -2642,7 +6060,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 177636300,
+  "duration": 112635700,
   "status": "passed"
 });
 formatter.match({
@@ -2655,7 +6073,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Street_Address_one_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 86198600,
+  "duration": 116663000,
   "status": "passed"
 });
 formatter.match({
@@ -2668,7 +6086,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Street_Address_two_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 83808500,
+  "duration": 84816899,
   "status": "passed"
 });
 formatter.match({
@@ -2681,7 +6099,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Town_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 87026400,
+  "duration": 70310200,
   "status": "passed"
 });
 formatter.match({
@@ -2694,28 +6112,28 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_County_on_manual_address_page(String)"
 });
 formatter.result({
-  "duration": 86264400,
+  "duration": 83309400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_on_manual_address_page()"
 });
 formatter.result({
-  "duration": 116252200,
+  "duration": 67144400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.manualAddressPageClickElectricity()"
 });
 formatter.result({
-  "duration": 1269232800,
+  "duration": 817386700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 1082234100,
+  "duration": 1097828500,
   "status": "passed"
 });
 formatter.match({
@@ -2748,21 +6166,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 397780600,
+  "duration": 364290799,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 86312900,
+  "duration": 53212000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 566674600,
+  "duration": 556146400,
   "status": "passed"
 });
 formatter.match({
@@ -2775,14 +6193,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "duration": 186668600,
+  "duration": 120480701,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "duration": 565945700,
+  "duration": 617194500,
   "status": "passed"
 });
 formatter.match({
@@ -2795,35 +6213,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "duration": 83941700,
+  "duration": 78419801,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "duration": 695129700,
+  "duration": 452943100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22117825200,
+  "duration": 22087894500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8102628700,
+  "duration": 8007860300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8358602800,
+  "duration": 5282500,
   "status": "passed"
 });
 formatter.match({
@@ -2836,7 +6254,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8084713300,
+  "duration": 3584017899,
   "status": "passed"
 });
 formatter.match({
@@ -2849,7 +6267,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 92782700,
+  "duration": 89904001,
   "status": "passed"
 });
 formatter.match({
@@ -2862,32 +6280,1016 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 89583500,
+  "duration": 85024200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 4115627600,
+  "duration": 3626582300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
 });
 formatter.result({
-  "duration": 2009642600,
+  "duration": 2008994501,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 761761200,
+  "duration": 725802901,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 158,
+  "name": "Verify bionic electric journey manual address",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 124,
+      "name": "@elec_journey_manual_address"
+    }
+  ]
+});
+formatter.step({
+  "line": 126,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 127,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 128,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 129,
+  "name": "I click Enter Manually link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
+  "name": "I enter Business Name \"Jeevat LTD\" on manual address page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 131,
+  "name": "I enter Street Address one \"Test Street\" on manual address page",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 132,
+  "name": "I enter Street Address two \"Test Street 2\" on manual address page",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 133,
+  "name": "I enter Town \"Hackney\" on manual address page",
+  "matchedColumns": [
+    9
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 134,
+  "name": "I enter County \"Greater London\" on manual address page",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 135,
+  "name": "I click Next on manual address page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 136,
+  "name": "I click on Electricity button on manual address page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 137,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 138,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    16,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 139,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 140,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 141,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    17
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 142,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 143,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    18
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 144,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 145,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 147,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 148,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 149,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 150,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 151,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 152,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 153,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7163680200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 124430000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1436813399,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Enter_Manually_link()"
+});
+formatter.result({
+  "duration": 501466300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 174215999,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Test Street",
+      "offset": 28
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Street_Address_one_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 84846799,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Test Street 2",
+      "offset": 28
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Street_Address_two_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 96183500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Hackney",
+      "offset": 14
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Town_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 89984900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Greater London",
+      "offset": 16
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_County_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 96567400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_on_manual_address_page()"
+});
+formatter.result({
+  "duration": 103581601,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.manualAddressPageClickElectricity()"
+});
+formatter.result({
+  "duration": 898951800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1105980701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 409363401,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 77610000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 566910499,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 139640500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 566135400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 87200600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 539275100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22099097600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8010126800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 10852501,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3603532101,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 83090900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 85550899,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3723223399,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2016378700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 731951400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 159,
+  "name": "Verify bionic electric journey manual address",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-bionic-electric-journey-manual-address;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 124,
+      "name": "@elec_journey_manual_address"
+    }
+  ]
+});
+formatter.step({
+  "line": 126,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 127,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 128,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 129,
+  "name": "I click Enter Manually link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 130,
+  "name": "I enter Business Name \"Jeevat LTD\" on manual address page",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 131,
+  "name": "I enter Street Address one \"Test Street\" on manual address page",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 132,
+  "name": "I enter Street Address two \"Test Street 2\" on manual address page",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 133,
+  "name": "I enter Town \"Hackney\" on manual address page",
+  "matchedColumns": [
+    9
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 134,
+  "name": "I enter County \"Greater London\" on manual address page",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 135,
+  "name": "I click Next on manual address page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 136,
+  "name": "I click on Electricity button on manual address page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 137,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 138,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    16,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 139,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 140,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 141,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    17
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 142,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 143,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    18
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 144,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 145,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 146,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 147,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 148,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 149,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 150,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 151,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 152,
+  "name": "I navigate to electric lead schedule page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 153,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 6996903300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 117510700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1151353600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Enter_Manually_link()"
+});
+formatter.result({
+  "duration": 440894200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 131721199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Test Street",
+      "offset": 28
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Street_Address_one_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 81026300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Test Street 2",
+      "offset": 28
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Street_Address_two_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 86179700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Hackney",
+      "offset": 14
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Town_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 76934701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Greater London",
+      "offset": 16
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_County_on_manual_address_page(String)"
+});
+formatter.result({
+  "duration": 105573001,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_on_manual_address_page()"
+});
+formatter.result({
+  "duration": 60522400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.manualAddressPageClickElectricity()"
+});
+formatter.result({
+  "duration": 1198702400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1103986000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 350571701,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 55940600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 624452601,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 112205999,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 616097400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 72189600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 448865001,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22082873799,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8008441501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 5259100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3587277000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 93427901,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 95521899,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3471105201,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_navigate_to_electric_lead_schedule_page()"
+});
+formatter.result({
+  "duration": 2009846000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 745434500,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 219,
+  "line": 237,
   "name": "Verify dual fuel journey with Industry Consent NO",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no",
@@ -2895,143 +7297,143 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 218,
+      "line": 236,
       "name": "@dual_journey_Industry_Consent_NO"
     }
   ]
 });
 formatter.step({
-  "line": 220,
+  "line": 238,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 221,
+  "line": 239,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 222,
+  "line": 240,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 223,
+  "line": 241,
   "name": "I enter \"\u003csearch-address\u003e\" on search field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 224,
+  "line": 242,
   "name": "click on the address contains \"\u003csearch-address\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 225,
+  "line": 243,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 226,
+  "line": 244,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 227,
+  "line": 245,
   "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 228,
+  "line": 246,
   "name": "I click NO from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 229,
+  "line": 247,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 230,
+  "line": 248,
   "name": "I enter MPAN numbere \"\u003cmpan1\u003e\" \"\u003cmpan2\u003e\" \"\u003cmpan3\u003e\" \"\u003cmpan4\u003e\" \"\u003cmpan5\u003e\" \"\u003cmpan6\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 231,
+  "line": 249,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 232,
+  "line": 250,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 233,
+  "line": 251,
   "name": "I select supplier \"\u003celectricity-supplier\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 234,
+  "line": 252,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 235,
+  "line": 253,
   "name": "I enter kWh usage \"\u003cusage\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 236,
+  "line": 254,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 237,
+  "line": 255,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 238,
+  "line": 256,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 239,
+  "line": 257,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 240,
+  "line": 258,
   "name": "I enter full name \"\u003cfull-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 241,
+  "line": 259,
   "name": "I enter email address \"\u003cemail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 242,
+  "line": 260,
   "name": "I enter phone number \"\u003cphone\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 243,
+  "line": 261,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 244,
+  "line": 262,
   "name": "I navigate to dual lead confirmation page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 245,
+  "line": 263,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 246,
+  "line": 264,
   "name": "",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;",
@@ -3054,12 +7456,18 @@ formatter.examples({
         "electricity-supplier",
         "usage"
       ],
-      "line": 247,
+      "line": 265,
       "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;1"
     },
     {
+      "comments": [
+        {
+          "line": 266,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
         "KT64DU",
         "Jeevat LTD",
         "Ravi Ahuja",
@@ -3075,14 +7483,62 @@ formatter.examples({
         "British Gas",
         "250"
       ],
-      "line": 248,
+      "line": 267,
       "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "KT64DU",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "Fredericks",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 268,
+      "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "KT64DU",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "Fredericks",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 269,
+      "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 248,
+  "comments": [
+    {
+      "line": 266,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+    }
+  ],
+  "line": 267,
   "name": "Verify dual fuel journey with Industry Consent NO",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;2",
@@ -3090,21 +7546,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 218,
+      "line": 236,
       "name": "@dual_journey_Industry_Consent_NO"
     }
   ]
 });
 formatter.step({
-  "line": 220,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 238,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 221,
+  "line": 239,
   "name": "I enter postcode \"KT64DU\"",
   "matchedColumns": [
     1
@@ -3112,12 +7568,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 222,
+  "line": 240,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 223,
+  "line": 241,
   "name": "I enter \"Fredericks\" on search field",
   "matchedColumns": [
     6
@@ -3125,7 +7581,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 224,
+  "line": 242,
   "name": "click on the address contains \"Fredericks\"",
   "matchedColumns": [
     6
@@ -3133,7 +7589,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 225,
+  "line": 243,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     2
@@ -3141,27 +7597,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 226,
+  "line": 244,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 227,
+  "line": 245,
   "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 228,
+  "line": 246,
   "name": "I click NO from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 229,
+  "line": 247,
   "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 230,
+  "line": 248,
   "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
   "matchedColumns": [
     7,
@@ -3174,17 +7630,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 231,
+  "line": 249,
   "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
-  "line": 232,
+  "line": 250,
   "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
-  "line": 233,
+  "line": 251,
   "name": "I select supplier \"British Gas\"",
   "matchedColumns": [
     13
@@ -3192,12 +7648,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 234,
+  "line": 252,
   "name": "I select yes option for electricity usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 235,
+  "line": 253,
   "name": "I enter kWh usage \"250\"",
   "matchedColumns": [
     14
@@ -3205,27 +7661,27 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 236,
+  "line": 254,
   "name": "I click Next after entering Usage",
   "keyword": "And "
 });
 formatter.step({
-  "line": 237,
+  "line": 255,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 238,
+  "line": 256,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 239,
+  "line": 257,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 240,
+  "line": 258,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     3
@@ -3233,7 +7689,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 241,
+  "line": 259,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     4
@@ -3241,7 +7697,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 242,
+  "line": 260,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     5
@@ -3249,31 +7705,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 243,
+  "line": 261,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 244,
+  "line": 262,
   "name": "I navigate to dual lead confirmation page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 245,
+  "line": 263,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7186959800,
+  "duration": 6984237700,
   "status": "passed"
 });
 formatter.match({
@@ -3286,14 +7742,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 115414900,
+  "duration": 178136700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 1460103800,
+  "duration": 1221191300,
   "status": "passed"
 });
 formatter.match({
@@ -3306,7 +7762,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 243628300,
+  "duration": 177911400,
   "status": "passed"
 });
 formatter.match({
@@ -3319,7 +7775,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 96906800,
+  "duration": 490909199,
   "status": "passed"
 });
 formatter.match({
@@ -3332,35 +7788,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1478578000,
+  "duration": 1082966700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1767664600,
+  "duration": 1384401800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
 });
 formatter.result({
-  "duration": 2241599700,
+  "duration": 1906701500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
 });
 formatter.result({
-  "duration": 1932278900,
+  "duration": 1686696301,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.yesMPANOption()"
 });
 formatter.result({
-  "duration": 1100739500,
+  "duration": 1075080901,
   "status": "passed"
 });
 formatter.match({
@@ -3393,21 +7849,21 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 456981100,
+  "duration": 381539600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
 });
 formatter.result({
-  "duration": 102880000,
+  "duration": 58939400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
 });
 formatter.result({
-  "duration": 588162700,
+  "duration": 603627899,
   "status": "passed"
 });
 formatter.match({
@@ -3420,14 +7876,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
 });
 formatter.result({
-  "duration": 170903900,
+  "duration": 114042900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "duration": 573165300,
+  "duration": 601811300,
   "status": "passed"
 });
 formatter.match({
@@ -3440,35 +7896,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "duration": 99827100,
+  "duration": 76540200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "duration": 800281600,
+  "duration": 452497600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22123760600,
+  "duration": 22092362000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8115783200,
+  "duration": 8006214200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8391294000,
+  "duration": 9373800,
   "status": "passed"
 });
 formatter.match({
@@ -3481,7 +7937,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8122390900,
+  "duration": 3610056800,
   "status": "passed"
 });
 formatter.match({
@@ -3494,7 +7950,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 171540500,
+  "duration": 87727499,
   "status": "passed"
 });
 formatter.match({
@@ -3507,32 +7963,932 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 144494100,
+  "duration": 83465600,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 4530710400,
+  "duration": 3740245700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
 });
 formatter.result({
-  "duration": 4015590800,
+  "duration": 4015065200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 706502700,
+  "duration": 707103900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 268,
+  "name": "Verify dual fuel journey with Industry Consent NO",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 236,
+      "name": "@dual_journey_Industry_Consent_NO"
+    }
+  ]
+});
+formatter.step({
+  "line": 238,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 239,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 240,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 241,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 242,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 243,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 244,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 245,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 246,
+  "name": "I click NO from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 247,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 248,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 249,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 250,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 251,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 252,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 253,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 254,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 255,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 256,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 257,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 258,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 259,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 260,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 261,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 262,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 263,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7081563701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 88012100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 592823999,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 802388799,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 478674700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1072787099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1385790100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1933250600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
+});
+formatter.result({
+  "duration": 1956470101,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1085156199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 389371300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 71151399,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 573514600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 125612900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 558742400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 79663600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 468912600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22102843600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8012575400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 4984200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3603109800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 84132601,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 81673800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3950592099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4009768300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 726274300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 269,
+  "name": "Verify dual fuel journey with Industry Consent NO",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey-with-industry-consent-no;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 236,
+      "name": "@dual_journey_Industry_Consent_NO"
+    }
+  ]
+});
+formatter.step({
+  "line": 238,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 239,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 240,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 241,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 242,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 243,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 244,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 245,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 246,
+  "name": "I click NO from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 247,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 248,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 249,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 250,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 251,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 252,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 253,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 254,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 255,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 256,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 257,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 258,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 259,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 260,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 261,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 262,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 263,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7262125899,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 81984900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1192316400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 185161000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 495067700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1075258100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1327264900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1896021301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNoIndustryAgreementAgreement()"
+});
+formatter.result({
+  "duration": 1646603600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1073952400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 385381200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 67173300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 604928701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 117899201,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 601025600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 79196499,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 461498801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22079478300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8008805401,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 6249700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3585508000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 92721500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 83952501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 4222195600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4017200699,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 720915501,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 251,
+  "line": 272,
   "name": "Verify Dual fuel journey",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey",
@@ -3540,108 +8896,108 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 250,
+      "line": 271,
       "name": "@dualfuel_journey"
     }
   ]
 });
 formatter.step({
-  "line": 252,
+  "line": 273,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 253,
+  "line": 274,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 254,
+  "line": 275,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 255,
+  "line": 276,
   "name": "I enter \"\u003csearch-address\u003e\" on search field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 256,
+  "line": 277,
   "name": "click on the address contains \"\u003csearch-address\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 257,
+  "line": 278,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 258,
+  "line": 279,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 259,
+  "line": 280,
   "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 260,
+  "line": 281,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 261,
+  "line": 282,
   "name": "I click on Nex Step button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 262,
+  "line": 283,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 263,
+  "line": 284,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 264,
+  "line": 285,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 265,
+  "line": 286,
   "name": "I enter full name \"\u003cfull-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 266,
+  "line": 287,
   "name": "I enter email address \"\u003cemail\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 267,
+  "line": 288,
   "name": "I enter phone number \"\u003cphone\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 268,
+  "line": 289,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 269,
+  "line": 290,
   "name": "I navigate to dual lead confirmation page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 270,
+  "line": 291,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 271,
+  "line": 292,
   "name": "",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;",
@@ -3656,12 +9012,22 @@ formatter.examples({
         "email",
         "phone"
       ],
-      "line": 272,
+      "line": 293,
       "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;1"
     },
     {
+      "comments": [
+        {
+          "line": 294,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+        },
+        {
+          "line": 295,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r\u003dsuccess_cd",
         "KT64DU",
         "Fredericks",
         "Jeevat LTD",
@@ -3669,12 +9035,12 @@ formatter.examples({
         "test@test.test",
         "07555555555"
       ],
-      "line": 273,
+      "line": 296,
       "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;2"
     },
     {
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
         "HA85HF",
         "49",
         "Jeevat LTD",
@@ -3682,14 +9048,76 @@ formatter.examples({
         "test@test.test",
         "07555555555"
       ],
-      "line": 274,
+      "line": 297,
       "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/?r\u003dsuccess_cd",
+        "KT64DU",
+        "Fredericks",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 298,
+      "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;4"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "HA85HF",
+        "49",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 299,
+      "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;5"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/?r\u003dsuccess_cd",
+        "KT64DU",
+        "Fredericks",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 300,
+      "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;6"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "HA85HF",
+        "49",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555"
+      ],
+      "line": 301,
+      "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;7"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 273,
+  "comments": [
+    {
+      "line": 294,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+    },
+    {
+      "line": 295,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |"
+    }
+  ],
+  "line": 296,
   "name": "Verify Dual fuel journey",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;2",
@@ -3697,21 +9125,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 250,
+      "line": 271,
       "name": "@dualfuel_journey"
     }
   ]
 });
 formatter.step({
-  "line": 252,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 273,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r\u003dsuccess_cd\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 253,
+  "line": 274,
   "name": "I enter postcode \"KT64DU\"",
   "matchedColumns": [
     1
@@ -3719,12 +9147,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 254,
+  "line": 275,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 255,
+  "line": 276,
   "name": "I enter \"Fredericks\" on search field",
   "matchedColumns": [
     2
@@ -3732,7 +9160,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 256,
+  "line": 277,
   "name": "click on the address contains \"Fredericks\"",
   "matchedColumns": [
     2
@@ -3740,7 +9168,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 257,
+  "line": 278,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     3
@@ -3748,42 +9176,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 258,
+  "line": 279,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 259,
+  "line": 280,
   "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 260,
+  "line": 281,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 261,
+  "line": 282,
   "name": "I click on Nex Step button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 262,
+  "line": 283,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 263,
+  "line": 284,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 264,
+  "line": 285,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 265,
+  "line": 286,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     4
@@ -3791,7 +9219,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 266,
+  "line": 287,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     5
@@ -3799,7 +9227,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 267,
+  "line": 288,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     6
@@ -3807,31 +9235,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 268,
+  "line": 289,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 269,
+  "line": 290,
   "name": "I navigate to dual lead confirmation page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 270,
+  "line": 291,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r\u003dsuccess_cd",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7295847700,
+  "duration": 7045420200,
   "status": "passed"
 });
 formatter.match({
@@ -3844,14 +9272,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 192368700,
+  "duration": 88150700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 614705700,
+  "duration": 1271827000,
   "status": "passed"
 });
 formatter.match({
@@ -3864,7 +9292,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 1341793500,
+  "duration": 106894000,
   "status": "passed"
 });
 formatter.match({
@@ -3877,7 +9305,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 692035700,
+  "duration": 455579500,
   "status": "passed"
 });
 formatter.match({
@@ -3890,56 +9318,56 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1069556300,
+  "duration": 1072196999,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1463062900,
+  "duration": 1344353200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
 });
 formatter.result({
-  "duration": 2137223400,
+  "duration": 1936893000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2135814500,
+  "duration": 2105186200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 1371420600,
+  "duration": 1094090400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22105660800,
+  "duration": 1889139499,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8112192300,
+  "duration": 8004494500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8367314400,
+  "duration": 8950699,
   "status": "passed"
 });
 formatter.match({
@@ -3952,7 +9380,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8099561800,
+  "duration": 136553199,
   "status": "passed"
 });
 formatter.match({
@@ -3965,7 +9393,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 107453200,
+  "duration": 111368300,
   "status": "passed"
 });
 formatter.match({
@@ -3978,32 +9406,32 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 111917700,
+  "duration": 101140599,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 5968635000,
+  "duration": 3947110000,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
 });
 formatter.result({
-  "duration": 4022091200,
+  "duration": 4018036900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 688465400,
+  "duration": 717273000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 274,
+  "line": 297,
   "name": "Verify Dual fuel journey",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;3",
@@ -4011,21 +9439,21 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 250,
+      "line": 271,
       "name": "@dualfuel_journey"
     }
   ]
 });
 formatter.step({
-  "line": 252,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 273,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 253,
+  "line": 274,
   "name": "I enter postcode \"HA85HF\"",
   "matchedColumns": [
     1
@@ -4033,12 +9461,12 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "line": 254,
+  "line": 275,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 255,
+  "line": 276,
   "name": "I enter \"49\" on search field",
   "matchedColumns": [
     2
@@ -4046,7 +9474,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 256,
+  "line": 277,
   "name": "click on the address contains \"49\"",
   "matchedColumns": [
     2
@@ -4054,7 +9482,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 257,
+  "line": 278,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     3
@@ -4062,42 +9490,42 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 258,
+  "line": 279,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 259,
+  "line": 280,
   "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 260,
+  "line": 281,
   "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 261,
+  "line": 282,
   "name": "I click on Nex Step button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 262,
+  "line": 283,
   "name": "I click I am not sure option",
   "keyword": "And "
 });
 formatter.step({
-  "line": 263,
+  "line": 284,
   "name": "I click Schedule for later (if on chat page)",
   "keyword": "And "
 });
 formatter.step({
-  "line": 264,
+  "line": 285,
   "name": "I select Time from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 265,
+  "line": 286,
   "name": "I enter full name \"Ravi Ahuja\"",
   "matchedColumns": [
     4
@@ -4105,7 +9533,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 266,
+  "line": 287,
   "name": "I enter email address \"test@test.test\"",
   "matchedColumns": [
     5
@@ -4113,7 +9541,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 267,
+  "line": 288,
   "name": "I enter phone number \"07555555555\"",
   "matchedColumns": [
     6
@@ -4121,31 +9549,31 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 268,
+  "line": 289,
   "name": "I click Schedule call/Finalise Quote button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 269,
+  "line": 290,
   "name": "I navigate to dual lead confirmation page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 270,
+  "line": 291,
   "name": "I close the browser",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 7594867300,
+  "duration": 6950588901,
   "status": "passed"
 });
 formatter.match({
@@ -4158,14 +9586,14 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 97799100,
+  "duration": 516300499,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 1399343300,
+  "duration": 1045369100,
   "status": "passed"
 });
 formatter.match({
@@ -4178,7 +9606,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 84587200,
+  "duration": 195980900,
   "status": "passed"
 });
 formatter.match({
@@ -4191,7 +9619,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 79967300,
+  "duration": 451978400,
   "status": "passed"
 });
 formatter.match({
@@ -4204,56 +9632,56 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1274606500,
+  "duration": 1081770100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1959189800,
+  "duration": 1360302199,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
 });
 formatter.result({
-  "duration": 2262521100,
+  "duration": 1937351701,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 1974504800,
+  "duration": 1565565400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_on()"
 });
 formatter.result({
-  "duration": 1663992400,
+  "duration": 6564814500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22093867800,
+  "duration": 22087112701,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8112886900,
+  "duration": 8006922200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8356331000,
+  "duration": 14946700,
   "status": "passed"
 });
 formatter.match({
@@ -4266,7 +9694,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8107460400,
+  "duration": 3618644200,
   "status": "passed"
 });
 formatter.match({
@@ -4279,7 +9707,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 93900200,
+  "duration": 83370500,
   "status": "passed"
 });
 formatter.match({
@@ -4292,32 +9720,1288 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 90512300,
+  "duration": 83793300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 3984189500,
+  "duration": 3703700200,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
 });
 formatter.result({
-  "duration": 4025344300,
+  "duration": 4008412900,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 734330400,
+  "duration": 710822800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 298,
+  "name": "Verify Dual fuel journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 271,
+      "name": "@dualfuel_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 273,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/?r\u003dsuccess_cd\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 274,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 275,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 276,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 277,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 278,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 279,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 280,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 281,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 282,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 283,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 284,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 285,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 286,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 287,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 288,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 289,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 290,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 291,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/?r\u003dsuccess_cd",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7115471700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 92215801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 579965100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 764395799,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 455164100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1074710000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1382326600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1928600799,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 2391477500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 1087832101,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 1875070000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8008759400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 7081500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 122856399,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 136253000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 138170800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3802666599,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4011625900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 745386400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 299,
+  "name": "Verify Dual fuel journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;5",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 271,
+      "name": "@dualfuel_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 273,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 274,
+  "name": "I enter postcode \"HA85HF\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 275,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 276,
+  "name": "I enter \"49\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 277,
+  "name": "click on the address contains \"49\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 278,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 279,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 280,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 281,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 282,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 283,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 284,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 285,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 286,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 287,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 288,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 289,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 290,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 291,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7200013500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85HF",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 100396700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1159418600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 73751300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 494789300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1077087000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1457311299,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 2095787700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1578693200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 6526097500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22093473301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8009819500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 5229700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3597252700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 85312001,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 82599399,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 5655443800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4017045499,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 756998499,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 300,
+  "name": "Verify Dual fuel journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;6",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 271,
+      "name": "@dualfuel_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 273,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/?r\u003dsuccess_cd\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 274,
+  "name": "I enter postcode \"KT64DU\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 275,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 276,
+  "name": "I enter \"Fredericks\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 277,
+  "name": "click on the address contains \"Fredericks\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 278,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 279,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 280,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 281,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 282,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 283,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 284,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 285,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 286,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 287,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 288,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 289,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 290,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 291,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/?r\u003dsuccess_cd",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7341831299,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "KT64DU",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 94314099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1278962901,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 168595500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fredericks",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 464918300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1095451500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1370049000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1901583899,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 2087652100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 1077517800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 1873625300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8005820299,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 6341699,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 126081400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 121414401,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 116123301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3548520501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4008856100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 737514201,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 301,
+  "name": "Verify Dual fuel journey",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dual-fuel-journey;;7",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 271,
+      "name": "@dualfuel_journey"
+    }
+  ]
+});
+formatter.step({
+  "line": 273,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 274,
+  "name": "I enter postcode \"HA85HF\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 275,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 276,
+  "name": "I enter \"49\" on search field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 277,
+  "name": "click on the address contains \"49\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 278,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 279,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 280,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 281,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 282,
+  "name": "I click on Nex Step button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 283,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 284,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 285,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 286,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 287,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 288,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 289,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 290,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 291,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7296373200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85HF",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 83843200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1038127700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 113723800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 502588800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1091784800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1335484400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1925369300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1619032801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_on()"
+});
+formatter.result({
+  "duration": 6477951801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22074675100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8006390400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 5118200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3581683700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 96719600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 86256700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3694629000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4008343800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 747237701,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 277,
+  "line": 304,
   "name": "Verify DualFuel journey YES Industry Consent - NO Details Found",
   "description": "",
   "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found",
@@ -4325,699 +11009,79 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 276,
+      "line": 303,
       "name": "@dualfuel_journey_YES_Industry_Consent_NO_Details_Found"
     }
   ]
 });
 formatter.step({
-  "line": 278,
+  "line": 305,
   "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 279,
+  "line": 306,
   "name": "I enter postcode \"\u003cpostcode\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 280,
+  "line": 307,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 281,
+  "line": 308,
   "name": "I enter \"\u003csearch-address\u003e\" on search field",
   "keyword": "And "
 });
 formatter.step({
-  "line": 282,
+  "line": 309,
   "name": "click on the address contains \"\u003csearch-address\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 283,
+  "line": 310,
   "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 284,
-  "name": "I click Next from business name page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 285,
-  "name": "I click on Gas\u0026Electricity button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 286,
-  "name": "I click Yes from industry data agreement page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 287,
-  "name": "I click yes option for do you know your MPAN",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 288,
-  "name": "I enter MPAN numbere \"\u003cmpan1\u003e\" \"\u003cmpan2\u003e\" \"\u003cmpan3\u003e\" \"\u003cmpan4\u003e\" \"\u003cmpan5\u003e\" \"\u003cmpan6\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 289,
-  "name": "I click Next after entering MPAN",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 290,
-  "name": "I click yes option for electricity supplier",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 291,
-  "name": "I select supplier \"\u003celectricity-supplier\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 292,
-  "name": "I select yes option for electricity usage",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 293,
-  "name": "I enter kWh usage \"\u003cusage\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 294,
-  "name": "I click Next after entering Usage",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 295,
-  "name": "I click I am not sure option",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 296,
-  "name": "I click Schedule for later (if on chat page)",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 297,
-  "name": "I select Time from dropdown",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 298,
-  "name": "I enter full name \"\u003cfull-name\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 299,
-  "name": "I enter email address \"\u003cemail\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 300,
-  "name": "I enter phone number \"\u003cphone\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 301,
-  "name": "I click Schedule call/Finalise Quote button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 302,
-  "name": "I navigate to dual lead confirmation page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 303,
-  "name": "I close the browser",
-  "keyword": "And "
-});
-formatter.examples({
-  "line": 304,
-  "name": "",
-  "description": "",
-  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;",
-  "rows": [
-    {
-      "cells": [
-        "url",
-        "postcode",
-        "business-name",
-        "full-name",
-        "email",
-        "phone",
-        "search-address",
-        "mpan1",
-        "mpan2",
-        "mpan3",
-        "mpan4",
-        "mpan5",
-        "mpan6",
-        "electricity-supplier",
-        "usage"
-      ],
-      "line": 305,
-      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;1"
-    },
-    {
-      "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
-        "HA85BD",
-        "Jeevat LTD",
-        "Ravi Ahuja",
-        "test@test.test",
-        "07555555555",
-        "49a Axholme Avenue",
-        "04",
-        "807",
-        "205",
-        "10",
-        "12863966",
-        "474",
-        "British Gas",
-        "250"
-      ],
-      "line": 306,
-      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 306,
-  "name": "Verify DualFuel journey YES Industry Consent - NO Details Found",
-  "description": "",
-  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 276,
-      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Details_Found"
-    }
-  ]
-});
-formatter.step({
-  "line": 278,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 279,
-  "name": "I enter postcode \"HA85BD\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 280,
-  "name": "I click Start Quote",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 281,
-  "name": "I enter \"49a Axholme Avenue\" on search field",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 282,
-  "name": "click on the address contains \"49a Axholme Avenue\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 283,
-  "name": "I enter Business Name \"Jeevat LTD\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 284,
-  "name": "I click Next from business name page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 285,
-  "name": "I click on Gas\u0026Electricity button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 286,
-  "name": "I click Yes from industry data agreement page",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 287,
-  "name": "I click yes option for do you know your MPAN",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 288,
-  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
-  "matchedColumns": [
-    7,
-    8,
-    9,
-    10,
-    11,
-    12
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 289,
-  "name": "I click Next after entering MPAN",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 290,
-  "name": "I click yes option for electricity supplier",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 291,
-  "name": "I select supplier \"British Gas\"",
-  "matchedColumns": [
-    13
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 292,
-  "name": "I select yes option for electricity usage",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 293,
-  "name": "I enter kWh usage \"250\"",
-  "matchedColumns": [
-    14
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 294,
-  "name": "I click Next after entering Usage",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 295,
-  "name": "I click I am not sure option",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 296,
-  "name": "I click Schedule for later (if on chat page)",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 297,
-  "name": "I select Time from dropdown",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 298,
-  "name": "I enter full name \"Ravi Ahuja\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 299,
-  "name": "I enter email address \"test@test.test\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 300,
-  "name": "I enter phone number \"07555555555\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 301,
-  "name": "I click Schedule call/Finalise Quote button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 302,
-  "name": "I navigate to dual lead confirmation page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 303,
-  "name": "I close the browser",
-  "keyword": "And "
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
-      "offset": 55
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
-});
-formatter.result({
-  "duration": 8601191800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "HA85BD",
-      "offset": 18
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
-});
-formatter.result({
-  "duration": 104217700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
-});
-formatter.result({
-  "duration": 572530800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "49a Axholme Avenue",
-      "offset": 9
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
-});
-formatter.result({
-  "duration": 1218975000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "49a Axholme Avenue",
-      "offset": 31
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
-});
-formatter.result({
-  "duration": 780978700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Jeevat LTD",
-      "offset": 23
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
-});
-formatter.result({
-  "duration": 1092700300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Next()"
-});
-formatter.result({
-  "duration": 1562814600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
-});
-formatter.result({
-  "duration": 2168582000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
-});
-formatter.result({
-  "duration": 1990949400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.yesMPANOption()"
-});
-formatter.result({
-  "duration": 1102723600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "04",
-      "offset": 22
-    },
-    {
-      "val": "807",
-      "offset": 27
-    },
-    {
-      "val": "205",
-      "offset": 33
-    },
-    {
-      "val": "10",
-      "offset": 39
-    },
-    {
-      "val": "12863966",
-      "offset": 44
-    },
-    {
-      "val": "474",
-      "offset": 55
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
-});
-formatter.result({
-  "duration": 369794400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
-});
-formatter.result({
-  "duration": 79094800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
-});
-formatter.result({
-  "duration": 575729500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "British Gas",
-      "offset": 19
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
-});
-formatter.result({
-  "duration": 122181900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
-});
-formatter.result({
-  "duration": 600480800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "250",
-      "offset": 19
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
-});
-formatter.result({
-  "duration": 79314500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
-});
-formatter.result({
-  "duration": 653412500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
-});
-formatter.result({
-  "duration": 22129595700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
-});
-formatter.result({
-  "duration": 8099685200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
-});
-formatter.result({
-  "duration": 8388960800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Ravi Ahuja",
-      "offset": 19
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
-});
-formatter.result({
-  "duration": 8121683300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "test@test.test",
-      "offset": 23
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
-});
-formatter.result({
-  "duration": 94014900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "07555555555",
-      "offset": 22
-    }
-  ],
-  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
-});
-formatter.result({
-  "duration": 88298700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
-});
-formatter.result({
-  "duration": 4245350900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
-});
-formatter.result({
-  "duration": 4007939500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "energyJourneyBionicStepDef.closebrowser()"
-});
-formatter.result({
-  "duration": 753433900,
-  "status": "passed"
-});
-formatter.scenarioOutline({
-  "line": 309,
-  "name": "Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found",
-  "description": "",
-  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 308,
-      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"
-    }
-  ]
-});
-formatter.step({
-  "line": 310,
-  "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
-  "keyword": "Given "
-});
-formatter.step({
   "line": 311,
-  "name": "I enter postcode \"\u003cpostcode\u003e\"",
-  "keyword": "When "
+  "name": "I click Next from business name page",
+  "keyword": "And "
 });
 formatter.step({
   "line": 312,
-  "name": "I click Start Quote",
+  "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
   "line": 313,
-  "name": "I enter \"\u003csearch-address\u003e\" on search field",
+  "name": "I click Yes from industry data agreement page",
   "keyword": "And "
 });
 formatter.step({
   "line": 314,
-  "name": "click on the address contains \"\u003csearch-address\u003e\"",
+  "name": "I click yes option for do you know your MPAN",
   "keyword": "And "
 });
 formatter.step({
   "line": 315,
-  "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
+  "name": "I enter MPAN numbere \"\u003cmpan1\u003e\" \"\u003cmpan2\u003e\" \"\u003cmpan3\u003e\" \"\u003cmpan4\u003e\" \"\u003cmpan5\u003e\" \"\u003cmpan6\u003e\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 316,
-  "name": "I click Next from business name page",
+  "name": "I click Next after entering MPAN",
   "keyword": "And "
 });
 formatter.step({
   "line": 317,
-  "name": "I click on Gas\u0026Electricity button",
+  "name": "I click yes option for electricity supplier",
   "keyword": "And "
 });
 formatter.step({
   "line": 318,
-  "name": "I click Yes from industry data agreement page",
+  "name": "I select supplier \"\u003celectricity-supplier\u003e\"",
   "keyword": "And "
 });
 formatter.step({
@@ -5084,7 +11148,7 @@ formatter.examples({
   "line": 331,
   "name": "",
   "description": "",
-  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;",
   "rows": [
     {
       "cells": [
@@ -5095,81 +11159,149 @@ formatter.examples({
         "email",
         "phone",
         "search-address",
+        "mpan1",
+        "mpan2",
+        "mpan3",
+        "mpan4",
+        "mpan5",
+        "mpan6",
+        "electricity-supplier",
         "usage"
       ],
       "line": 332,
-      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;1"
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;1"
     },
     {
+      "comments": [
+        {
+          "line": 333,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+        }
+      ],
       "cells": [
-        "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
-        "HA8 5BD",
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
+        "HA85BD",
         "Jeevat LTD",
         "Ravi Ahuja",
         "test@test.test",
         "07555555555",
-        "57 Axholme Avenue",
+        "49a Axholme Avenue",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
         "250"
       ],
-      "line": 333,
-      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;2"
+      "line": 334,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "HA85BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "49a Axholme Avenue",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 335,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "HA85BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "49a Axholme Avenue",
+        "04",
+        "807",
+        "205",
+        "10",
+        "12863966",
+        "474",
+        "British Gas",
+        "250"
+      ],
+      "line": 336,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 333,
-  "name": "Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found",
+  "comments": [
+    {
+      "line": 333,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |"
+    }
+  ],
+  "line": 334,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Details Found",
   "description": "",
-  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;2",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 308,
-      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"
+      "line": 303,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Details_Found"
     }
   ]
 });
 formatter.step({
-  "line": 310,
-  "name": "I navigate to bionic energy journey landing page with \"https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com\"",
+  "line": 305,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
   "matchedColumns": [
     0
   ],
   "keyword": "Given "
 });
 formatter.step({
-  "line": 311,
-  "name": "I enter postcode \"HA8 5BD\"",
+  "line": 306,
+  "name": "I enter postcode \"HA85BD\"",
   "matchedColumns": [
     1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 312,
+  "line": 307,
   "name": "I click Start Quote",
   "keyword": "And "
 });
 formatter.step({
-  "line": 313,
-  "name": "I enter \"57 Axholme Avenue\" on search field",
+  "line": 308,
+  "name": "I enter \"49a Axholme Avenue\" on search field",
   "matchedColumns": [
     6
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 314,
-  "name": "click on the address contains \"57 Axholme Avenue\"",
+  "line": 309,
+  "name": "click on the address contains \"49a Axholme Avenue\"",
   "matchedColumns": [
     6
   ],
   "keyword": "And "
 });
 formatter.step({
-  "line": 315,
+  "line": 310,
   "name": "I enter Business Name \"Jeevat LTD\"",
   "matchedColumns": [
     2
@@ -5177,18 +11309,54 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 316,
+  "line": 311,
   "name": "I click Next from business name page",
   "keyword": "And "
 });
 formatter.step({
-  "line": 317,
+  "line": 312,
   "name": "I click on Gas\u0026Electricity button",
   "keyword": "And "
 });
 formatter.step({
-  "line": 318,
+  "line": 313,
   "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 314,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 315,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 316,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 317,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 318,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
   "keyword": "And "
 });
 formatter.step({
@@ -5200,7 +11368,7 @@ formatter.step({
   "line": 320,
   "name": "I enter kWh usage \"250\"",
   "matchedColumns": [
-    7
+    14
   ],
   "keyword": "And "
 });
@@ -5266,60 +11434,60 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com",
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
       "offset": 55
     }
   ],
   "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
 });
 formatter.result({
-  "duration": 8819429800,
+  "duration": 7050187099,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "HA8 5BD",
+      "val": "HA85BD",
       "offset": 18
     }
   ],
   "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
 });
 formatter.result({
-  "duration": 107380600,
+  "duration": 137427500,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
 });
 formatter.result({
-  "duration": 1636130200,
+  "duration": 1251656299,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "57 Axholme Avenue",
+      "val": "49a Axholme Avenue",
       "offset": 9
     }
   ],
   "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
 });
 formatter.result({
-  "duration": 122199800,
+  "duration": 118893500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "57 Axholme Avenue",
+      "val": "49a Axholme Avenue",
       "offset": 31
     }
   ],
   "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
 });
 formatter.result({
-  "duration": 82992200,
+  "duration": 463338901,
   "status": "passed"
 });
 formatter.match({
@@ -5332,35 +11500,102 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
 });
 formatter.result({
-  "duration": 1172134000,
+  "duration": 1081782300,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next()"
 });
 formatter.result({
-  "duration": 1492450300,
+  "duration": 1386885099,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
 });
 formatter.result({
-  "duration": 2192167700,
+  "duration": 1932282400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
 });
 formatter.result({
-  "duration": 2276762300,
+  "duration": 1755422801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1080165500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 406764101,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 62626999,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 605505501,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 117302401,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
 });
 formatter.result({
-  "duration": 77468900,
+  "duration": 598850200,
   "status": "passed"
 });
 formatter.match({
@@ -5373,35 +11608,35 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
 });
 formatter.result({
-  "duration": 86196700,
+  "duration": 86756099,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
 });
 formatter.result({
-  "duration": 1062646400,
+  "duration": 485736800,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
 });
 formatter.result({
-  "duration": 22101942600,
+  "duration": 22091186700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
 });
 formatter.result({
-  "duration": 8123107100,
+  "duration": 8010556100,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
 });
 formatter.result({
-  "duration": 8401233300,
+  "duration": 8277100,
   "status": "passed"
 });
 formatter.match({
@@ -5414,7 +11649,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
 });
 formatter.result({
-  "duration": 8109051000,
+  "duration": 3617392900,
   "status": "passed"
 });
 formatter.match({
@@ -5427,7 +11662,7 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
 });
 formatter.result({
-  "duration": 91946900,
+  "duration": 87546800,
   "status": "passed"
 });
 formatter.match({
@@ -5440,28 +11675,2165 @@ formatter.match({
   "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
 });
 formatter.result({
-  "duration": 95589600,
+  "duration": 83803700,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.clickscheduleCall()"
 });
 formatter.result({
-  "duration": 6129430400,
+  "duration": 3793458901,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
 });
 formatter.result({
-  "duration": 4015693500,
+  "duration": 4017363400,
   "status": "passed"
 });
 formatter.match({
   "location": "energyJourneyBionicStepDef.closebrowser()"
 });
 formatter.result({
-  "duration": 714742900,
+  "duration": 702828800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 335,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Details Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 303,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Details_Found"
+    }
+  ]
+});
+formatter.step({
+  "line": 305,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 306,
+  "name": "I enter postcode \"HA85BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 307,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 308,
+  "name": "I enter \"49a Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 309,
+  "name": "click on the address contains \"49a Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 310,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 311,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 312,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 313,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 314,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 315,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 316,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 317,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 318,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 319,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 320,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 321,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 322,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 323,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 324,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 325,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 326,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 327,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 328,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 329,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 330,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7025665900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 85679999,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1141931701,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 99846000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 481072900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1090250299,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1399078099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1889184300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 2184128500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1121497401,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 369494800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 69619700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 570034400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 128134800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 564178300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 74652501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 486038000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22105326400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8006288801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 5560301,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3591211600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 92350600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 89575500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3906296200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4007181400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 729368400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 336,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Details Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-details-found;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 303,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Details_Found"
+    }
+  ]
+});
+formatter.step({
+  "line": 305,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 306,
+  "name": "I enter postcode \"HA85BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 307,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 308,
+  "name": "I enter \"49a Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 309,
+  "name": "click on the address contains \"49a Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 310,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 311,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 312,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 313,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 314,
+  "name": "I click yes option for do you know your MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 315,
+  "name": "I enter MPAN numbere \"04\" \"807\" \"205\" \"10\" \"12863966\" \"474\"",
+  "matchedColumns": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 316,
+  "name": "I click Next after entering MPAN",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 317,
+  "name": "I click yes option for electricity supplier",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 318,
+  "name": "I select supplier \"British Gas\"",
+  "matchedColumns": [
+    13
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 319,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 320,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    14
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 321,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 322,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 323,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 324,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 325,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 326,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 327,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 328,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 329,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 330,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7111146200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA85BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 85431900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1148628199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 175671299,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "49a Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 541811500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1070252600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1407241999,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1925959100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1749164800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.yesMPANOption()"
+});
+formatter.result({
+  "duration": 1073837601,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "04",
+      "offset": 22
+    },
+    {
+      "val": "807",
+      "offset": 27
+    },
+    {
+      "val": "205",
+      "offset": 33
+    },
+    {
+      "val": "10",
+      "offset": 39
+    },
+    {
+      "val": "12863966",
+      "offset": 44
+    },
+    {
+      "val": "474",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_MPAN_numbere(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 400218000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickNextAfterEnteringMPAN()"
+});
+formatter.result({
+  "duration": 57270300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricitySupplier()"
+});
+formatter.result({
+  "duration": 627973199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "British Gas",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_select_supplier(String)"
+});
+formatter.result({
+  "duration": 110909300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 619648001,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 77750900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 749071599,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22103490000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8008972301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 6626899,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3598837700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 89303301,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 82837800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3637524600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4011880199,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 755514100,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 339,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 338,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"
+    }
+  ]
+});
+formatter.step({
+  "line": 340,
+  "name": "I navigate to bionic energy journey landing page with \"\u003curl\u003e\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 341,
+  "name": "I enter postcode \"\u003cpostcode\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 342,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 343,
+  "name": "I enter \"\u003csearch-address\u003e\" on search field",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 344,
+  "name": "click on the address contains \"\u003csearch-address\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 345,
+  "name": "I enter Business Name \"\u003cbusiness-name\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 346,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 347,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 348,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 349,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 350,
+  "name": "I enter kWh usage \"\u003cusage\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 351,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 352,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 353,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 354,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 355,
+  "name": "I enter full name \"\u003cfull-name\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 356,
+  "name": "I enter email address \"\u003cemail\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 357,
+  "name": "I enter phone number \"\u003cphone\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 358,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 359,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 360,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 361,
+  "name": "",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;",
+  "rows": [
+    {
+      "cells": [
+        "url",
+        "postcode",
+        "business-name",
+        "full-name",
+        "email",
+        "phone",
+        "search-address",
+        "usage"
+      ],
+      "line": 362,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;1"
+    },
+    {
+      "comments": [
+        {
+          "line": 363,
+          "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |"
+        }
+      ],
+      "cells": [
+        "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
+        "HA8 5BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "57 Axholme Avenue",
+        "250"
+      ],
+      "line": 364,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;2"
+    },
+    {
+      "cells": [
+        "https://energy-journey-bionic-staging.makeiteasy.com/",
+        "HA8 5BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "57 Axholme Avenue",
+        "250"
+      ],
+      "line": 365,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;3"
+    },
+    {
+      "cells": [
+        "https://energy-journey-uswitch-staging.makeiteasy.com/",
+        "HA8 5BD",
+        "Jeevat LTD",
+        "Ravi Ahuja",
+        "test@test.test",
+        "07555555555",
+        "57 Axholme Avenue",
+        "250"
+      ],
+      "line": 366,
+      "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;4"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 363,
+      "value": "#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |"
+    }
+  ],
+  "line": 364,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 338,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"
+    }
+  ]
+});
+formatter.step({
+  "line": 340,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 341,
+  "name": "I enter postcode \"HA8 5BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 342,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 343,
+  "name": "I enter \"57 Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 344,
+  "name": "click on the address contains \"57 Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 345,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 346,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 347,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 348,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 349,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 350,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 351,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 352,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 353,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 354,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 355,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 356,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 357,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 358,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 359,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 360,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 6947401400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA8 5BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 176219000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1460131300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "57 Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 114993500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "57 Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 443637000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1079165200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1821270801,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1900675800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1888153800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 152433100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 87954600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 444591001,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22072306800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8011204501,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 8649800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3599969100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 91127700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 85480800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3592178700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4008390900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 706304700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 365,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 338,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"
+    }
+  ]
+});
+formatter.step({
+  "line": 340,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-bionic-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 341,
+  "name": "I enter postcode \"HA8 5BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 342,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 343,
+  "name": "I enter \"57 Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 344,
+  "name": "click on the address contains \"57 Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 345,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 346,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 347,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 348,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 349,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 350,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 351,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 352,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 353,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 354,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 355,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 356,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 357,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 358,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 359,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 360,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-bionic-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7041801000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA8 5BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 165945199,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1215626400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "57 Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 120383000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "57 Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 610110699,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1081756900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1361754901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1877088901,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1925443000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 81094101,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 105040099,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 511255199,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22088447000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8011277999,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 5686600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3584598200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 92555899,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 83726600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 4052948800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4021128000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 719321800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 366,
+  "name": "Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found",
+  "description": "",
+  "id": "verify-ukp-site-scenarios;verify-dualfuel-journey-yes-industry-consent---no-meter-and-no-supplier-found;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 338,
+      "name": "@dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found"
+    }
+  ]
+});
+formatter.step({
+  "line": 340,
+  "name": "I navigate to bionic energy journey landing page with \"https://energy-journey-uswitch-staging.makeiteasy.com/\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 341,
+  "name": "I enter postcode \"HA8 5BD\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 342,
+  "name": "I click Start Quote",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 343,
+  "name": "I enter \"57 Axholme Avenue\" on search field",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 344,
+  "name": "click on the address contains \"57 Axholme Avenue\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 345,
+  "name": "I enter Business Name \"Jeevat LTD\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 346,
+  "name": "I click Next from business name page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 347,
+  "name": "I click on Gas\u0026Electricity button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 348,
+  "name": "I click Yes from industry data agreement page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 349,
+  "name": "I select yes option for electricity usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 350,
+  "name": "I enter kWh usage \"250\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 351,
+  "name": "I click Next after entering Usage",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 352,
+  "name": "I click I am not sure option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 353,
+  "name": "I click Schedule for later (if on chat page)",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 354,
+  "name": "I select Time from dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 355,
+  "name": "I enter full name \"Ravi Ahuja\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 356,
+  "name": "I enter email address \"test@test.test\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 357,
+  "name": "I enter phone number \"07555555555\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 358,
+  "name": "I click Schedule call/Finalise Quote button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 359,
+  "name": "I navigate to dual lead confirmation page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 360,
+  "name": "I close the browser",
+  "keyword": "And "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://energy-journey-uswitch-staging.makeiteasy.com/",
+      "offset": 55
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_navigate_to_bionic_energy_journey_landing_page_with(String)"
+});
+formatter.result({
+  "duration": 7291582599,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "HA8 5BD",
+      "offset": 18
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_postcode(String)"
+});
+formatter.result({
+  "duration": 107071401,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Start_Quote()"
+});
+formatter.result({
+  "duration": 1138253700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "57 Axholme Avenue",
+      "offset": 9
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_on_search_field(String)"
+});
+formatter.result({
+  "duration": 136955900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "57 Axholme Avenue",
+      "offset": 31
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.click_on_the_address_contains(String)"
+});
+formatter.result({
+  "duration": 460132700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jeevat LTD",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_Business_Name(String)"
+});
+formatter.result({
+  "duration": 1070492800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next()"
+});
+formatter.result({
+  "duration": 1345601600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.verifyGasLeadScheduleConfirmation()"
+});
+formatter.result({
+  "duration": 1888478500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_Yes_from_industry_data_agreement_page()"
+});
+formatter.result({
+  "duration": 1794132800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickYesOptionForElectricityUsage()"
+});
+formatter.result({
+  "duration": 128535000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "250",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_kWh_usage(String)"
+});
+formatter.result({
+  "duration": 98694699,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Next_after_entering_Usage()"
+});
+formatter.result({
+  "duration": 448025800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.click_i_am_not_sure()"
+});
+formatter.result({
+  "duration": 22087112900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.i_click_Call_me_now_if_on_chat_page()"
+});
+formatter.result({
+  "duration": 8008210100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.selectTimefromDropdown()"
+});
+formatter.result({
+  "duration": 4773600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Ravi Ahuja",
+      "offset": 19
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_full_name(String)"
+});
+formatter.result({
+  "duration": 3613510699,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "test@test.test",
+      "offset": 23
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_email_address(String)"
+});
+formatter.result({
+  "duration": 88500100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "07555555555",
+      "offset": 22
+    }
+  ],
+  "location": "energyJourneyBionicStepDef.i_enter_phone_number(String)"
+});
+formatter.result({
+  "duration": 83912000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.clickscheduleCall()"
+});
+formatter.result({
+  "duration": 3931230301,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.dualLeadScheduleConfimration()"
+});
+formatter.result({
+  "duration": 4017054000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "energyJourneyBionicStepDef.closebrowser()"
+});
+formatter.result({
+  "duration": 728031000,
   "status": "passed"
 });
 });

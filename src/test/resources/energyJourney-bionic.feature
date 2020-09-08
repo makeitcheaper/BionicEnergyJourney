@@ -9,7 +9,10 @@ Feature: Verify UKP site scenarios
     Then I close the browser
     Examples:
     | url                                                                                                 |
-    | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  |
+#    | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  |
+    | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison  |
+    | https://energy-journey-bionic-staging.makeiteasy.com                                              |
+    | https://energy-journey-uswitch-staging.makeiteasy.com                                             |
 
 
   @elec_journey
@@ -34,9 +37,15 @@ Feature: Verify UKP site scenarios
     Then I navigate to electric lead schedule page
     And I close the browser
     Examples:
-      | url                                                                                                 | postcode | search-address | business-name | full-name  | email          | phone       |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | url                                                                                                               | postcode | search-address | business-name | full-name  | email          | phone       |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd    | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison                  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd                                                | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                                             | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd                                               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                                            | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
 #     | https://userzoomtest:cdcdemo@businessenergytest.comparethemarket.com/                               | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
 
 
@@ -70,7 +79,10 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode  | business-name | full-name  | email          | phone       | search-address   | mpan1 | mpan2 | mpan3 | mpan4 | mpan5    | mpan6 | electricity-supplier | usage |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison    | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                               | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                              | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
 
 
   @elec_journey_YES_Industry_Consent_NO_Details_Found
@@ -103,7 +115,10 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode  | business-name | full-name  | email          | phone       | search-address      | mpan1 | mpan2 | mpan3 | mpan4 | mpan5    | mpan6 | electricity-supplier | usage |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison    | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                               | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                              | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
 
 
   @elec_journey_manual_address
@@ -138,7 +153,10 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode | search-address | business-name | full-name  | email          | phone       | Street-Address-1 | Street-Address-2 | Town    | County         | mpan1 | mpan2 | mpan3 | mpan4 | mpan5    | mpan6 | electricity-supplier | usage |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison     | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                                | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Test Street      | Test Street 2    | Hackney | Greater London | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
 
 
   @elec_multimeter
@@ -245,7 +263,10 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode  | business-name | full-name  | email          | phone       | search-address   | mpan1 | mpan2 | mpan3 | mpan4 | mpan5    | mpan6 | electricity-supplier | usage |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison    | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                               | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                              | KT64DU    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | Fredericks       | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
 
   @dualfuel_journey
   Scenario Outline: Verify Dual fuel journey
@@ -270,8 +291,14 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode | search-address | business-name | full-name  | email          | phone       |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd    | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison                  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd                                                | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                                             | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd                                               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                                            | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
 
   @dualfuel_journey_YES_Industry_Consent_NO_Details_Found
   Scenario Outline: Verify DualFuel journey YES Industry Consent - NO Details Found
@@ -303,9 +330,12 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode  | business-name | full-name  | email          | phone       | search-address      | mpan1 | mpan2 | mpan3 | mpan4 | mpan5    | mpan6 | electricity-supplier | usage |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison    | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                               | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                              | HA85BD    | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 49a Axholme Avenue  | 04    | 807   | 205   | 10    | 12863966 | 474   | British Gas          |  250  |
 
-  @dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found
+    @dualfuel_journey_YES_Industry_Consent_NO_Meter_No_Supplier_found
   Scenario Outline: Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found
     Given I navigate to bionic energy journey landing page with "<url>"
     When I enter postcode "<postcode>"
@@ -330,4 +360,7 @@ Feature: Verify UKP site scenarios
     And I close the browser
     Examples:
       | url                                                                                                 | postcode  | business-name | full-name  | email          | phone       | search-address      | usage |
-      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |
+#      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com  | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |
+      | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison    | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |
+      | https://energy-journey-bionic-staging.makeiteasy.com/                                               | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |
+      | https://energy-journey-uswitch-staging.makeiteasy.com/                                              | HA8 5BD   | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 | 57 Axholme Avenue   |   250  |

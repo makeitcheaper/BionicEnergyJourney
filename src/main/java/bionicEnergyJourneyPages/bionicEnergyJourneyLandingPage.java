@@ -18,14 +18,14 @@ public class bionicEnergyJourneyLandingPage extends webDriver {
 
     public bionicEnergyJourneyLandingPage enterPostcode (String postcode)
     {
-        driver.findElement(By.xpath("//form[@class='form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex']/input[@id='postcode-input-top']")).sendKeys(postcode);
+        driver.findElement(By.xpath("//form[contains(@class,'postcode-form-validate-top postcode-form-top d-none d-lg-flex')]/input[@id='postcode-input-top']")).sendKeys(postcode);
         return new bionicEnergyJourneyLandingPage(driver);
     }
 
     public bionicEnergyJourneyLandingPage clickStartQuote() throws Exception
     {
         Thread.sleep(500);
-        driver.findElement(By.xpath("//form[@class='form-inline postcode-form-validate postcode-form-validate-top postcode-form-top d-none d-lg-flex']/button[@class='btn hover-ripple postcode-search-button postcode-form-top__button']")).click();
+        driver.findElement(By.xpath("//form[contains(@class,'postcode-form-validate-top postcode-form-top d-none d-lg-flex')]/button[@class='btn hover-ripple postcode-search-button postcode-form-top__button']")).click();
         return new bionicEnergyJourneySelectAddress(driver);
     }
 
