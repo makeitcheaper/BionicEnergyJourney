@@ -69,6 +69,7 @@ public class energyJourneyBionicStepDef {
 
     @And("^I enter \"([^\"]*)\" on search field$")
     public void i_enter_on_search_field(String searchAddress) throws Exception {
+        Thread.sleep(700);
         bejsa.enterOnSearchField(searchAddress);
     }
 
@@ -148,12 +149,16 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
         System.out.println("Opening Hours :"+boh.bionicOpeninghours());
-        Thread.sleep(8000);
         if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
                 && boh.bionicOpeninghours().equals("Open"))
         {
+            Thread.sleep(8000);
             bejcp.Scheduleforlater();
         }
+        else
+            {
+                Thread.sleep(2000);
+            }
     }
 
     @And("^I select Time from dropdown$")
@@ -169,7 +174,7 @@ public class energyJourneyBionicStepDef {
             System.out.println("Time dropdown"+timeDropdownSize);
             if(timeDropdownSize>1)
             {
-                dropdown.selectByIndex(2);
+                dropdown.selectByIndex(1);
             }
             else
             {
@@ -195,7 +200,7 @@ public class energyJourneyBionicStepDef {
             }
             else
             {
-                Thread.sleep(8000);
+                Thread.sleep(2000);
                 bejcp.enterFullName(name);
              }
         }

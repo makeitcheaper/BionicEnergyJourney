@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="33" time="1673.804465">
-    <testcase classname="Verify UKP site scenarios" name="Wake the application up" time="8.900737">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="33" time="1975.992912">
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up" time="10.689039">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 Then I close the browser....................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Wake the application up 2" time="8.385785">
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up 2" time="9.770373">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com".passed
 Then I close the browser....................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Wake the application up 3" time="8.559494">
+    <testcase classname="Verify UKP site scenarios" name="Wake the application up 3" time="9.128545">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com".passed
 Then I close the browser....................................................passed
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="33.219538">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey" time="31.00809">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -45,7 +45,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="64.363165">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 2" time="76.380646">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -69,7 +69,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 3" time="33.034662">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 3" time="35.478346">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -93,7 +93,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 4" time="61.936524">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 4" time="74.050724">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -117,7 +117,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 5" time="34.188042">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 5" time="32.082551">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -141,7 +141,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 6" time="61.774269">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey 6" time="72.234273">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -165,7 +165,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO" time="58.841329">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO" time="75.669832">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -196,7 +196,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO 2" time="58.805108">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO 2" time="70.25633">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -227,7 +227,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO 3" time="58.363209">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey with Industry Consent NO 3" time="75.748016">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -258,7 +258,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found" time="58.357086">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found" time="71.19697">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85BD"..............................................passed
@@ -289,7 +289,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 2" time="59.340332">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 2" time="71.08076">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "HA85BD"..............................................passed
@@ -320,7 +320,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 3" time="59.426737">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 3" time="69.773523">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "HA85BD"..............................................passed
@@ -351,7 +351,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address" time="54.298813">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address" time="64.098096">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -384,7 +384,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address 2" time="54.626642">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address 2" time="63.120947">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -417,7 +417,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address 3" time="53.930817">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey manual address 3" time="67.785312">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -450,7 +450,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO" time="60.828847">
+    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO" time="75.586309">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -481,7 +481,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO 2" time="61.31984">
+    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO 2" time="76.209214">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -512,7 +512,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO 3" time="61.369887">
+    <testcase classname="Verify UKP site scenarios" name="Verify dual fuel journey with Industry Consent NO 3" time="73.575909">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -543,7 +543,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey" time="35.454658">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey" time="33.547837">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -567,7 +567,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 2" time="63.987747">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 2" time="74.885393">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -591,7 +591,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 3" time="35.720029">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 3" time="37.136325">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -615,7 +615,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 4" time="66.06652">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 4" time="76.539303">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -639,7 +639,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 5" time="35.425174">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 5" time="32.619248">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd".passed
 When I enter postcode "KT64DU"..............................................passed
@@ -663,7 +663,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 6" time="63.785334">
+    <testcase classname="Verify UKP site scenarios" name="Verify Dual fuel journey 6" time="74.793799">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "HA85HF"..............................................passed
@@ -687,7 +687,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found" time="61.033998">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found" time="72.602743">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA85BD"..............................................passed
@@ -718,7 +718,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found 2" time="61.313647">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found 2" time="79.587831">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "HA85BD"..............................................passed
@@ -749,7 +749,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found 3" time="61.226973">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Details Found 3" time="72.695055">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "HA85BD"..............................................passed
@@ -780,7 +780,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found" time="58.69224">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found" time="76.746441">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
 When I enter postcode "HA8 5BD".............................................passed
@@ -806,7 +806,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found 2" time="58.75699">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found 2" time="68.306477">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
 When I enter postcode "HA8 5BD".............................................passed
@@ -832,7 +832,7 @@ And I close the browser.....................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found 3" time="58.470292">
+    <testcase classname="Verify UKP site scenarios" name="Verify DualFuel journey YES Industry Consent - NO Meter and No Supplier Found 3" time="71.608655">
         <system-out>
             <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
 When I enter postcode "HA8 5BD".............................................passed
