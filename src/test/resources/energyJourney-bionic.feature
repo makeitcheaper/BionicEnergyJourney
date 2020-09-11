@@ -29,7 +29,7 @@ Feature: Verify UKP site scenarios
     And I click on Nex Step button
     And I click I am not sure option
     And I click Schedule for later (if on chat page)
-    And I select Time from dropdown
+    And I select Time f rom dropdown
     And I enter full name "<full-name>"
     And I enter email address "<email>"
     And I enter phone number "<phone>"
@@ -42,6 +42,7 @@ Feature: Verify UKP site scenarios
 #      | https://bdef256b4bd23af1:669ea24b26ea286da0f3803b875642c7@energy-journey-ui-staging.makeiteasy.com               | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
       | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison/?r=success_cd    | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
       | https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison                  | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
+      | https://www.moneysupermarket.com/gas-and-electricity/business-energy/comparison                              | KT64DU   | Fredericks | -Testing - DO NOT CALL | Ravi Ahuja | test@test.test | 07555555555 |
       | https://energy-journey-bionic-staging.makeiteasy.com/?r=success_cd                                                | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
       | https://energy-journey-bionic-staging.makeiteasy.com/                                                             | HA85HF   | 49             | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
       | https://energy-journey-uswitch-staging.makeiteasy.com/?r=success_cd                                               | KT64DU   | Fredericks     | Jeevat LTD    | Ravi Ahuja | test@test.test | 07555555555 |
