@@ -37,7 +37,6 @@ public class energyJourneyBionicStepDef {
             "--disable-setuid-sandbox"));
     */
 
-
     private bionicEnergyJourneyLandingPage bejlp = new bionicEnergyJourneyLandingPage(driver);
     private bionicEnergyJourneySelectAddress bejsa = new bionicEnergyJourneySelectAddress(driver);
     private bionicEnergyJourneyBusinessNamePage bejbn = new bionicEnergyJourneyBusinessNamePage(driver);
