@@ -68,7 +68,7 @@ public class energyJourneyBionicStepDef {
 
     @And("^I enter \"([^\"]*)\" on search field$")
     public void i_enter_on_search_field(String searchAddress) throws Exception {
-        Thread.sleep(700);
+        Thread.sleep(900);
         bejsa.enterOnSearchField(searchAddress);
     }
 
@@ -130,7 +130,7 @@ public class energyJourneyBionicStepDef {
     {
         Thread.sleep(1000);
         String currentURL = driver.getCurrentUrl();
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
         {
             Thread.sleep(21000);
             bejcp.selectIamNotSurefromChatPage();
@@ -148,7 +148,7 @@ public class energyJourneyBionicStepDef {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
         System.out.println("Opening Hours :"+boh.bionicOpeninghours());
-        if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
                 && boh.bionicOpeninghours().equals("Open"))
         {
             Thread.sleep(8000);
@@ -164,7 +164,7 @@ public class energyJourneyBionicStepDef {
     public void selectTimefromDropdown() throws Exception
     {
         String currentURL = driver.getCurrentUrl();
-        if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if((currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
                 && boh.bionicOpeninghours().equals("Open"))
         {
             Thread.sleep(8000);
@@ -183,13 +183,17 @@ public class energyJourneyBionicStepDef {
 
             }
         }
+        else
+        {
+            Thread.sleep(5000);
+        }
     }
 
     @And("^I enter full name \"([^\"]*)\"$")
     public void i_enter_full_name(String name) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
         {
             System.out.println("Opening Hours :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
@@ -213,7 +217,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_email_address(String email) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
         {
             bejcp.enterEmail(email);
         }
@@ -227,7 +231,7 @@ public class energyJourneyBionicStepDef {
     public void i_enter_phone_number(String phone) throws Exception {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
         {
             System.out.println("Oprning Time :"+boh.bionicOpeninghours());
             if(boh.bionicOpeninghours().equals("Closed"))
@@ -250,7 +254,7 @@ public class energyJourneyBionicStepDef {
     {
         String currentURL = driver.getCurrentUrl();
         //System.out.println("Current URL is : "+currentURL);
-        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat"))
+        if(currentURL.contains("/electricity/chat") || currentURL.contains("/dual_fuel/chat") || currentURL.contains("/electricity/manual_chat") || currentURL.contains("/dual_fuel/manual_chat") || currentURL.contains("/gas/manual_chat"))
         {
             Thread.sleep(500);
             bejcp.clickScheduleCallButton();
@@ -282,12 +286,6 @@ public class energyJourneyBionicStepDef {
         bejid.clickGetAQuoteForMultipleMeters();
     }
 
-    @And("^I click on Gas button$")
-    public void clickGasButton() throws Exception {
-        Thread.sleep(1000);
-        bejst.clickGas();
-    }
-
     @Then("^I navigate to gas lead schedule page$")
     public void gasLeadScheduleConfimration() throws Exception {
         Thread.sleep(4000);
@@ -298,6 +296,12 @@ public class energyJourneyBionicStepDef {
     public void verifyGasLeadScheduleConfirmation() throws Exception {
         Thread.sleep(1500);
         bejst.clickGasAndElectricity();
+    }
+
+    @And("^I click on Gas button$")
+    public void clickGasEnergy() throws Exception {
+        Thread.sleep(1500);
+        bejst.clickGas();
     }
 
     @Then("^I navigate to dual lead confirmation page$")
@@ -354,9 +358,20 @@ public class energyJourneyBionicStepDef {
         bejmi.SelectMPANYes();
     }
 
+    @And("^I click yes option for do you know your MPRN$")
+    public void yesMPRNOption() throws Exception {
+        Thread.sleep(1000);
+            bejmi.SelectMPRNYes();
+    }
+
     @When("^I enter MPAN numbere \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\"$")
     public void i_enter_MPAN_numbere(String mpan1, String mpan2, String mpan3, String mpan4, String mpan5, String mpan6) throws Exception {
         bejmi.enterMPANNumber(mpan1,mpan2,mpan3,mpan4,mpan5,mpan6);
+    }
+
+    @And("^I enter MPRN number \"([^\"]*)\"$")
+    public void i_enter_MPRN_numbere(String mprn) throws Exception {
+        bejmi.enterMPRNNumber(mprn);
     }
 
     @And("^I click Next after entering MPAN$")
@@ -364,18 +379,33 @@ public class energyJourneyBionicStepDef {
         bejmi.clickNextAfterMPAN();
     }
 
+    @And("^I click Next after entering MPRN$")
+    public void clickNextAfterEnteringMPRN() throws Exception {
+        bejmi.clickNextAfterMPRN();
+    }
+
     @And("^I click yes option for electricity supplier$")
     public void clickYesOptionForElectricitySupplier() throws Exception {
         bejmi.clickYesOptionElectricitySupplier();
     }
 
+    @And("^I click yes option for gas supplier$")
+    public void clickYesOptionForGasSupplier() throws Exception {
+        bejmi.clickYesOptionGasSupplier();
+    }
+
     @And("^I select supplier \"([^\"]*)\"$")
-    public void i_select_supplier(String elesupplier) throws Exception {
-        bejmi.selectBGSupplier(elesupplier);
+    public void i_select_supplier(String supplier) throws Exception {
+        bejmi.selectBGSupplier(supplier);
     }
 
     @And("^I select yes option for electricity usage$")
     public void clickYesOptionForElectricityUsage() throws Exception {
+        bejmi.clickYesOptionElectricityUsage();
+    }
+
+    @And("^I select yes option for gas usage$")
+    public void clickYesOptionForgasUsage() throws Exception {
         bejmi.clickYesOptionElectricityUsage();
     }
 
@@ -388,7 +418,6 @@ public class energyJourneyBionicStepDef {
     public void i_click_Next_after_entering_Usage() throws Exception {
         bejmi.clickNextAfterEnteringUsage();
     }
-
 
     @Then("^I close the browser$")
     public void closebrowser() throws Exception {

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="243.571226">
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found" time="62.227359">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://www.moneysupermarket.com/gas-and-electricity/business-energy/comparison".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "-Testing - DO NOT CALL"..........................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Test Test"...........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 2" time="63.177279">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-msm-staging.makeiteasy.com/gas-and-electricity/business-energy/comparison".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 3" time="58.767102">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-bionic-staging.makeiteasy.com/".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Verify UKP site scenarios" name="Verify bionic electric journey YES Industry Consent - NO Details Found 4" time="59.399486">
+        <system-out>
+            <![CDATA[Given I navigate to bionic energy journey landing page with "https://energy-journey-uswitch-staging.makeiteasy.com/".passed
+When I enter postcode "HA85BD"..............................................passed
+And I click Start Quote.....................................................passed
+And I enter "49a Axholme Avenue" on search field............................passed
+And click on the address contains "49a Axholme Avenue"......................passed
+And I enter Business Name "Jeevat LTD"......................................passed
+And I click Next from business name page....................................passed
+And I click on Electricity button...........................................passed
+And I click Yes from industry data agreement page...........................passed
+And I click yes option for do you know your MPAN............................passed
+And I enter MPAN numbere "04" "807" "205" "10" "12863966" "474".............passed
+And I click Next after entering MPAN........................................passed
+And I click yes option for electricity supplier.............................passed
+And I select supplier "British Gas".........................................passed
+And I select yes option for electricity usage...............................passed
+And I enter kWh usage "250".................................................passed
+And I click Next after entering Usage.......................................passed
+And I click I am not sure option............................................passed
+And I click Schedule for later (if on chat page)............................passed
+And I select Time from dropdown.............................................passed
+And I enter full name "Ravi Ahuja"..........................................passed
+And I enter email address "test@test.test"..................................passed
+And I enter phone number "07555555555"......................................passed
+And I click Schedule call/Finalise Quote button.............................passed
+Then I navigate to electric lead schedule page..............................passed
+And I close the browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

@@ -34,4 +34,6 @@ public class bionicEnergyJourneyConfirmationPage extends bionicEnergyJourneyCont
 
         return new bionicEnergyJourneyConfirmationPage(driver);
     }
+
+
 }

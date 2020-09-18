@@ -6,9 +6,15 @@
       <change beforePath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TargetReport/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TargetReport/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicEnergyJourneyPrototype/RunnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bionicEnergyJourneyPrototype/RunnerClassTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/energyJourney-bionic.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/energyJourney-bionic.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,17 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="86">
+              <caret line="393" column="38" lean-forward="true" selection-start-line="393" selection-start-column="38" selection-end-line="393" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -44,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="251" column="10" selection-start-line="251" selection-start-column="10" selection-end-line="251" selection-end-column="10" />
+            <state relative-caret-position="142">
+              <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,15 +51,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyLandingPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneySwitchTypePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -70,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="272">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -100,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.github/workflows/github_actions.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
+            <state relative-caret-position="187">
               <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
@@ -118,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="188">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,6 +147,9 @@
       <find>Chat Journey</find>
       <find>CDC Journey</find>
       <find>@elec_journey_Industry_Consent_NO</find>
+      <find>/dual_fuel/manual_chat</find>
+      <find>https://www.moneysupermarket.com/gas-and-electricity/business-energy/comparison</find>
+      <find>@elec_journey_YES_Industry_Consent_NO_Details_Found</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,10 +163,12 @@
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneySelectAddress.java" />
         <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/webDriver.java" />
         <option value="$PROJECT_DIR$/.github/workflows/github_actions.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -185,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,69 +210,10 @@
               <item name=".github" type="462c0819:PsiDirectoryNode" />
               <item name="workflows" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bionicEnergyJourneyPrototype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenEnergyJourneyBionic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenEnergyJourneyBionic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -335,42 +283,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunnerClassTest - 2020.09.09 at 10h 54m 04s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 00h 42m 45s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.09 at 10h 55m 53s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 00h 48m 03s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.09 at 15h 05m 38s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 00h 49m 29s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.09 at 15h 10m 18s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 00h 56m 13s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.09 at 15h 13m 34s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 00h 57m 31s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.09 at 15h 46m 58s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 01h 01m 01s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.15 at 11h 47m 09s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 01h 04m 16s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.15 at 11h 50m 46s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.16 at 01h 06m 59s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.15 at 21h 06m 29s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.18 at 20h 35m 14s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunnerClassTest - 2020.09.15 at 21h 08m 08s.xml">
+    <history-entry file="RunnerClassTest - 2020.09.18 at 20h 43m 08s.xml">
       <configuration name="RunnerClassTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.2931174" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.30850202" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -379,12 +326,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30017763" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5115453" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23623446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38010657" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49959514" weight="0.3285968" />
@@ -427,13 +374,6 @@
     <entry file="file://$PROJECT_DIR$/MavenEnergyJourneyBionic.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyIndustryDataAgreementPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -462,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneySwitchTypePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -488,10 +421,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneySwitchTypePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="323">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyManualInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="67" column="65" selection-start-line="67" selection-start-column="65" selection-end-line="67" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,6 +449,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/github_actions.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -512,10 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bionicEnergyJourneyPages/bionicEnergyJourneyConfirmationPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="188">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -524,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/energyJourneyBionicStepDef.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="251" column="10" selection-start-line="251" selection-start-column="10" selection-end-line="251" selection-end-column="10" />
+        <state relative-caret-position="142">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -534,25 +491,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/energyJourney-bionic.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+        <state relative-caret-position="86">
+          <caret line="393" column="38" lean-forward="true" selection-start-line="393" selection-start-column="38" selection-end-line="393" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.github/workflows/github_actions.yml">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bionicEnergyJourneyPrototype/RunnerClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>

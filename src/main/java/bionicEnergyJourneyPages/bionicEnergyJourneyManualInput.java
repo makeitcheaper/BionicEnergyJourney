@@ -12,6 +12,12 @@ public class bionicEnergyJourneyManualInput extends bionicEnergyJourneyManualAdd
         return new bionicEnergyJourneyManualInput(driver);
     }
 
+    public bionicEnergyJourneyManualInput SelectMPRNYes()
+    {
+        driver.findElement(By.xpath("//div[@class='radio-btn yes-btn']")).click();
+        return new bionicEnergyJourneyManualInput(driver);
+    }
+
     public bionicEnergyJourneyManualInput enterMPANNumber(String mpan1, String mpan2, String mpan3, String mpan4, String mpan5, String mpan6)
     {
         driver.findElement(By.id("mpan0")).sendKeys(mpan1);
@@ -23,13 +29,31 @@ public class bionicEnergyJourneyManualInput extends bionicEnergyJourneyManualAdd
         return new bionicEnergyJourneyManualInput(driver);
     }
 
+    public bionicEnergyJourneyManualInput enterMPRNNumber(String mprn)
+    {
+        driver.findElement(By.id("MPRN-input")).sendKeys(mprn);
+        return new bionicEnergyJourneyManualInput(driver);
+    }
+
     public bionicEnergyJourneyManualInput clickNextAfterMPAN()
     {
         driver.findElement(By.xpath("//div[@class='mpan-question']/div/div/button")).click();
         return new bionicEnergyJourneyManualInput(driver);
     }
 
+    public bionicEnergyJourneyManualInput clickNextAfterMPRN()
+    {
+        driver.findElement(By.xpath("//div[@class='mprn-question']/div/div/button")).click();
+        return new bionicEnergyJourneyManualInput(driver);
+    }
+
     public bionicEnergyJourneyManualInput clickYesOptionElectricitySupplier()
+    {
+        driver.findElement(By.xpath("//div[@class='question-supplier']/div/div/div/div[@class='radio-btn yes-btn']")).click();
+        return new bionicEnergyJourneyManualInput(driver);
+    }
+
+    public bionicEnergyJourneyManualInput clickYesOptionGasSupplier()
     {
         driver.findElement(By.xpath("//div[@class='question-supplier']/div/div/div/div[@class='radio-btn yes-btn']")).click();
         return new bionicEnergyJourneyManualInput(driver);
